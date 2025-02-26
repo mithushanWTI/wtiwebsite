@@ -1,32 +1,42 @@
-import React from "react";
-import packagesData from "../data/Packages.json";
-import sigiriya from "../assets/sigiriya.webp";
-import bangkok from "../assets/bangkok.webp";
-import dubai from "../assets/dubai.jpg";
-import malaysia from "../assets/malaysia.jpg";
-import singapore from "../assets/singapore.jpg";
+import React, { useState, useEffect } from 'react';
+import packagesData from '../data/Packages.json';
+import sigiriya from '../assets/sigiriya.webp';
+import bangkok from '../assets/bangkok.webp';
+import dubai from '../assets/dubai.jpg';
+import malaysia from '../assets/malaysia.jpg';
+import singapore from '../assets/singapore.jpg';
 import { MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 
-export default function PopularInboundPackages() {
+const PackagesList = ({ searchQuery, type }) => {
+  // Filter packages based on type (inbound or outbound)
+  const filteredPackages = packagesData.filter(pkg => pkg.type === type);
+
+  // Handle search functionality
+  const [displayPackages, setDisplayPackages] = useState(filteredPackages);
+
+  useEffect(() => {
+    const result = filteredPackages.filter(pkg =>
+      pkg.destination.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+    setDisplayPackages(result);
+  }, [searchQuery, type]);
+
   // Image mapping
   const imageMap = {
-    "sigiriya.webp": sigiriya,
-    "bangkok.webp": bangkok,
-    "malaysia.jpg": malaysia,
-    "singapore.jpg": singapore,
-    "dubai.jpg": dubai,
+    'sigiriya.webp': sigiriya,
+    'bangkok.webp': bangkok,
+    'malaysia.jpg': malaysia,
+    'singapore.jpg': singapore,
+    'dubai.jpg': dubai
   };
 
-  // Get only 4 inbound packages
-  const inboundPackages = packagesData.filter(pkg => pkg.type === "inbound").slice(0, 4);
-
   return (
-    <section className="py-12 px-4 md:px-25 bg-gradient-to-b from-white via-red-100 to-white">
+    <section className="py-12 px-4 md:px-25">
       {/* Title Section */}
       <div className="text-left mb-8">
         <h2 className="text-3xl font-bold">
-          Popular <span className="text-red-500">Inbound</span> Packages
+          Popular <span className="text-red-500 capitalize">{type}</span> Packages
         </h2>
         <p className="text-gray-500 italic">
           "Explore Top Destinations Handpicked For You!"
@@ -35,10 +45,9 @@ export default function PopularInboundPackages() {
 
       {/* Package Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        {inboundPackages.map((pkg) => (
-          <Link 
-            key={pkg.id} 
-            to={`/package/${pkg.id}`} // Navigate to PackageDetails page
+        {displayPackages.map((pkg) => (
+          <Link key={pkg.id} to={`/package/${pkg.id}`}
+           
             className="bg-white shadow-lg rounded-lg overflow-hidden transition hover:shadow-xl"
           >
             {/* Image Section */}
@@ -63,13 +72,16 @@ export default function PopularInboundPackages() {
                   {Array(pkg.rating)
                     .fill()
                     .map((_, i) => (
-                      <span key={i} className="text-red-500 text-m">★</span>
+                      <span key={i} className="text-red-500 text-sm">★</span>
                     ))}
                 </div>
               </div>
+
+              {/* Location & Group Size */}
               <div className="flex justify-between">
                 <p className="text-gray-500 text-sm flex items-center">
-                  <MapPin size={14} className="text-red-500" /> {pkg.destination}
+                  <MapPin size={14} className="text-red-500 mr-1" />
+                  {pkg.destination}
                 </p>
                 <p className="text-gray-500 text-xs">👤 {pkg.people} Person</p>
               </div>
@@ -88,15 +100,8 @@ export default function PopularInboundPackages() {
           </Link>
         ))}
       </div>
-
-      {/* View All Packages Button */}
-      <div className="flex justify-center mt-8">
-        <Link to="/inbound">
-          <button className="bg-black text-white text-sm px-6 py-3 rounded-lg font-semibold hover:bg-red-600 transition cursor-pointer">
-            View All Packages →
-          </button>
-        </Link>
-      </div>
     </section>
   );
-}
+};
+
+export default PackagesList;

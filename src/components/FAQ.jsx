@@ -37,7 +37,7 @@ export default function FAQSection() {
 
   return (
     <div className="bg-black text-white p-10 flex flex-col lg:flex-row gap-10  xl:px-30">
-     <div className="w-full md:w-full lg:w-1/2 lg:flex-1">
+     <div className="w-full md:w-full lg:w-1/2 lg:flex-1 text-center sm:text-left">
         <h2 className="text-3xl font-bold"><span className="text-red-500">F</span>requently <span className="text-red-500">A</span>sked <span className="text-red-500">Q</span>uestions</h2>
         <p className="text-gray-400">You need to come at least once in your life</p>
         <div className="mt-6 bg-gray-900 rounded-lg p-4">

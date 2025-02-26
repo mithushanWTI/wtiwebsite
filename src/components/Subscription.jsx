@@ -1,34 +1,49 @@
 import { useState } from "react";
+import overlayImage from '../assets/tour1.png';
 
-const SubscribeSection = () => {
+export default function SubscribeSection() {
   const [email, setEmail] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Subscribed with:", email);
+    alert(`Subscribed with: ${email}`);
     setEmail("");
   };
 
   return (
-    <div className="bg-red-600 text-white py-10 px-6 text-center">
-      <h2 className="text-2xl font-bold">Subscribe For Updates.</h2>
-      <p className="text-sm mt-2">Be First To Know About Promotions, Discounts And Many More.</p>
-      
-      <form onSubmit={handleSubmit} className="mt-4 flex justify-center">
-        <input
-          type="email"
-          placeholder="your email address"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-          className="px-4 py-2 w-72 rounded-l-md text-gray-800 outline-none"
-        />
-        <button type="submit" className="bg-red-700 px-6 py-2 rounded-r-md font-semibold hover:bg-red-800">
-          Subscribe
-        </button>
-      </form>
+    <div
+      className="relative bg-red-700 text-white py-12 px-4 text-center bg-cover bg-center"
+      style={{ backgroundImage: `url(${overlayImage})` }} 
+    >
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-red-700 opacity-80"></div>
+
+      {/* Content */}
+      <div className="relative z-10">
+        <h2 className="text-3xl font-bold">Subscribe For Updates.</h2>
+        <p className="text-sm mt-2">
+          Be First To Know About Promotions, Discounts And Many More.
+        </p>
+        <form
+          onSubmit={handleSubmit}
+          className="mt-4 flex justify-center items-center gap-2"
+        >
+          <input
+            type="email"
+            placeholder="your email address"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="p-2 w-64 rounded-md text-black border border-blue-950 bg-white"
+            required
+          />
+          <button
+            type="submit"
+            className="bg-blue-950 text-white px-4 py-2 rounded-md font-semibold border border-blue-950 hover:bg-transparent hover:border-1"
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
     </div>
   );
-};
-
-export default SubscribeSection;
+}

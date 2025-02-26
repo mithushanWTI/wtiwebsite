@@ -73,7 +73,7 @@ export default function PopularOutboundPackages() {
     ];
 
     return (
-        <section className="py-12 px-4 md:px-25">
+        <section className="py-12 px-4 md:px-25 ">
             {/* Title Section */}
             <div className="text-left mb-8">
                 <h2 className="text-3xl font-bold">

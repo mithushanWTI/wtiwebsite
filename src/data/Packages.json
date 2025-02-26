@@ -1,0 +1,704 @@
+[
+  {
+    "id": 1,
+    "name": "Round Tour Cultural",
+    "destination": "Kandy",
+    "image": "sigiriya.webp",
+    "duration": "7Nights 8Days",
+    "tourtype": "Group Tour",
+    "groupsize": "10 Members",
+    "guide": "2 Guides",
+    "people": "5",
+    "rating": 5,
+    "description": "Experience the best of Sri Lanka on this 7-night, 8-day journey designed for Seychelles travelers! Discover the island’s rich heritage with visits to the iconic Sigiriya Rock Fortress and the sacred Temple of the Tooth in Kandy. Immerse yourself in lush tea plantations in Nuwara Eliya, then unwind on the golden beaches of Bentota. Enjoy a thrilling wildlife safari in Yala National Park, explore the colonial charm of Galle, and soak in the vibrant city life of Colombo. A perfect mix of adventure, culture, and relaxation awaits!",
+    "price": 500,
+    "priceIncludes": [
+      "Accommodation in Double/ Twin/ Triple Room sharing basis.",
+      "Welcome drinks included for every hotel check-in.",
+      "Meal Plan HB (Breakfast & Dinner) included.",
+      "Transport by luxury a/c wheelchair accessible carrier throughout the tour including all sightseeing tours and both airport transfers. (Airport Pickup to Airport Departure)",
+      "All tourist site entrance fee. (Subject to below “Price Excludes”).",
+      "Service of Sri Lanka Tourist Board approved English/ Tamil Speaking National Guide and his accommodation.",
+      "2 x 500ml bottled water per person per day during the entire tour.",
+      "Airport assistance for arrival & departures.",
+      "24Hrs x 365 Days operational support during the tour/ Guaranteed highly personalized service.",
+      "All local & other government taxes.",
+      "Handling / Administration and Professional charges."
+    ],
+    "priceExcludes": [
+      "International Flight and Visa Charges for Sri Lanka.",
+      "Visit https://www.eta.gov.lk for online visa application.",
+      "Early Check-In and late check-out charges if any.",
+      "Expenses of personal nature such as Tips / laundry / mini bar charges / liquor / telephone charges.",
+      "Any Water Sports activities.",
+      "Any other services not specified in the “Price Include”.",
+      "Any other personal expenses."
+    ],
+    "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Bali",
+        "description": "Arrive at the airport and transfer to your hotel."
+      },
+      {
+        "title": "Explore Ubud",
+        "description": "Visit the Monkey Forest, Ubud Market, and Rice Terraces."
+      },
+      {
+        "title": "Beach Day",
+        "description": "Enjoy water sports and relax on the beautiful beaches."
+      },
+      {
+        "title": "Departure",
+        "description": "Check out from the hotel and head to the airport."
+      }
+    ],
+    "type": "inbound"
+  },
+  {
+    "id": 2,
+    "name": "Round Tour Cultural",
+    "destination": "Kandy",
+    "image": "sigiriya.webp",
+    "duration": "5Nights 6Days",
+    "tourtype": "Group Tour",
+    "groupsize": "10 Members",
+    "guide": "2 Guides",
+    "people": "5",
+    "rating": 5,
+    "description": "Experience the best of Sri Lanka on this 7-night, 8-day journey designed for Seychelles travelers! Discover the island’s rich heritage with visits to the iconic Sigiriya Rock Fortress and the sacred Temple of the Tooth in Kandy. Immerse yourself in lush tea plantations in Nuwara Eliya, then unwind on the golden beaches of Bentota. Enjoy a thrilling wildlife safari in Yala National Park, explore the colonial charm of Galle, and soak in the vibrant city life of Colombo. A perfect mix of adventure, culture, and relaxation awaits!",
+    "price": 500,
+    "priceIncludes": [
+      "Accommodation in Double/ Twin/ Triple Room sharing basis.",
+      "Welcome drinks included for every hotel check-in.",
+      "Meal Plan HB (Breakfast & Dinner) included.",
+      "Transport by luxury a/c wheelchair accessible carrier throughout the tour including all sightseeing tours and both airport transfers. (Airport Pickup to Airport Departure)",
+      "All tourist site entrance fee. (Subject to below “Price Excludes”).",
+      "Service of Sri Lanka Tourist Board approved English/ Tamil Speaking National Guide and his accommodation.",
+      "2 x 500ml bottled water per person per day during the entire tour.",
+      "Airport assistance for arrival & departures.",
+      "24Hrs x 365 Days operational support during the tour/ Guaranteed highly personalized service.",
+      "All local & other government taxes.",
+      "Handling / Administration and Professional charges."
+    ],
+    "priceExcludes": [
+      "International Flight and Visa Charges for Sri Lanka.",
+      "Visit https://www.eta.gov.lk for online visa application.",
+      "Early Check-In and late check-out charges if any.",
+      "Expenses of personal nature such as Tips / laundry / mini bar charges / liquor / telephone charges.",
+      "Any Water Sports activities.",
+      "Any other services not specified in the “Price Include”.",
+      "Any other personal expenses."
+    ],
+    "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Bali",
+        "description": "Arrive at the airport and transfer to your hotel."
+      },
+      {
+        "title": "Explore Ubud",
+        "description": "Visit the Monkey Forest, Ubud Market, and Rice Terraces."
+      },
+      {
+        "title": "Beach Day",
+        "description": "Enjoy water sports and relax on the beautiful beaches."
+      },
+      {
+        "title": "Departure",
+        "description": "Check out from the hotel and head to the airport."
+      }
+    ],
+    "type": "inbound"
+  },
+  {
+    "id": 3,
+    "name": "Central Hills and South",
+    "destination": "Nuwara Eliya",
+    "image": "dubai.jpg",
+    "duration": "7Nights 8Days",
+    "tourtype": "Group Tour",
+    "groupsize": "10 Members",
+    "guide": "2 Guides",
+    "people": "5",
+    "rating": 5,
+    "description": "Embark on a breathtaking 7-night, 8-day journey through Sri Lanka’s central hills and southern coast! Begin in Kandy, home to the sacred Temple of the Tooth, then explore the misty tea plantations of Nuwara Eliya. Take a scenic train ride to Ella, where stunning waterfalls and lush mountains await. Experience the thrill of a Yala National Park safari before heading to the golden beaches of Mirissa and Bentota. Discover the colonial charm of Galle and end your adventure with a vibrant city tour of Colombo. A perfect mix of nature, wildlife, and coastal bliss!",
+    "price": 500,
+    "priceIncludes": [
+      "Accommodation in Double/ Twin/ Triple Room sharing basis.",
+      "Welcome drinks included for every hotel check-in.",
+      "Meal Plan HB (Breakfast & Dinner) included.",
+      "Transport by luxury a/c wheelchair accessible carrier throughout the tour including all sightseeing tours and both airport transfers. (Airport Pickup to Airport Departure)",
+      "All tourist site entrance fee. (Subject to below “Price Excludes”).",
+      "Service of Sri Lanka Tourist Board approved English/ Tamil Speaking National Guide and his accommodation.",
+      "2 x 500ml bottled water per person per day during the entire tour.",
+      "Airport assistance for arrival & departures.",
+      "24Hrs x 365 Days operational support during the tour/ Guaranteed highly personalized service.",
+      "All local & other government taxes.",
+      "Handling / Administration and Professional charges."
+    ],
+    "priceExcludes": [
+      "International Flight and Visa Charges for Sri Lanka.",
+      "Visit https://www.eta.gov.lk for online visa application.",
+      "Early Check-In and late check-out charges if any.",
+      "Expenses of personal nature such as Tips / laundry / mini bar charges / liquor / telephone charges.",
+      "Any Water Sports activities.",
+      "Any other services not specified in the “Price Include”.",
+      "Any other personal expenses."
+    ],
+    "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Ella",
+        "description": "Arrive at the airport and transfer to your hotel."
+      },
+      {
+        "title": "Hiking & Waterfalls",
+        "description": "Explore Little Adam’s Peak and visit Ravana Falls."
+      },
+      {
+        "title": "Scenic Train Ride",
+        "description": "Take a famous train ride through the mountains."
+      },
+      {
+        "title": "Departure",
+        "description": "Check out from the hotel and head to the airport."
+      }
+    ],
+    "type": "inbound"
+  },
+  {
+    "id": 4,
+    "name": "Round Tour Cultural",
+    "destination": "Sri Lanka",
+    "image": "bangkok.webp",
+    "duration": "9Nights 10Days",
+    "tourtype": "Group Tour",
+    "groupsize": "10 Members",
+    "guide": "2 Guides",
+    "people": "5",
+    "rating": 5,
+    "description": "Experience the ultimate 9-night, 10-day adventure across Sri Lanka, discovering its rich culture, stunning landscapes, and golden beaches! Begin in Sigiriya, where you’ll climb the iconic rock fortress and explore the ancient ruins of Polonnaruwa. Visit the sacred Temple of the Tooth in Kandy before journeying through the lush tea plantations of Nuwara Eliya. Take a scenic train ride to Ella, then embark on a thrilling safari in Yala National Park. Relax on the pristine beaches of Mirissa and Bentota, explore the colonial charm of Galle, and end your journey with a vibrant Colombo city tour. A perfect blend of history, nature, wildlife, and relaxation!",
+    "price": 500,
+    "priceIncludes": [
+      "Accommodation in Double/ Twin/ Triple Room sharing basis.",
+      "Welcome drinks included for every hotel check-in.",
+      "Meal Plan HB (Breakfast & Dinner) included.",
+      "Transport by luxury a/c wheelchair accessible carrier throughout the tour including all sightseeing tours and both airport transfers. (Airport Pickup to Airport Departure)",
+      "All tourist site entrance fee. (Subject to below “Price Excludes”).",
+      "Service of Sri Lanka Tourist Board approved English/ Tamil Speaking National Guide and his accommodation.",
+      "2 x 500ml bottled water per person per day during the entire tour.",
+      "Airport assistance for arrival & departures.",
+      "24Hrs x 365 Days operational support during the tour/ Guaranteed highly personalized service.",
+      "All local & other government taxes.",
+      "Handling / Administration and Professional charges."
+    ],
+    "priceExcludes": [
+      "International Flight and Visa Charges for Sri Lanka.",
+      "Visit https://www.eta.gov.lk for online visa application.",
+      "Early Check-In and late check-out charges if any.",
+      "Expenses of personal nature such as Tips / laundry / mini bar charges / liquor / telephone charges.",
+      "Any Water Sports activities.",
+      "Any other services not specified in the “Price Include”.",
+      "Any other personal expenses."
+    ],
+    "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Bangkok",
+        "description": "Arrive at the airport and transfer to your hotel."
+      },
+      {
+        "title": "Relax at the Beach",
+        "description": "Spend your day enjoying the beautiful beaches of Bangkok."
+      },
+      {
+        "title": "City Tour",
+        "description": "Visit temples, markets, and famous attractions."
+      },
+      {
+        "title": "Departure",
+        "description": "Check out from the hotel and head to the airport."
+      }
+    ],
+    "type": "inbound"
+  },
+  {
+    "id": 5,
+    "name": "Ramayana Yatra Kataragama",
+    "destination": "Ella",
+    "image": "dubai.jpg",
+    "duration": "6Nights 7Days",
+    "tourtype": "Group Tour",
+    "groupsize": "10 Members",
+    "guide": "2 Guides",
+    "people": "5",
+    "rating": 5,
+    "description": "Embark on a sacred 6-night, 7-day Ramayana Yatra through Sri Lanka, tracing the footsteps of Lord Rama and Sita. Visit the iconic Munneswaram and Manavari Temples, where Lord Rama sought blessings. Explore the mystical Sita Amman Temple in Nuwara Eliya and the sacred Ashok Vatika, believed to be Sita’s place of captivity. Seek divine blessings at Divurumpola, the site of Sita’s Agni Pariksha, before visiting Kataragama, a revered pilgrimage site for Lord Skanda. End your journey with a visit to Ussangoda and Rumassala, linked to Hanuman’s quest. A spiritual odyssey filled with devotion and ancient legends!",
+    "price": 500,
+    "priceIncludes": [
+      "Accommodation in Double/ Twin/ Triple Room sharing basis.",
+      "Welcome drinks included for every hotel check-in.",
+      "Meal Plan HB (Breakfast & Dinner) included.",
+      "Transport by luxury a/c wheelchair accessible carrier throughout the tour including all sightseeing tours and both airport transfers. (Airport Pickup to Airport Departure)",
+      "All tourist site entrance fee. (Subject to below “Price Excludes”).",
+      "Service of Sri Lanka Tourist Board approved English/ Tamil Speaking National Guide and his accommodation.",
+      "2 x 500ml bottled water per person per day during the entire tour.",
+      "Airport assistance for arrival & departures.",
+      "24Hrs x 365 Days operational support during the tour/ Guaranteed highly personalized service.",
+      "All local & other government taxes.",
+      "Handling / Administration and Professional charges."
+    ],
+    "priceExcludes": [
+      "International Flight and Visa Charges for Sri Lanka.",
+      "Visit https://www.eta.gov.lk for online visa application.",
+      "Tuk Tuk (Auto Rikshaw) for Koneshwaram Temple (Trincomalee) and Hanuman Temple (Ramboda).",
+      "Early Check-In and late check-out charges if any.",
+      "Expenses of personal nature such as Tips / laundry / mini bar charges / liquor / telephone charges.",
+      "Any other services not specified in the “Price Include”.",
+      "Any other personal expenses."
+    ],
+     "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Ella",
+        "description": "Arrive at the airport and transfer to your hotel."
+      },
+      {
+        "title": "Hiking & Nature",
+        "description": "Trek to Little Adam’s Peak and visit Nine Arches Bridge."
+      },
+      {
+        "title": "Waterfall Exploration",
+        "description": "Enjoy scenic waterfalls like Diyaluma and Ravana Falls."
+      },
+      {
+        "title": "Departure",
+        "description": "Check out from the hotel and transfer to the airport."
+      }
+    ],
+    "type": "inbound"
+  },
+  {
+    "id": 6,
+    "name": "Ramayana Yatra",
+    "destination": "Nuwara Eliya",
+    "image": "bangkok.webp",
+    "duration": "3 Days 4 Nights",
+    "tourtype": "Group Tour",
+    "groupsize": "10 Members",
+    "guide": "2 Guides",
+    "people": "5",
+    "rating": 5,
+    "description": "Embark on a sacred 5-night, 6-day Ramayana Yatra through Sri Lanka, tracing the footsteps of Lord Rama and Sita. Visit the iconic Munneswaram and Manavari Temples, where Lord Rama sought blessings. Explore the mystical Sita Amman Temple in Nuwara Eliya and the sacred Ashok Vatika, believed to be Sita’s place of captivity. Seek divine blessings at Divurumpola, the site of Sita’s Agni Pariksha, before visiting Kataragama, a revered pilgrimage site for Lord Skanda. End your journey with a visit to Ussangoda and Rumassala, linked to Hanuman’s quest. A spiritual odyssey filled with devotion and ancient legends!",
+    "price": 500,
+    "priceIncludes": [
+      "Accommodation in Double/ Twin/ Triple Room sharing basis.",
+      "Welcome drinks included for every hotel check-in.",
+      "Meal Plan HB (Breakfast & Dinner) included.",
+      "Transport by luxury a/c wheelchair accessible carrier throughout the tour including all sightseeing tours and both airport transfers. (Airport Pickup to Airport Departure)",
+      "All tourist site entrance fee. (Subject to below “Price Excludes”).",
+      "Service of Sri Lanka Tourist Board approved English/ Tamil Speaking National Guide and his accommodation.",
+      "2 x 500ml bottled water per person per day during the entire tour.",
+      "Airport assistance for arrival & departures.",
+      "24Hrs x 365 Days operational support during the tour/ Guaranteed highly personalized service.",
+      "All local & other government taxes.",
+      "Handling / Administration and Professional charges."
+    ],
+    "priceExcludes": [
+      "International Flight and Visa Charges for Sri Lanka.",
+      "Visit https://www.eta.gov.lk for online visa application.",
+      "Tuk Tuk (Auto Rikshaw) for Koneshwaram Temple (Trincomalee) and Hanuman Temple (Ramboda).",
+      "Early Check-In and late check-out charges if any.",
+      "Expenses of personal nature such as Tips / laundry / mini bar charges / liquor / telephone charges.",
+      "Any other services not specified in the “Price Include”.",
+      "Any other personal expenses."
+    ],
+     "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Bangkok",
+        "description": "Arrive at the airport and transfer to your hotel."
+      },
+      {
+        "title": "Beach Activities",
+        "description": "Enjoy beach volleyball, snorkeling, and boat rides."
+      },
+      {
+        "title": "Night Market & Shopping",
+        "description": "Explore famous street markets for food and souvenirs."
+      },
+      {
+        "title": "Departure",
+        "description": "Check out from the hotel and transfer to the airport."
+      }
+    ],
+    "type": "inbound"
+  },
+  {
+    "id": 7,
+    "name": "Ramayana Yatra",
+    "destination": "Sri Lanka",
+    "image": "dubai.jpg",
+    "duration": "4Nights 5Days",
+    "tourtype": "Group Tour",
+    "groupsize": "10 Members",
+    "guide": "2 Guides",
+    "people": "5",
+    "rating": 5,
+    "description": "Embark on a sacred 4-night, 5-day Ramayana Yatra through Sri Lanka, tracing the footsteps of Lord Rama and Sita. Visit the iconic Munneswaram and Manavari Temples, where Lord Rama sought blessings. Explore the mystical Sita Amman Temple in Nuwara Eliya and the sacred Ashok Vatika, believed to be Sita’s place of captivity. Seek divine blessings at Divurumpola, the site of Sita’s Agni Pariksha, before visiting Kataragama, a revered pilgrimage site for Lord Skanda. End your journey with a visit to Ussangoda and Rumassala, linked to Hanuman’s quest. A spiritual odyssey filled with devotion and ancient legends!",
+    "price": 500,
+    "priceIncludes": [
+      "Accommodation in Double/ Twin/ Triple Room sharing basis.",
+      "Welcome drinks included for every hotel check-in.",
+      "Meal Plan HB (Breakfast & Dinner) included.",
+      "Transport by luxury a/c wheelchair accessible carrier throughout the tour including all sightseeing tours and both airport transfers. (Airport Pickup to Airport Departure)",
+      "All tourist site entrance fee. (Subject to below “Price Excludes”).",
+      "Service of Sri Lanka Tourist Board approved English/ Tamil Speaking National Guide and his accommodation.",
+      "2 x 500ml bottled water per person per day during the entire tour.",
+      "Airport assistance for arrival & departures.",
+      "24Hrs x 365 Days operational support during the tour/ Guaranteed highly personalized service.",
+      "All local & other government taxes.",
+      "Handling / Administration and Professional charges."
+    ],
+    "priceExcludes": [
+      "International Flight and Visa Charges for Sri Lanka.",
+      "Visit https://www.eta.gov.lk for online visa application.",
+      "Tuk Tuk (Auto Rikshaw) for Koneshwaram Temple (Trincomalee) and Hanuman Temple (Ramboda).",
+      "Early Check-In and late check-out charges if any.",
+      "Expenses of personal nature such as Tips / laundry / mini bar charges / liquor / telephone charges.",
+      "Any other services not specified in the “Price Include”.",
+      "Any other personal expenses."
+    ],
+     "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Ella",
+        "description": "Arrive at the airport and transfer to your hotel."
+      },
+      {
+        "title": "Hiking & Scenic Views",
+        "description": "Visit Ella Rock and enjoy the breathtaking sunrise."
+      },
+      {
+        "title": "Tea Plantation Visit",
+        "description": "Explore a tea estate and learn about tea production."
+      },
+      {
+        "title": "Departure",
+        "description": "Check out from the hotel and transfer to the airport."
+      }
+    ],
+    "type": "inbound"
+  },
+  {
+    "id": 8,
+    "name": "Stunning Dubai",
+    "destination": "DUBAI",
+    "image": "dubai.jpg",
+    "duration": "4Nights 5Days",
+    "tourtype": "Group Tour",
+    "groupsize": "10 Members",
+    "guide": "2 Guides",
+    "people": "5",
+    "rating": 5,
+    "description": "Embark on a captivating 4-night, 5-day Dubai experience with seamless private transfers from and to Dubai Airport. Enjoy a scenic Dhow Dinner Cruise at Dubai Marina, complete with private return transfers. Discover the city's highlights with a private half-day city tour and visit the world-famous Burj Khalifa to take in panoramic views from the 124th-floor observation deck. Explore Dubai Mall and marvel at the spectacular Musical Fountain Show. Experience the thrill of a desert safari with 4x4 dune bashing, followed by a BBQ dinner, belly dance, Tanoura dance, fire show, camel rides, and henna painting. A perfect blend of sightseeing, adventure, and cultural entertainment awaits!",
+    "price": 500,
+    "priceIncludes": [
+      "4N Hotel accommodation with BB",
+      "Return Transfers",
+      "UAE visit visa"
+    ],
+    "priceExcludes": [
+      "Meals and Services which are not mentioned above",
+      "Tourism Dirham Fees",
+      "All activities/services not mentioned in the itinerary",
+      "Personal expenses"
+    ],
+     "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Ella",
+        "description": "Arrive at the airport and transfer to your hotel."
+      },
+      {
+        "title": "Hiking & Caving",
+        "description": "Explore Ravana Cave and hike to Ella Rock."
+      },
+      {
+        "title": "Adventure Activities",
+        "description": "Try ziplining, abseiling, and jungle trekking."
+      },
+      {
+        "title": "Departure",
+        "description": "Check out from the hotel and transfer to the airport."
+      }
+    ],
+    "type": "outbound"
+  },
+  {
+    "id": 9,
+    "name": "Pattya & Bangkok",
+    "destination": "Thailand",
+    "image": "bangkok.webp",
+    "duration": "6Nights 7Days",
+    "tourtype": "Group Tour",
+    "groupsize": "10 Members",
+    "guide": "2 Guides",
+    "people": "5",
+    "rating": 5,
+    "description": "Embark on an exciting 6-night adventure with 3 nights in Pattaya and 3 nights in Bangkok! Begin in Pattaya, where you can unwind on its beautiful beaches and visit the vibrant Walking Street, buzzing with nightlife. Explore the stunning Coral Island on a day trip, and don’t miss the famous Sanctuary of Truth and the Pattaya Viewpoint. Afterward, head to Bangkok for a perfect blend of culture and modernity. Visit the awe-inspiring Grand Palace, the majestic Wat Arun, and the Temple of the Emerald Buddha. Shop till you drop at Chatuchak Market and enjoy a Chao Phraya River Cruise. With a mix of relaxation, adventure, and cultural immersion, this tour offers the best of both worlds!    ",
+    "price": 500,
+    "priceIncludes": [
+      "6Nights at above Hotel",
+      "Daily Breakfast at Hotel",
+      "Arrival & Departure transfers",
+      "Dream World and Snow Town with Lunch",
+      "Dinner Cruise With International Buffet",
+      "Departure"
+    ],
+    "priceExcludes": [
+      "Meals and Services which are not mentioned above",
+      "All activities/services not mentioned in the itinerary",
+      "Air Tickets",
+      "Personal expenses"
+    ],
+     "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Ella",
+        "description": "Arrive at the airport and transfer to your hotel."
+      },
+      {
+        "title": "Nature Walk & Bird Watching",
+        "description": "Explore hidden nature trails and spot exotic birds."
+      },
+      {
+        "title": "Camping & Bonfire",
+        "description": "Enjoy an overnight camping experience in the mountains."
+      },
+      {
+        "title": "Departure",
+        "description": "Check out from the hotel and transfer to the airport."
+      }
+    ],
+    "type": "outbound"
+  },
+  {
+    "id": 10,
+    "name": "Malaysia Drive",
+    "destination": "Malaysia ",
+    "image": "malaysia.jpg",
+    "duration": "5Nights 6Days",
+    "tourtype": "Group Tour",
+    "groupsize": "10 Members",
+    "guide": "2 Guides",
+    "people": "5",
+    "rating": 5,
+    "description": "Experience the magic of Malaysia in a 5-night, 6-day adventure filled with culture, nature, and modern attractions! Start your journey in Kuala Lumpur, where you'll explore iconic landmarks like the Petronas Twin Towers, the bustling Batu Caves, and the vibrant Central Market. Next, head to Genting Highlands, a hill resort offering cool weather, thrilling theme parks, and scenic views. Continue your adventure in Langkawi, where you can unwind on pristine beaches, explore the Langkawi Sky Bridge, and discover the beauty of Langkawi Cable Car. From city thrills to natural wonders, this tour promises a perfect blend of excitement and relaxation. ",
+    "price": 500,
+    "priceIncludes": [
+      "5Nights at above Hotel",
+      "Malaysia Visa",
+      "Daily Breakfast at Hotel",
+      "Arrival & Departure transfers",
+      "Chocolate Factory ",
+      "Batu Caves",
+      "Sunway Lagoon theme Park",
+      "2- way cable car rides",
+      "Departure"
+    ],
+    "priceExcludes": [
+      "Meals and Services which are not mentioned above",
+      "All activities/services not mentioned in the itinerary",
+      "Air Tickets",
+      "Lunch and Dinner",
+      "Personal expenses"
+    ],
+     "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Jaffna",
+        "description": "Arrive at the airport and transfer to your hotel."
+      },
+      {
+        "title": "Cultural & Heritage Tour",
+        "description": "Visit Nallur Temple and explore Jaffna Fort."
+      },
+      {
+        "title": "Island Tour",
+        "description": "Take a boat ride to Nagadeepa and Delft Islands."
+      },
+      {
+        "title": "Departure",
+        "description": "Check out from the hotel and transfer to the airport."
+      }
+    ],
+    "type": "outbound"
+  },
+  {
+    "id": 11,
+    "name": "Malaysia Burst",
+    "destination": "Malaysia ",
+    "image": "malaysia.jpg",
+    "duration": "3Nights 4Days",
+    "tourtype": "Group Tour",
+    "groupsize": "10 Members",
+    "guide": "2 Guides",
+    "people": "5",
+    "rating": 5,
+    "description": "Embark on an unforgettable 3-night, 4-day journey through Malaysia, exploring its iconic sights and natural beauty! Begin in Kuala Lumpur, visiting the towering Petronas Twin Towers, the spiritual Batu Caves, and the lively Central Market. Then, escape to the cool heights of Genting Highlands, where you can enjoy thrilling attractions and scenic mountain views. Finally, unwind on the beautiful beaches of Langkawi, and take a ride on the Langkawi Cable Car to enjoy panoramic views. A perfect blend of city exploration, nature, and relaxation awaits you on this exciting escape!",
+    "price": 500,
+    "priceIncludes": [
+     "3Nights at above Hotel",
+      "Malaysia Visa",
+      "Daily Breakfast at Hotel",
+      "Arrival & Departure transfers",
+      "Chocolate Factory ",
+      "Batu Caves",
+      "Sunway Lagoon theme Park",
+      "2- way cable car rides",
+      "Local Guide",
+      "Departure"
+    ],
+    "priceExcludes": [
+      "Meals and Services which are not mentioned above",
+      "All activities/services not mentioned in the itinerary",
+      "Air Tickets",
+      "Lunch and Dinner",
+      "Personal expenses"
+    ],
+     "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Kandy",
+        "description": "Arrive at the airport and transfer to your hotel."
+      },
+      {
+        "title": "Temple & City Tour",
+        "description": "Visit the Temple of the Tooth and explore Kandy City."
+      },
+      {
+        "title": "Nature & Wildlife",
+        "description": "Visit Peradeniya Botanical Gardens and Udawattakele Forest Reserve."
+      },
+      {
+        "title": "Departure",
+        "description": "Check out from the hotel and transfer to the airport."
+      }
+    ],
+    "type": "outbound"
+  },
+  {
+    "id": 12,
+    "name": "Singapore Burst",
+    "destination": "Singapore",
+    "image": "singapore.jpg",
+    "duration": "3Nights 4Days",
+    "tourtype": "Group Tour",
+    "groupsize": "10 Members",
+    "guide": "2 Guides",
+    "people": "5",
+    "rating": 5,
+    "description": "Discover the best of Singapore in a 3-night, 4-day tour filled with iconic sights and unforgettable experiences! Begin with a visit to the futuristic Gardens by the Bay, exploring the Supertree Grove and the Cloud Forest. Enjoy a scenic Singapore River Cruise and explore the bustling Chinatown and Little India. Don’t miss the famous Marina Bay Sands SkyPark for stunning views of the city. End your trip with a fun-filled visit to Sentosa Island, home to attractions like Universal Studios Singapore, S.E.A. Aquarium, and Sentosa Beaches. A perfect mix of culture, adventure, and relaxation awaits in this vibrant city!",
+    "price": 500,
+    "priceIncludes": [
+      "3Nights at above Hotel",
+"SIN City tour",
+"Sentosa with Cable car",
+"Wings of Tim", 
+"Boat Ride",
+"Madame Tussauds",
+"Universal Studios Singapore Entrance",
+"Arrival & Departure transfers",
+"Departure"
+    ],
+    "priceExcludes": [
+      "Meals and Services which are not mentioned above",
+      "All activities/services not mentioned in the itinerary",
+      "Air Tickets",
+      "Lunch and Dinner",
+      "Personal expenses"
+    ],
+     "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Ella",
+        "description": "Arrive at the airport and transfer to your hotel."
+      },
+      {
+        "title": "Waterfall Exploration",
+        "description": "Visit Ravana Falls and Diyaluma Falls."
+      },
+      {
+        "title": "Scenic Train Ride",
+        "description": "Experience the famous train journey from Ella to Nuwara Eliya."
+      },
+      {
+        "title": "Departure",
+        "description": "Check out from the hotel and transfer to the airport."
+      }
+    ],
+    "type": "outbound"
+  }
+]

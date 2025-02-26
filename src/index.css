@@ -1,15 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Montez&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
 @import "tailwindcss";
 
-@keyframes zoomInBeforeSlide {
-    0% {
-      transform: scale(1);
-    }
-    100% {
-      transform: scale(1.1);
-    }
+@keyframes zoomInOut {
+  0%, 100% {
+    transform: scale(1);
   }
-  
-  .zoom-animation {
-    animation: zoomInBeforeSlide 3.5s ease-in-out forwards;
+  50% {
+    transform: scale(1.1);
   }
+}
+
+.zoom-animation {
+  animation: zoomInOut 6s ease-in-out infinite;
+}
+
   
+  .font-montez {
+    font-family: 'Montez', cursive;
+  }

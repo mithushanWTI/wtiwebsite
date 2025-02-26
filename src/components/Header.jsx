@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaPhone, FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
 import logo from '../assets/WTI-LogoWEBBB.webp';
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -15,7 +16,9 @@ const Header = () => {
       <div className="container mx-auto px-6 py-2 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
+          <Link to="/">
           <img src={logo} alt="WTI Logo" className="h-16 md:h-20" />
+          </Link>
         </div>
 
         {/* Mobile Menu Button (Visible on Tablets & Mobile) */}
@@ -30,8 +33,8 @@ const Header = () => {
 
         {/* Navigation Links for Desktop & Tablet */}
         <nav className="hidden lg:flex space-x-6 font-medium">
-          <a href="#" className="hover:text-red-500">HOME</a>
-          <a href="#" className="hover:text-red-500">OUR SERVICES</a>
+          <a href="/" className="hover:text-red-500">HOME</a>
+          <a href="/services" className="hover:text-red-500">OUR SERVICES</a>
 
           {/* Holiday Tours Dropdown */}
           <div className="relative">
@@ -55,9 +58,9 @@ const Header = () => {
           </div>
 
           
-          <a href="#" className="hover:text-red-500">CORPORATE</a>
-          <a href="#" className="hover:text-red-500">BLOG</a>
-          <a href="#" className="hover:text-red-500">CONTACT US</a>
+          <a href="/corporate" className="hover:text-red-500">CORPORATE</a>
+          <a href="/blog" className="hover:text-red-500">BLOG</a>
+          <a href="/contactus" className="hover:text-red-500">CONTACT US</a>
         </nav>
 
         {/* Phone Button - Show on tablets and larger */}
@@ -70,13 +73,24 @@ const Header = () => {
       {/* Mobile & Tablet Navigation Menu */}
       {isMobileMenuOpen && (
         <div className="lg:hidden bg-white shadow-md pl-10 p-4 absolute left-0 right-0 top-full">
-          <a href="#" className="block px-4 py-2 hover:bg-gray-200">HOME</a>
+          <a href="/" className="block px-4 py-2 hover:bg-gray-200">HOME</a>
+          <a href="/services" className="block px-4 py-2 hover:bg-gray-200">OUR SERVICES</a>
           <a href="/inbound" className="block px-4 py-2 hover:bg-gray-200">INBOUND PACKAGES</a>
           <a href="/outbound" className="block px-4 py-2 hover:bg-gray-200">OUTBOUND PACKAGES</a>
-          <a href="#" className="block px-4 py-2 hover:bg-gray-200">OUR SERVICES</a>
-          <a href="#" className="block px-4 py-2 hover:bg-gray-200">BUILD TRIP</a>
-          <a href="#" className="block px-4 py-2 hover:bg-gray-200">ABOUT US</a>
-          <a href="#" className="block px-4 py-2 hover:bg-gray-200">CONTACT US</a>
+          
+          <a href="/corporate" className="block px-4 py-2 hover:bg-gray-200">CORPORATE</a>
+          <a href="/blog" className="block px-4 py-2 hover:bg-gray-200">BLOG</a>
+          <a href="/contactus" className="block px-4 py-2 hover:bg-gray-200">CONTACT US</a>
+          <div className="mt-4 border-t pt-4">
+      <div className="flex items-center space-x-2">
+        <span>📞</span>
+        <a href="tel:+94777377956" className="text-gray-700 hover:bg-gray-200">+94 777 377 956</a>
+      </div>
+      <div className="flex items-center space-x-2 mt-2 pb-5">
+        <span>✉️</span>
+        <a href="mailto:Hello@Worldtravelisland.Com" className="text-gray-700 hover:bg-gray-200">Hello@Worldtravelisland.Com</a>
+      </div>
+    </div>
         </div>
       )}
     </header>

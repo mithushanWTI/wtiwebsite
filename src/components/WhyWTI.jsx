@@ -1,6 +1,8 @@
+import overlayImage from '../assets/section.png';
+
 export default function WhyWTI() {
   return (
-    <div className="bg-gray-100 p-15 rounded-lg border border-gray-300 shadow-lg lg:pl-24 lg:pr-24">
+    <div className="bg-gray-100 p-15 rounded-lg border border-gray-300 shadow-lg lg:pl-24 lg:pr-24  bg-center bg-no-repeat" style={{ backgroundImage: `url(${overlayImage})` }} >
       <h2 className="text-3xl font-bold text-gray-900 mb-4">
         Why <span className="text-red-600">WTI</span>?
       </h2>
@@ -49,7 +51,7 @@ const features = [
 
 function FeatureCard({ title, description }) {
   return (
-    <div className="p-5 border border-gray-300 rounded-lg bg-white shadow-md hover:shadow-lg transition-shadow duration-300 ">
+    <div className="p-5 border border-gray-300 rounded-lg bg-white shadow-md hover:shadow-lg transition-shadow duration-300 " >
       <div className="flex items-center gap-2">
       <div className="w-12 h-12 bg-red-500 text-white flex items-center justify-center rounded-full mb-3">
         🎯

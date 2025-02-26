@@ -7,6 +7,8 @@ import PopularOutboundPackages from '../components/PopularOutboundPackages'
 import TravelServices from '../components/TravelServices'
 import FAQSection from '../components/FAQ'
 import WhyWTI from '../components/WhyWTI'
+import SubscribeSection from '../components/Subscription'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
       <TravelServices/>
       <FAQSection/>
       <WhyWTI/>
+      <SubscribeSection/>
+      <Footer/>
     </div>
   )
 }
