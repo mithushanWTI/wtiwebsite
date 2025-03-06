@@ -7,10 +7,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/effect-fade';
 
 // Import Slider Images
-import sldimg1 from '../assets/slider1.png';
-import sldimg2 from '../assets/slider2.jpeg';
-import sldimg3 from '../assets/slider3.webp';
-import sldimg4 from '../assets/slider4.png';
+const sldimg1 = '/assets/slider1.png';
+const sldimg2 = '/assets/slider2.jpeg';
+const sldimg3 = '/assets/slider3.webp';
+const sldimg4 = '/assets/slider4.png';
 
 const slides = [
   {

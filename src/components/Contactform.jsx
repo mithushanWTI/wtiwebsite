@@ -1,5 +1,5 @@
 import { useState } from "react";
-import overlayImage from '../assets/wtiworld.png';
+const overlayImage = '/assets/wtiworld.png';
 import { BsWhatsapp } from "react-icons/bs";
 
 const ContactForm = () => {
@@ -20,9 +20,42 @@ const ContactForm = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form Data Submitted:", formData);
+
+    try {
+      // Send the form data to your backend (assuming it's running on localhost:5000)
+      const response = await fetch("http://localhost:5001/send-email", { // Replace with your backend endpoint
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        alert("Form submitted successfully!");
+        setFormData({
+          name: "",
+          city: "",
+          email: "",
+          phone: "",
+          whatsapp: "",
+          destination: "",
+          travelDate: "",
+          people: "",
+          vacationType: "",
+          packageType: "Inbound",
+        });
+      } else {
+        alert("Failed to send form. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("An error occurred. Please try again.");
+    }
   };
 
   return (
@@ -62,14 +95,21 @@ const ContactForm = () => {
             className="w-full max-w-sm mx-auto border border-gray-400 rounded-md p-2"
             onChange={handleChange}
           />
-          <input
-            type="date"
-            name="travelDate"
-            required
-            className="w-full max-w-sm mx-auto border border-gray-400 rounded-md p-2"
-            min={new Date().toISOString().split("T")[0]}
-            onChange={handleChange}
-          />
+          <div className="w-full max-w-sm mx-auto">
+            <label htmlFor="travelDate" className="block text-gray-600 mb-1">
+              Date of Travel *
+            </label>
+            <input
+              type="date"
+              id="travelDate"
+              name="travelDate"
+              required
+              className="w-full border border-gray-400 rounded-md p-2"
+              min={new Date().toISOString().split("T")[0]}
+              onChange={handleChange}
+            />
+          </div>
+
           <input
             type="email"
             name="email"

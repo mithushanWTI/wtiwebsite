@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaPhone, FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
-import logo from '../assets/WTI-LogoWEBBB.webp';
+const logo = '/assets/WTI-LogoWEBBB.webp';
 import { Link } from "react-router-dom";
 
 const Header = () => {

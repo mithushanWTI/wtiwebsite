@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
-import heroImage from '../assets/seychelles.jpg';
+const heroImage = '../assets/seychelles.jpg';
 
 const Services = () => {
   return (

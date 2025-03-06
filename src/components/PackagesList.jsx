@@ -1,14 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import packagesData from '../data/Packages.json';
-import sigiriya from '../assets/sigiriya.webp';
-import bangkok from '../assets/bangkok.webp';
-import dubai from '../assets/dubai.jpg';
-import malaysia from '../assets/malaysia.jpg';
-import singapore from '../assets/singapore.jpg';
 import { MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const PackagesList = ({ searchQuery, type }) => {
+const PackagesList = ({ searchQuery, type, limit }) => {
   // Filter packages based on type (inbound or outbound)
   const filteredPackages = packagesData.filter(pkg => pkg.type === type);
 
@@ -22,14 +17,8 @@ const PackagesList = ({ searchQuery, type }) => {
     setDisplayPackages(result);
   }, [searchQuery, type]);
 
-  // Image mapping
-  const imageMap = {
-    'sigiriya.webp': sigiriya,
-    'bangkok.webp': bangkok,
-    'malaysia.jpg': malaysia,
-    'singapore.jpg': singapore,
-    'dubai.jpg': dubai
-  };
+  // Slice the packages to limit the number displayed
+  const limitedPackages = limit ? displayPackages.slice(0, limit) : displayPackages;
 
   return (
     <section className="py-12 px-4 md:px-25">
@@ -45,15 +34,12 @@ const PackagesList = ({ searchQuery, type }) => {
 
       {/* Package Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        {displayPackages.map((pkg) => (
-          <Link key={pkg.id} to={`/package/${pkg.id}`}
-           
-            className="bg-white shadow-lg rounded-lg overflow-hidden transition hover:shadow-xl"
-          >
+        {limitedPackages.map((pkg) => (
+          <Link key={pkg.id} to={`/package/${pkg.id}`} className="bg-white shadow-lg rounded-lg overflow-hidden transition hover:shadow-xl">
             {/* Image Section */}
             <div className="relative overflow-hidden rounded-lg group">
               <img
-                src={imageMap[pkg.image] || sigiriya} // Default image fallback
+                src={`${pkg.image}`} // Updated image path
                 alt={pkg.name}
                 className="w-full h-48 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105"
               />

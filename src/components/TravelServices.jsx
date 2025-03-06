@@ -3,8 +3,8 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
-import bag from '../assets/bag.png';
-import background from '../assets/background.png';
+const bag = '/assets/bag.png';
+import background from '/assets/background.png';
 
 const services = [
   { id: 1, title: "1Curated Travel Packages Just For You", description: "Start Your Journey By Selecting A Destination Of Choice And We'll Tailor An Itinerary To Your Preferences.", image: bag },

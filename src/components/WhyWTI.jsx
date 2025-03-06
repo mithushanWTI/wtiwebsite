@@ -1,4 +1,4 @@
-import overlayImage from '../assets/section.png';
+const overlayImage = "/assets/section.png";
 
 export default function WhyWTI() {
   return (

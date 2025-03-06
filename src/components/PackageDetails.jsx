@@ -9,11 +9,22 @@ import { MdSchedule } from "react-icons/md";
 import { IoFootstepsSharp } from "react-icons/io5";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { BsPersonWalking } from "react-icons/bs";
-import overlayImage from '../assets/tour1.png';
+const overlayImage = '../assets/tour1.png';
 import ContactForm from "./Contactform";
 import PopularInboundPackages from "./PopularInboundPackages";
+import PackagesList from "./PackagesList";
 
 const PackageDetails = () => {
+
+  const [query, setQuery] = useState('');
+  
+    const handleSearch = (searchQuery) => {
+      setQuery(searchQuery);
+    };
+
+
+
+
   const { id } = useParams();
   const [packageData, setPackageData] = useState(null);
   const [openIndex, setOpenIndex] = useState(null); // Track which accordion item is open
@@ -22,6 +33,13 @@ const PackageDetails = () => {
     const selectedPackage = packagesData.find(pkg => pkg.id.toString() === id);
     setPackageData(selectedPackage);
   }, [id]);
+
+  useEffect(() => {
+    const selectedPackage = packagesData.find(pkg => pkg.id.toString() === id);
+    setPackageData(selectedPackage);
+    window.scrollTo(0, 0); // Scroll to top when package changes
+  }, [id]);
+  
 
   if (!packageData) return <p className="text-center text-gray-600">Package not found!</p>;
 
@@ -49,7 +67,7 @@ const PackageDetails = () => {
         {/* Image */}
 <div className="mt-6 overflow-hidden rounded-lg shadow-lg">
   <img
-    src={`/src/assets/${packageData.image}`} 
+    src={`${packageData.image}`} 
     alt={packageData.name}
     className="w-full h-126 object-cover rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-105"
   />
@@ -126,38 +144,44 @@ const PackageDetails = () => {
           </div>
         </div>
 
-        {/* Itinerary Section with Accordion */}
-        <div className="mt-16">
-          <h3 className="text-xl font-semibold">Itinerary</h3>
-          <div className="mt-2 flex flex-col gap-2">
-            {packageData.itinerary && packageData.itinerary.length > 0 ? (
-              packageData.itinerary.map((day, index) => (
-                <div key={index} className="border-b border-gray-300">
-                  <button
-                    className="w-full text-left px-4 py-3 flex justify-between items-center bg-blue-950 hover:bg-gray-200 transition text-white hover:text-black"
-                    onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                  >
-                    <span className="font-semibold ">Day {index + 1}: {day.title}</span>
-                    <span className="text-red-500">
-                      {openIndex === index ? "▲" : "▼"}
-                    </span>
-                  </button>
-                  <div className={`px-4 py-2 text-gray-700 transition-all duration-300 ${openIndex === index ? "block" : "hidden"}`}>
-                    {day.description}
-                  </div>
-                </div>
-              ))
-            ) : (
-              <p className="text-gray-500">No itinerary available for this package.</p>
-            )}
+       {/* Itinerary Section with Accordion */}
+<div className="mt-16">
+  <h3 className="text-xl font-semibold">Itinerary</h3>
+  <div className="mt-2 flex flex-col gap-2">
+    {packageData.itinerary && packageData.itinerary.length > 0 ? (
+      packageData.itinerary.map((day, index) => (
+        <div key={index} className="border-b border-gray-300">
+          <button
+            className="w-full text-left px-4 py-3 flex justify-between items-center bg-blue-950 hover:bg-gray-200 transition text-white hover:text-black"
+            onClick={() => setOpenIndex(openIndex === index ? null : index)}
+          >
+            <span className="font-semibold">Day {index + 1}: {day.title}</span>
+            <span className="text-red-500">
+              {openIndex === index ? "▲" : "▼"}
+            </span>
+          </button>
+          <div
+            className={`px-4 py-2 text-gray-700 transition-all duration-300 ${
+              openIndex === index ? "block" : "hidden"
+            }`}
+          >
+            {day.description.split("\n").map((line, i) => (
+              <p key={i}>{line}</p>
+            ))}
           </div>
         </div>
+      ))
+    ) : (
+      <p className="text-gray-500">No itinerary available for this package.</p>
+    )}
+  </div>
+</div>
+
       </div>
 
 
       <ContactForm/>
-      <PopularInboundPackages/>
-      
+     <PackagesList searchQuery={query} type={packageData.type} limit={4} />
       <SubscribeSection/>
       <Footer/>
     </>

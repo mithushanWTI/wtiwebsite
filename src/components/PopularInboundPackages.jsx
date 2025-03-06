@@ -1,25 +1,13 @@
 import React from "react";
 import packagesData from "../data/Packages.json";
-import sigiriya from "../assets/sigiriya.webp";
-import bangkok from "../assets/bangkok.webp";
-import dubai from "../assets/dubai.jpg";
-import malaysia from "../assets/malaysia.jpg";
-import singapore from "../assets/singapore.jpg";
 import { MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function PopularInboundPackages() {
-  // Image mapping
-  const imageMap = {
-    "sigiriya.webp": sigiriya,
-    "bangkok.webp": bangkok,
-    "malaysia.jpg": malaysia,
-    "singapore.jpg": singapore,
-    "dubai.jpg": dubai,
-  };
-
   // Get only 4 inbound packages
-  const inboundPackages = packagesData.filter(pkg => pkg.type === "inbound").slice(0, 4);
+  const inboundPackages = packagesData
+    .filter(pkg => pkg.type === "inbound")
+    .slice(0, 4);
 
   return (
     <section className="py-12 px-4 md:px-25 bg-gradient-to-b from-white via-red-100 to-white">
@@ -44,9 +32,10 @@ export default function PopularInboundPackages() {
             {/* Image Section */}
             <div className="relative overflow-hidden rounded-lg group">
               <img
-                src={imageMap[pkg.image] || sigiriya} // Default image fallback
+                src={`${pkg.image}`} // Updated image path
                 alt={pkg.name}
                 className="w-full h-48 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105"
+                onError={(e) => (e.target.src = "/assets/default.jpg")} // Fallback image
               />
               {/* Duration Tag */}
               <span className="absolute top-3 left-3 bg-red-500 text-white text-xs font-semibold px-3 py-1 rounded-full">

@@ -1,5 +1,5 @@
 
-import dubai from '../assets/dubai.jpg'
+const dubai = '/assets/dubai.jpg'
 import SearchBar from "./Searchbar";
 
 const OutboundHeader = ({ onSearch }) => {

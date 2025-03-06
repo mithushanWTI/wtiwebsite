@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
-import heroImage from '../assets/bangkok.webp';
+const heroImage = '../assets/bangkok.webp';
 
 
 const Corporate = () => {

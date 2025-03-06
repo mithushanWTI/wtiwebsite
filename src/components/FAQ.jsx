@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { FaPlus, FaTimes } from "react-icons/fa";
-import faq1 from '../assets/faq (1).png'
-import faq2 from '../assets/faq (2).png'
-import faq3 from '../assets/faq (3).png'
+const faq1 = '/assets/faq (1).png'
+const faq2 = '/assets/faq (2).png'
+const faq3 = '/assets/faq (3).png'
 
 const faqs = [
   {

@@ -1,5 +1,5 @@
 
-import sigiriya from '../assets/sigiriya.webp'
+const sigiriya = '/assets/sigiriya.webp'
 import SearchBar from "./Searchbar";
 
 const InboundHeader = ({ onSearch }) => {

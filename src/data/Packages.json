@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Round Tour Cultural",
     "destination": "Kandy",
-    "image": "sigiriya.webp",
+    "image": "/assets/sigiriya.webp",
     "duration": "7Nights 8Days",
     "tourtype": "Group Tour",
     "groupsize": "10 Members",
@@ -64,7 +64,7 @@
     "id": 2,
     "name": "Round Tour Cultural",
     "destination": "Kandy",
-    "image": "sigiriya.webp",
+    "image": "/assets/sigiriya.webp",
     "duration": "5Nights 6Days",
     "tourtype": "Group Tour",
     "groupsize": "10 Members",
@@ -125,7 +125,7 @@
     "id": 3,
     "name": "Central Hills and South",
     "destination": "Nuwara Eliya",
-    "image": "dubai.jpg",
+    "image": "/assets/dubai.jpg",
     "duration": "7Nights 8Days",
     "tourtype": "Group Tour",
     "groupsize": "10 Members",
@@ -164,20 +164,37 @@
     ],
     "itinerary": [
       {
-        "title": "Arrival in Ella",
-        "description": "Arrive at the airport and transfer to your hotel."
+        "title": "–1st Jan - Arrival – Transfer to Negombo (Approx. 30 min) Ayubowan!!! (May you live long) ",
+        "description": "Group will arrive from (Flight arrival Time and Arriving from) to Colombo International airport.\n● Upon completion of immigration & customs, you will meet & greet the World Travel Island private chauffeur/ National guide.\n● Check in: (Upon Arrival time)\n● Overnight stay at Negombo"
+  
       },
       {
-        "title": "Hiking & Waterfalls",
-        "description": "Explore Little Adam’s Peak and visit Ravana Falls."
+        "title": "2nd Jan - Transfer to Kandy (Approx. 6 – 7 Hours) ",
+        "description": "● Breakfast: 07.30 a.m.\n● Check out: 08.30 a.m.\n● Pinnawala Elephant Orphanage: 11.00 a.m. (Approx. 3 Hours Excursion)\n● Herbal and Spice Garden: 04.00 p.m. (Approx. 1 Hour)\n● Check in: 07.00 p.m.\n● Dinner: 07:30 p.m.\n● Spend the rest of the day at the Hotel\n● Overnight stay at Kandy"
       },
       {
-        "title": "Scenic Train Ride",
-        "description": "Take a famous train ride through the mountains."
+        "title": "Kandy",
+       "description": "● Breakfast: 07.30 a.m.\n● Royal Botanical Garden: 09.30 a.m. (Approx 3 – 4 Hours Excursion)\n● Kandy Kadirgamam Temple: 02.30 p.m. (Approx. 1 Hour Excursion)\n● Kandy Cultural Program: 04:30 p.m. (Approx. 1.5 Hours Program)\n● Spend the rest of the day at the Hotel\n● Dinner: 07.30 p.m.\n● Overnight stay at Kandy"
       },
       {
-        "title": "Departure",
-        "description": "Check out from the hotel and head to the airport."
+        "title": "Transfer to Nuwara Eliya (8 – 9 Hours Approx.) ",
+        "description": "● Breakfast: 07.30 a.m.\n● Check out: 08.30 a.m.\n● Hanuman Temple (Ramboda): 09.30 a.m. (Approx. 1.5 Hours Excursion)\n● Ramboda Waterfall Viewpoint: 12.00 p.m. (Approx. 1.5 Hours Excursion)\n● Tea Factory and Plantation: 3.00 p.m. (Approx. 2 Hours Excursion)\n● Check in: 06.30 p.m.\n● Dinner: 07.30 p.m.\n● Overnight stay at Nuwara Eliya"
+      },
+      {
+        "title": "Transfer to Udawalawa (Approx. 8 – 9 Hours) ",
+        "description": "● Breakfast: 07.30 a.m.\n● Check out: 08.30 a.m.\n● Sita Amman Temple: 09.00 a.m. (Approx. 1 Hour)\n● Ravana Falls: 11.00 a.m. (Approx. 1 Hour)\n● Udawalawa Elephant Transit Home: 03.00 p.m. (Approx. 2 Hours)\n● Check in: 06.00 p.m.\n● Dinner: 07.30 p.m.\n● Spend the rest of the day at the Hotel\n● Overnight stay at Udawalawa"
+      },
+      {
+        "title": "Transfer to Bentota (Approx. 7 – 8 Hours)  ",
+        "description": "● National Park Jeep Safari: 05:30 a.m. (Approx. 3 Hours)\n● Breakfast: 09.30 a.m.\n● Check out: 10.30 a.m.\n● Galle Fort City Walk: 01.00 p.m. (Approx. 2 Hours Excursion)\n● Check in: 04.00 p.m.\n● Spend the rest of the day at the Hotel by the beach\n● Overnight stay at Bentota"
+      },
+      {
+        "title": "Bentota (Approx. 5 – 6 Hours) ",
+        "description": "● Breakfast: 08.00 a.m.\n● Mangrove Boat Ride: 10.00 a.m. (Approx. 1.5 - 2 Hours Excursion)\n● Turtle Hatchery: 12.45 p.m. (Approx. 1 Hour)\n● Water Sports: 02.30 p.m. (Approx. 4 Hours Depending on the activities)\n● Spend the rest of the day at the Hotel by the beach\n● Overnight stay at Bentota"
+      },
+      {
+        "title": "Transfer to Airport via Colombo (Approx. 7 – 8 Hours)  ",
+        "description": "● Breakfast: 07.30 a.m.\n● Colombo City Tour (Approx. 5 hours)\n● Last minute Shopping\n● Transfer to Airport for Departure"
       }
     ],
     "type": "inbound"
@@ -186,7 +203,7 @@
     "id": 4,
     "name": "Round Tour Cultural",
     "destination": "Sri Lanka",
-    "image": "bangkok.webp",
+    "image": "/assets/bangkok.webp",
     "duration": "9Nights 10Days",
     "tourtype": "Group Tour",
     "groupsize": "10 Members",
@@ -247,7 +264,7 @@
     "id": 5,
     "name": "Ramayana Yatra Kataragama",
     "destination": "Ella",
-    "image": "dubai.jpg",
+    "image": "/assets/dubai.jpg",
     "duration": "6Nights 7Days",
     "tourtype": "Group Tour",
     "groupsize": "10 Members",
@@ -308,7 +325,7 @@
     "id": 6,
     "name": "Ramayana Yatra",
     "destination": "Nuwara Eliya",
-    "image": "bangkok.webp",
+    "image": "/assets/bangkok.webp",
     "duration": "3 Days 4 Nights",
     "tourtype": "Group Tour",
     "groupsize": "10 Members",
@@ -369,7 +386,7 @@
     "id": 7,
     "name": "Ramayana Yatra",
     "destination": "Sri Lanka",
-    "image": "dubai.jpg",
+    "image": "/assets/dubai.jpg",
     "duration": "4Nights 5Days",
     "tourtype": "Group Tour",
     "groupsize": "10 Members",
@@ -430,7 +447,7 @@
     "id": 8,
     "name": "Stunning Dubai",
     "destination": "DUBAI",
-    "image": "dubai.jpg",
+    "image": "/assets/dubai.jpg",
     "duration": "4Nights 5Days",
     "tourtype": "Group Tour",
     "groupsize": "10 Members",
@@ -442,7 +459,11 @@
     "priceIncludes": [
       "4N Hotel accommodation with BB",
       "Return Transfers",
-      "UAE visit visa"
+      "UAE visit visa",
+      "Marina Dhow Cruise Dinner",
+      "Dersert Safari with BBQ Dinner",
+      "Half day City tour + Burj Kalifa Visit 124th Floor (Non prime hrs)",
+      "Miracle Garden"
     ],
     "priceExcludes": [
       "Meals and Services which are not mentioned above",
@@ -480,7 +501,7 @@
     "id": 9,
     "name": "Pattya & Bangkok",
     "destination": "Thailand",
-    "image": "bangkok.webp",
+    "image": "/assets/bangkok.webp",
     "duration": "6Nights 7Days",
     "tourtype": "Group Tour",
     "groupsize": "10 Members",
@@ -493,8 +514,10 @@
       "6Nights at above Hotel",
       "Daily Breakfast at Hotel",
       "Arrival & Departure transfers",
+      "Coral Island Tour With Lunch By Speedboat",
+      "Chao Phraya Princess Dinner Cruise",
       "Dream World and Snow Town with Lunch",
-      "Dinner Cruise With International Buffet",
+      "Bangkok Temple Tour - Marble, Golden Buddha & Mini Reclining Buddga Temple",
       "Departure"
     ],
     "priceExcludes": [
@@ -533,7 +556,7 @@
     "id": 10,
     "name": "Malaysia Drive",
     "destination": "Malaysia ",
-    "image": "malaysia.jpg",
+    "image": "/assets/malaysia.jpg",
     "duration": "5Nights 6Days",
     "tourtype": "Group Tour",
     "groupsize": "10 Members",
@@ -590,7 +613,7 @@
     "id": 11,
     "name": "Malaysia Burst",
     "destination": "Malaysia ",
-    "image": "malaysia.jpg",
+    "image": "/assets/malaysia.jpg",
     "duration": "3Nights 4Days",
     "tourtype": "Group Tour",
     "groupsize": "10 Members",
@@ -607,7 +630,7 @@
       "Chocolate Factory ",
       "Batu Caves",
       "Sunway Lagoon theme Park",
-      "2- way cable car rides",
+      "2- way cable car rides(Langkawi )",
       "Local Guide",
       "Departure"
     ],
@@ -648,7 +671,7 @@
     "id": 12,
     "name": "Singapore Burst",
     "destination": "Singapore",
-    "image": "singapore.jpg",
+    "image": "/assets/singapore.jpg",
     "duration": "3Nights 4Days",
     "tourtype": "Group Tour",
     "groupsize": "10 Members",
@@ -700,5 +723,62 @@
       }
     ],
     "type": "outbound"
+  },
+  {
+    "id": 13,
+    "name": "Dubai Prestige Escape",
+    "destination": "DUBAI",
+    "image": "/assets/dubai.jpg",
+    "duration": "6Nights 7Days",
+    "tourtype": "Group Tour",
+    "groupsize": "10 Members",
+    "guide": "2 Guides",
+    "people": "5",
+    "rating": 5,
+    "description": "Embark on a captivating 6-night, 7-day Dubai experience with seamless private transfers and enjoy a luxurious stay at a 4-star or 5-star hotel in Dubai, offering comfort, style, and excellent amenities. Enjoy a scenic Dhow Dinner Cruise at Dubai Marina, This scenic tour offers stunning views of the glittering skyline, with the opportunity to enjoy a delicious buffet dinner while cruising under the stars. Experience the thrill of a desert safari with an exciting dune-bashing adventure. After an adrenaline-filled ride, enjoy a tranquil sunset in the golden desert dunes followed by a traditional Arabian BBQ dinner. Immerse yourself in the innovative world of the Museum of the Future, a state-of-the-art museum that showcases the latest advancements in science, technology, and innovation. Discover the rich culture and modern architecture of Abu Dhabi with a city tour. Visit iconic landmarks such as the Sheikh Zayed Grand Mosque and the Emirates Palace. Additionally, experience the thrill of Ferrari World, an indoor amusement park filled with high-speed rides, including the world’s fastest roller coaster. Explore the Louvre Abu Dhabi, a stunning cultural museum that blends art, history, and architecture.",
+    "price": 500,
+    "priceIncludes": [
+      "6Nights Hotel accommodation with BB",
+      "Return Transfers",
+      "UAE visit visa",
+      "Marina Dhow Cruse Dinner",
+      "Desert Safari with premium Dinner",
+      "Museum of the Future",
+      "Abu Dhabi city tour",
+      "Ferrari World",
+      "Louvre Abu Dhabi"
+    ],
+    "priceExcludes": [
+      "Meals and Services which are not mentioned above",
+      "All activities/services not mentioned in the itinerary",
+      "Air Tickets",
+      "Personal expenses"
+    ],
+    "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Ella",
+        "description": "Arrive at the airport and transfer to your hotel."
+      },
+      {
+        "title": "Waterfall Exploration",
+        "description": "Visit Ravana Falls and Diyaluma Falls."
+      },
+      {
+        "title": "Scenic Train Ride",
+        "description": "Experience the famous train journey from Ella to Nuwara Eliya."
+      },
+      {
+        "title": "Departure",
+        "description": "Check out from the hotel and transfer to the airport."
+      }
+    ],
+    "type": "outbound"
   }
+  
 ]

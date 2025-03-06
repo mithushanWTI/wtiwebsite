@@ -1,9 +1,9 @@
-import dubai from '../assets/dubai.jpg';
-import srilanka from '../assets/sigiriya.webp';
-import seychelles from '../assets/seychelles.jpg';
-import bangkok from '../assets/bangkok.webp';
-import thailand from '../assets/thailand.jpg';
-import dubai2 from '../assets/dubai2.png';
+const dubai = '/assets/dubai.jpg';
+const srilanka = '/assets/sigiriya.webp';
+const seychelles = '/assets/seychelles.jpg';
+const bangkok = '/assets/bangkok.webp';
+const thailand = '/assets/thailand.jpg';
+const dubai2 = '/assets/dubai2.png';
 
 export default function TopDestinations() {
     const destinations = [

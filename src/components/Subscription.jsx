@@ -1,5 +1,5 @@
 import { useState } from "react";
-import overlayImage from '../assets/tour1.png';
+const overlayImage = '/assets/tour1.png';
 
 export default function SubscribeSection() {
   const [email, setEmail] = useState("");

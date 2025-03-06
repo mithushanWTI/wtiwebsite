@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from '../components/Header'
-import heroImage from '../assets/thailand.jpg';
-import overlay from '../assets/vector.png';
-import about1 from '../assets/about-img-1.jpg';
-import about2 from '../assets/about-image-2.jpg';
+const heroImage = '/assets/thailand.jpg';
+const overlay = '/assets/vector.png';
+const about1 = '/assets/about-img-1.jpg';
+const about2 = '/assets/about-image-2.jpg';
 import TravelServices from '../components/TravelServices';
 import WhyWTI from '../components/WhyWTI';
 import SubscribeSection from '../components/Subscription';
@@ -67,42 +67,29 @@ const AboutUs = () => {
       </div>
     </section>
 
-    <section className="relative py-12 px-4 md:px-16 lg:px-24 flex flex-col lg:flex-row items-center gap-12 bg-[#fdf6f0] ">
-      {/* Background Overlay Image */}
-      <div className="absolute inset-0 bg-cover bg-center opacity-50" style={{ backgroundImage: `url(${overlay})` }}></div>
-      
-      {/* Text Content */}
-      <div className="relative w-full lg:w-1/2 text-center lg:text-left pt-0 lg:pt-20">
-        <h3 className="text-xl font-bold text-red-600">Our Vision</h3>
-        <p className="text-gray-700 mt-2 leading-relaxed text-sm md:text-base text-justify">
-          At World Travel Island, our vision is to lead the travel industry in Sri Lanka by embracing technology and 
-          offering a one-stop solution for all travel needs. We are committed to leveraging cutting-edge innovations 
-          to enhance the travel experience, providing seamless and personalized services. Our goal is to simplify 
-          the travel journey, making it convenient, efficient, and unforgettable for our clients.
-        </p>
+    <section className="relative py-12 px-4 md:px-16 lg:px-24 flex flex-col items-center text-center gap-6 bg-[#fdf6f0]">
+  {/* Background Overlay Image */}
+  <div className="absolute inset-0 bg-cover bg-center opacity-50" style={{ backgroundImage: `url(${overlay})` }}></div>
 
-        <h3 className="text-xl font-bold text-red-600 mt-6">Our Mission</h3>
-        <p className="text-gray-700 mt-2 leading-relaxed text-sm md:text-base text-justify">
-          At World Travel Island, we are on a mission to provide superior travel services with a commitment to excellence. 
-          Our focus is delivering a high standard of service to ensure customer satisfaction. Through passion and dedication, 
-          we aim to exceed expectations, creating memorable travel experiences for our clients.
-        </p>
-      </div>
+  {/* Text Content */}
+  <div className="relative w-full lg:w-2/3">
+    <h3 className="text-xl font-bold text-red-600">Our Vision</h3>
+    <p className="text-gray-700 mt-2 leading-relaxed text-sm md:text-base">
+      At World Travel Island, our vision is to lead the travel industry in Sri Lanka by embracing technology and 
+      offering a one-stop solution for all travel needs. We are committed to leveraging cutting-edge innovations 
+      to enhance the travel experience, providing seamless and personalized services. Our goal is to simplify 
+      the travel journey, making it convenient, efficient, and unforgettable for our clients.
+    </p>
 
-      {/* Images Section */}
-      <div className="relative w-full lg:w-1/2 justify-center hidden lg:flex pt-20 pb-20">
-        <img
-          src={about1}
-          alt="Hot Air Balloons"
-          className="relative w-50 md:w-76 rounded-lg shadow-lg left-[-50px] sm:left-[-100px] transition-transform duration-300 hover:scale-105"
-        />
-        <img
-          src={about2}
-          alt="Aerial View"
-          className="absolute bottom-[-20px] right-[20px] md:right-[-20px] w-52 md:w-72 rounded-lg shadow-md border-4 border-white transition-transform duration-300 hover:scale-105"
-        />
-      </div>
-    </section>
+    <h3 className="text-xl font-bold text-red-600 mt-6">Our Mission</h3>
+    <p className="text-gray-700 mt-2 leading-relaxed text-sm md:text-base">
+      At World Travel Island, we are on a mission to provide superior travel services with a commitment to excellence. 
+      Our focus is delivering a high standard of service to ensure customer satisfaction. Through passion and dedication, 
+      we aim to exceed expectations, creating memorable travel experiences for our clients.
+    </p>
+  </div>
+</section>
+
 
     <TravelServices/>
     <WhyWTI/>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
-import heroImage from '../assets/thailand.jpg';
+import heroImage from '/assets/thailand.jpg';
 
 
 const Blog = () => {

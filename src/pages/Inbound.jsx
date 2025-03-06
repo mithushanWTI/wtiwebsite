@@ -17,7 +17,7 @@ const Inbound = () => {
       <Header />
       <InboundHeader onSearch={handleSearch} />
       
-      {/* Pass the search query as a prop to PackagesList */}
+      
       <PackagesList searchQuery={query} type="inbound"/>
       <ContactForm/>
       <Footer/>

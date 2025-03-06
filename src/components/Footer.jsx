@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../assets/WTI-White.webp';
-import overlayImage from '../assets/wtiworld.png'; 
+const logo = '/assets/WTI-White.webp';
+const overlayImage = '/assets/wtiworld.png'; 
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTiktok } from 'react-icons/fa';
 
 const Footer = () => {
@@ -22,16 +22,16 @@ const Footer = () => {
             We believe brand interaction is key in communication. Real innovations and a positive.
           </p>
           <div className="flex space-x-4 mt-3">
-            <a href="#" className="p-2 border border-gray-300 rounded-full text-gray-300 hover:text-blue-500 hover:border-blue-500">
+            <a href="https://www.facebook.com/worldtravelisland/" className="p-2 border border-gray-300 rounded-full text-gray-300 hover:text-blue-500 hover:border-blue-500">
               <FaFacebookF size={20} />
             </a>
-            <a href="#" className="p-2 border border-gray-300 rounded-full text-gray-300 hover:text-pink-500 hover:border-pink-500">
+            <a href="https://www.instagram.com/world_travel_island/" className="p-2 border border-gray-300 rounded-full text-gray-300 hover:text-pink-500 hover:border-pink-500">
               <FaInstagram size={20} />
             </a>
-            <a href="#" className="p-2 border border-gray-300 rounded-full text-gray-300 hover:text-blue-700 hover:border-blue-700">
+            <a href="https://www.linkedin.com/company/world-travel-island/" className="p-2 border border-gray-300 rounded-full text-gray-300 hover:text-blue-700 hover:border-blue-700">
               <FaLinkedinIn size={20} />
             </a>
-            <a href="#" className="p-2 border border-gray-300 rounded-full text-gray-300 hover:text-black hover:border-black">
+            <a href="https://www.tiktok.com/@worldtravelisland" className="p-2 border border-gray-300 rounded-full text-gray-300 hover:text-black hover:border-black">
               <FaTiktok size={20} />
             </a>
           </div>
@@ -46,7 +46,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm ">
               <li><a href="#" className='text-white hover:text-red-600'>Inbound Packages</a></li>
               <li><a href="#" className='text-white hover:text-red-600'>Outboard Packages</a></li>
-              <li><a href="#" className='text-white hover:text-red-600'>Careers</a></li>
+              <li><a href="/aboutus" className='text-white hover:text-red-600'>AboutUs</a></li>
               <li><a href="#" className='text-white hover:text-red-600'>Terms of Service</a></li>
               <li><a href="#" className='text-white hover:text-red-600'>Privacy Policy</a></li>
             </ul>
