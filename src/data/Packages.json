@@ -1,17 +1,18 @@
 [
   {
     "id": 1,
-    "name": "Round Tour Cultural",
-    "destination": "Kandy",
-    "image": "/assets/sigiriya.webp",
+    "name": "Round Tour Cultural 7N8D",
+    "destination": "Sri Lanka",
+    "images": ["/assets/kandy.jpg","/assets/kandy2.jpg"],
+    "image": "/assets/kandy.jpg",
     "duration": "7Nights 8Days",
     "tourtype": "Group Tour",
-    "groupsize": "10 Members",
-    "guide": "2 Guides",
+    "groupsize": "15 Members",
+    "guide": "1 Multilingual National Guide",
     "people": "5",
     "rating": 5,
-    "description": "Experience the best of Sri Lanka on this 7-night, 8-day journey designed for Seychelles travelers! Discover the island’s rich heritage with visits to the iconic Sigiriya Rock Fortress and the sacred Temple of the Tooth in Kandy. Immerse yourself in lush tea plantations in Nuwara Eliya, then unwind on the golden beaches of Bentota. Enjoy a thrilling wildlife safari in Yala National Park, explore the colonial charm of Galle, and soak in the vibrant city life of Colombo. A perfect mix of adventure, culture, and relaxation awaits!",
-    "price": 500,
+    "description": "This 7 Nights / 8 Days Round Tour Cultural itinerary in Sri Lanka, organized by World Travel Island (Private) Limited, offers a comprehensive and immersive experience of the island's rich cultural heritage, natural beauty, and wildlife.\nThe tour is designed to provide a mix of historical exploration, nature adventures, and cultural encounters, making it ideal for travelers seeking a diverse and enriching journey.\n\n✨ Key Highlights of the Tour:\n\n🏛️ Cultural and Historical Sites:\n\n✔️ Sigiriya Rock Fortress: A UNESCO World Heritage Site, known as the \"Lion Rock,\" offering stunning views and ancient frescoes.\n✔️ Dambulla Cave Temple: A sacred Buddhist site with over 150 statues and intricate murals.\n✔️ Temple of the Tooth Relic (Kandy): One of Sri Lanka's most sacred Buddhist temples, housing the relic of the Buddha's tooth.\n✔️ Polonnaruwa: An ancient city with well-preserved ruins and historical significance.\n✔️ Kandy Cultural Show: A vibrant display of traditional Sri Lankan dance, drumming, and fire performances.\n\n🌿 Nature and Wildlife:\n\n✔️ Minneriya National Park Jeep Safari: Witness the famous \"Elephant Gathering\" and explore the park's diverse wildlife.\n✔️ Pinnawala Elephant Orphanage: A sanctuary for orphaned elephants, offering a chance to observe these majestic creatures up close.\n✔️ Ramboda Waterfall: A breathtaking 109-meter waterfall surrounded by lush tea plantations.\n✔️ Peradeniya Royal Botanical Garden: A serene 60-hectare garden with diverse plant species and scenic beauty.\n\n🏡 Cultural and Rural Experiences:\n\n✔️ Village Tour: Experience authentic rural life with bullock cart rides, catamaran boat rides, and traditional Sri Lankan cooking.\n✔️ Tea Factory and Plantation Visit: Explore Sri Lanka's famous tea industry, from plucking leaves to tasting freshly brewed Ceylon tea.\n✔️ Herbal and Spice Garden: Learn about the medicinal and culinary uses of Sri Lanka's rich variety of herbs and spices.\n\n🏞️ Scenic and Relaxing Destinations:\n\n✔️ Nuwara Eliya: Known as \"Little England,\" this hill town offers cool weather, colonial architecture, and picturesque tea plantations.\n✔️ Gregory Lake: A scenic lake perfect for boating, picnics, and leisurely walks.\n✔️ Anamaduwa (Mudhouse): A tranquil eco-retreat offering a digital detox, nature walks, and authentic Sri Lankan dining.\n\n🏙️ City Exploration:\n\n✔️ Colombo City Tour: Explore Sri Lanka's bustling capital, with its mix of colonial charm, modern attractions, and cultural landmarks.",
+    "price": "$1450 PP",
     "priceIncludes": [
       "Accommodation in Double/ Twin/ Triple Room sharing basis.",
       "Welcome drinks included for every hotel check-in.",
@@ -42,37 +43,53 @@
     ],
     "itinerary": [
       {
-        "title": "Arrival in Bali",
-        "description": "Arrive at the airport and transfer to your hotel."
+        "title": "Transfer to Mudhouse (Anamaduwa)  ",
+        "description": "Arrival in Colombo and transfer to Anamaduwa for an overnight stay at the eco-friendly Mudhouse."
       },
       {
-        "title": "Explore Ubud",
-        "description": "Visit the Monkey Forest, Ubud Market, and Rice Terraces."
+        "title": "Overnight Stay in Mudhouse (Anamaduwa)",
+        "description": "Full day at Anamaduwa with activities like kayaking, cycling, and nature walks."
       },
       {
-        "title": "Beach Day",
-        "description": "Enjoy water sports and relax on the beautiful beaches."
+        "title": "Transfer to Hotel In Habarana",
+        "description": "Transfer to Habarana with visits to Sigiriya Rock, Dambulla Cave Temple, and Pidurangala Rock."
       },
       {
-        "title": "Departure",
-        "description": "Check out from the hotel and head to the airport."
+        "title": "Overnight Stay in Habarana ",
+        "description": "Minneriya Jeep Safari, village tour, and optional Ayurveda spa in Habarana."
+      },
+      {
+        "title": "Transfer to Hotel in Kandy  ",
+        "description": "Transfer to Kandy with visits to a herbal and spice garden, the Temple of the Tooth Relic, and a cultural show."
+      },
+      {
+        "title": "Overnight Stay in Kandy  ",
+        "description": "Explore Kandy with visits to the Peradeniya Botanical Garden, gem museum, and Kandy National Museum."
+      },
+      {
+        "title": "Transfer to Hotel in Nuwara Eliya",
+        "description": "Transfer to Nuwara Eliya with stops at Ramboda Waterfall, Hanuman Temple, and a tea plantation."
+      },
+      {
+        "title": "Transfer to Airport for Depeparture via Colombo",
+        "description": "Transfer to Colombo for a city tour before departing for the airport."
       }
     ],
     "type": "inbound"
   },
   {
     "id": 2,
-    "name": "Round Tour Cultural",
-    "destination": "Kandy",
-    "image": "/assets/sigiriya.webp",
+    "name": "Round Tour Cultural 5N6D",
+    "destination": "Sri Lanka",
+    "image": "/assets/nuwaraeliya2.jpg",
     "duration": "5Nights 6Days",
-    "tourtype": "Group Tour",
+    "tourtype": "Cultural Vacation",
     "groupsize": "10 Members",
-    "guide": "2 Guides",
-    "people": "5",
+    "guide": "1 Multilingual National Guide",
+    "people": "15",
     "rating": 5,
-    "description": "Experience the best of Sri Lanka on this 7-night, 8-day journey designed for Seychelles travelers! Discover the island’s rich heritage with visits to the iconic Sigiriya Rock Fortress and the sacred Temple of the Tooth in Kandy. Immerse yourself in lush tea plantations in Nuwara Eliya, then unwind on the golden beaches of Bentota. Enjoy a thrilling wildlife safari in Yala National Park, explore the colonial charm of Galle, and soak in the vibrant city life of Colombo. A perfect mix of adventure, culture, and relaxation awaits!",
-    "price": 500,
+    "description": "Experience the best of Sri Lanka’s hill country and southern coast on this immersive 7-night, 8-day journey. From misty tea plantations to golden beaches, cultural wonders, and wildlife safaris, this itinerary offers the perfect blend of adventure and relaxation.\n✨ Tour Highlights:\n✔️ Pinnawala Elephant Orphanage & Udawalawe National Park Safari 🐘\n✔️ Cultural experiences in Kandy – Temple visits & traditional dance 💃\n✔️ Scenic Nuwara Eliya – Tea plantations, waterfalls & Gregory Lake 🍃\n✔️ Colonial charm of Galle Fort & beachside bliss in Bentota 🌊\n✔️ Thrilling water sports, turtle hatchery visit & Madu River boat safari 🚤\n✔️ Colombo city tour & last-minute shopping 🏙️\n\n🚗 Private transport | Expert guides | Handpicked accommodations",
+    "price": "$1110 PP",
     "priceIncludes": [
       "Accommodation in Double/ Twin/ Triple Room sharing basis.",
       "Welcome drinks included for every hotel check-in.",
@@ -103,20 +120,28 @@
     ],
     "itinerary": [
       {
-        "title": "Arrival in Bali",
-        "description": "Arrive at the airport and transfer to your hotel."
+        "title": "Arrival – Transfer to Negombo (Approx. 30 min) ",
+        "description": "● Mr. John Wick will arrive from (Flight arrival Time and Arriving from) to Colombo International airport.\n● Upon completion of immigration & customs, you will meet & greet the World Travel Island private chauffeur/ National guide.\n● Check in: (Upon Arrival time)\n● Overnight stay at Negombo"
       },
       {
-        "title": "Explore Ubud",
-        "description": "Visit the Monkey Forest, Ubud Market, and Rice Terraces."
+        "title": "Transfer to Habarana (Approx. 6 – 7 Hours)  ",
+        "description": "● Breakfast: 07.30 a.m.\n● Check out: 08.30 a.m.\n● Pinnawala Elephant Orphanage: 10.00 a.m. (Approx. 2 Hours Excursion)\n● Jeep Safari – National Park Sigiriya: 03.00 p.m. (Approx. 4 Hours Excursion)\n● Check in: 07.00 p.m.\n● Dinner: 07:30 p.m.\n● Spend the rest of the day at the Hotel\n● Overnight stay at Habarana"
       },
       {
-        "title": "Beach Day",
-        "description": "Enjoy water sports and relax on the beautiful beaches."
+        "title": "Transfer to Kandy (Approx. 7 – 8 Hours)",
+        "description": "● Breakfast: 07.30 a.m.\n● Check out: 08.30 a.m.\n● Sigiriya Rock Climb: 9.45 a.m. (Approx. 3 Hours Excursion)\n● Village Tour Including Traditional Lunch: 1.30 p.m. (Approx. 3 Hours Excursion)\n● Herbal and Spice Garden: 4.30 p.m. (Approx 1.5 Hours Excursion)\n● Check in: 07.00 p.m.\n● Dinner: 07.30 p.m.\n● Spend the rest of the day at the Hotel\n● Overnight stay at Kandy"
       },
       {
-        "title": "Departure",
-        "description": "Check out from the hotel and head to the airport."
+        "title": "Kandy (Approx. 7 – 8 Hours) ",
+        "description": "● Breakfast: 07.30 a.m.\n● Peradeniya Botanical Garden: 09.00 a.m. (Approx 3 Hours Excursion)\n● Kandy City Tour: 02.00 p.m. (Approx. 2 Hours Excursion)\n● Kandy Cultural Show: 05.30 (Approx. 1.5 Hours Excursion)\n● Dinner: 07.30 p.m.\n● Spend the rest of the day at the Hotel\n● Overnight stay at Kandy"
+      },
+      {
+        "title": "Transfer to Nuwara Eliya (Approx. 7 – 8 Hours)",
+        "description": "● Breakfast: 07.30 a.m.\n● Check out: 08.30 a.m.\n● Ramboda Waterfall Viewpoint: 11.00 a.m. (Approx. 45 Mins)\n● Tea Factory and Plantation: 12.15 p.m. (Approx. 2 Hours Excursion)\n● Nuwara Eliya City Walk: 4.00 p.m. (Approx. 1.5 Hours Excursion)\n● Check in: 06.00 p.m.\n● Dinner: 07.30 p.m.\n● Overnight stay at Nuwara Eliya"
+      },
+      {
+        "title": "Transfer to Airport Via Colombo (Approx. 7 – 8 Hours) ",
+        "description": "● Breakfast: 07.30 a.m.\n● Check out: 08.30 a.m.\n● Colombo City Tour: 08.30 p.m. (Approx. 4 – 5 Hours Excursion)\n● Transfer to Airport for Departure"
       }
     ],
     "type": "inbound"
@@ -125,15 +150,15 @@
     "id": 3,
     "name": "Central Hills and South",
     "destination": "Nuwara Eliya",
-    "image": "/assets/dubai.jpg",
+    "image": "/assets/nuwaraeliya.jpg",
     "duration": "7Nights 8Days",
-    "tourtype": "Group Tour",
+    "tourtype": "Cultural Vacation",
     "groupsize": "10 Members",
-    "guide": "2 Guides",
-    "people": "5",
+    "guide": "1 Multilingual National Guide ",
+    "people": "12",
     "rating": 5,
-    "description": "Embark on a breathtaking 7-night, 8-day journey through Sri Lanka’s central hills and southern coast! Begin in Kandy, home to the sacred Temple of the Tooth, then explore the misty tea plantations of Nuwara Eliya. Take a scenic train ride to Ella, where stunning waterfalls and lush mountains await. Experience the thrill of a Yala National Park safari before heading to the golden beaches of Mirissa and Bentota. Discover the colonial charm of Galle and end your adventure with a vibrant city tour of Colombo. A perfect mix of nature, wildlife, and coastal bliss!",
-    "price": 500,
+    "description": "Experience the best of Sri Lanka’s hill country and southern coast on this immersive 7-night, 8-day journey. From misty tea plantations to golden beaches, cultural wonders, and wildlife safaris, this itinerary offers the perfect blend of adventure and relaxation.\n✨ Tour Highlights:\n✔️ Pinnawala Elephant Orphanage & Udawalawe National Park Safari 🐘\n✔️ Cultural experiences in Kandy – Temple visits & traditional dance 💃\n✔️ Scenic Nuwara Eliya – Tea plantations, waterfalls & Gregory Lake 🍃\n✔️ Colonial charm of Galle Fort & beachside bliss in Bentota 🌊\n✔️ Thrilling water sports, turtle hatchery visit & Madu River boat safari 🚤\n✔️ Colombo city tour & last-minute shopping 🏙️\n\n🚗 Private transport | Expert guides | Handpicked accommodations",
+    "price": "$1249 PP",
     "priceIncludes": [
       "Accommodation in Double/ Twin/ Triple Room sharing basis.",
       "Welcome drinks included for every hotel check-in.",
@@ -201,17 +226,17 @@
   },
   {
     "id": 4,
-    "name": "Round Tour Cultural",
+    "name": "Round Tour Cultural 9N10D",
     "destination": "Sri Lanka",
-    "image": "/assets/bangkok.webp",
+    "image": "/assets/mirissa.jpg",
     "duration": "9Nights 10Days",
     "tourtype": "Group Tour",
     "groupsize": "10 Members",
-    "guide": "2 Guides",
+    "guide": "1 Multilingual National Guide ",
     "people": "5",
     "rating": 5,
-    "description": "Experience the ultimate 9-night, 10-day adventure across Sri Lanka, discovering its rich culture, stunning landscapes, and golden beaches! Begin in Sigiriya, where you’ll climb the iconic rock fortress and explore the ancient ruins of Polonnaruwa. Visit the sacred Temple of the Tooth in Kandy before journeying through the lush tea plantations of Nuwara Eliya. Take a scenic train ride to Ella, then embark on a thrilling safari in Yala National Park. Relax on the pristine beaches of Mirissa and Bentota, explore the colonial charm of Galle, and end your journey with a vibrant Colombo city tour. A perfect blend of history, nature, wildlife, and relaxation!",
-    "price": 500,
+    "description": "🌿 Wildlife & Nature Adventures:\n✔️ Minneriya Jeep Safari: Witness the iconic \"Elephant Gathering\" in Minneriya National Park.\n✔️ Udawalawe Elephant Transit Home: Observe orphaned elephant calves being rehabilitated.\n✔️ Whale Watching in Mirissa: Spot blue whales and dolphins in the Indian Ocean.\n✔️ Pinnawala Elephant Orphanage: Interact with rescued elephants during feeding and bathing sessions.\n\n🏛️ Cultural & Historical Exploration:\n✔️ Sigiriya Rock Fortress: Climb the UNESCO-listed \"Lion Rock\" for panoramic views and ancient frescoes.\n✔️ Temple of the Tooth Relic (Kandy): Visit one of Buddhism’s holiest shrines.\n✔️ Nine Arch Bridge (Ella): Marvel at this colonial-era railway bridge surrounded by lush greenery.\n✔️ Dowa Ancient Rock Temple: Discover a serene Buddhist site with a carved Buddha statue.\n\n🏞️ Scenic & Relaxing Destinations:\n✔️ Nuwara Eliya: Explore \"Little England\" with its tea plantations, colonial architecture, and Gregory Lake.\n✔️ Mirissa: Unwind on pristine beaches and enjoy coastal adventures like snorkeling and surfing.\n✔️ Coconut Tree Hill (Mirissa): Capture stunning ocean views from this iconic coconut-lined hillside.\n\n🏡 Authentic Experiences:\n✔️ Tea Factory & Plantation Tour: Learn about Ceylon tea production and enjoy tastings in Nuwara Eliya.\n✔️ Village Tour (Sigiriya): Experience rural life with bullock cart rides, traditional cooking, and lake boat rides.\n✔️ Mangrove Boat Ride: Glide through mangrove forests near Colombo, spotting wildlife.\n\n🌊 Coastal & Marine Activities:\n✔️ Turtle Hatchery: Learn about conservation efforts for endangered sea turtles.\n✔️ Snake Farm (Mirissa): Get up close with Sri Lanka’s diverse snake species.",
+    "price": "$1799 PP",
     "priceIncludes": [
       "Accommodation in Double/ Twin/ Triple Room sharing basis.",
       "Welcome drinks included for every hotel check-in.",
@@ -242,37 +267,207 @@
     ],
     "itinerary": [
       {
-        "title": "Arrival in Bangkok",
-        "description": "Arrive at the airport and transfer to your hotel."
+        "title": "Transfer to Hotel in Negombo Transit Hotel ",
+        "description": "Arrival in Colombo, transfer to Negombo for a coastal overnight stay."
       },
       {
-        "title": "Relax at the Beach",
-        "description": "Spend your day enjoying the beautiful beaches of Bangkok."
+        "title": "Transfer to Hotel in Habarana",
+        "description": "Visit Pinnawala Elephant Orphanage, Jeep Safari near Sigiriya, and overnight in Habarana."
       },
       {
-        "title": "City Tour",
-        "description": "Visit temples, markets, and famous attractions."
+        "title": "Transfer to Hotel in Habarana",
+        "description": "Climb Sigiriya Rock, Village Tour, Herbal Garden visit, and transfer to Kandy."
       },
       {
-        "title": "Departure",
-        "description": "Check out from the hotel and head to the airport."
+        "title": "Overnight Stay at Kandy ",
+        "description": "Explore Peradeniya Botanical Gardens, Kandy City Tour, and Cultural Show."
+      },
+      {
+        "title": "Transfer to Hotel in Nuwara Eliya",
+        "description": "Transfer to Nuwara Eliya via Ramboda Waterfall and Tea Plantation Tour."
+      },
+      {
+        "title": "Transfer to Hotel in Ella ",
+        "description": "Discover Ella with Ravana Viewpoint, Nine Arch Bridge, and Dowa Rock Temple."
+      },
+      {
+        "title": "Transfer to Hotel in Mirissa",
+        "description": "Visit Udawalawe Elephant Transit Home, Coconut Tree Hill, and relax in Mirissa."
+      },
+      {
+        "title": "Overnight Stay at Mirissa",
+        "description": "Whale Watching excursion and Snake Farm visit in Mirissa."
+      },
+      {
+        "title": "Transfer to Hotel in Colombo",
+        "description": "Mangrove Boat Ride, Turtle Hatchery, and transfer to Colombo."
+      },
+      {
+        "title": "Transfer to Airport for Departure",
+        "description": "Colombo City Tour and departure."
+      }
+    ],
+    "type": "inbound"
+  },
+  {
+    "id": 15,
+    "name": "Round Tour Cultural 3N4D",
+    "destination": "Sri Lanka",
+    "image": "/assets/minneriya.jpg",
+    "duration": "3Nights 4Days",
+    "tourtype": "Group Tour",
+    "groupsize": "10 Members",
+    "guide": "1 Multilingual National Guide ",
+    "people": "20",
+    "rating": 5,
+    "description": "🌿 Wildlife & Nature Adventures:\n✔️ Minneriya Jeep Safari: Witness the iconic \"Elephant Gathering\" in Minneriya National Park.\n✔️ Udawalawe Elephant Transit Home: Observe orphaned elephant calves being rehabilitated.\n✔️ Whale Watching in Mirissa: Spot blue whales and dolphins in the Indian Ocean.\n✔️ Pinnawala Elephant Orphanage: Interact with rescued elephants during feeding and bathing sessions.\n\n🏛️ Cultural & Historical Exploration:\n✔️ Sigiriya Rock Fortress: Climb the UNESCO-listed \"Lion Rock\" for panoramic views and ancient frescoes.\n✔️ Temple of the Tooth Relic (Kandy): Visit one of Buddhism’s holiest shrines.\n✔️ Nine Arch Bridge (Ella): Marvel at this colonial-era railway bridge surrounded by lush greenery.\n✔️ Dowa Ancient Rock Temple: Discover a serene Buddhist site with a carved Buddha statue.\n\n🏞️ Scenic & Relaxing Destinations:\n✔️ Nuwara Eliya: Explore \"Little England\" with its tea plantations, colonial architecture, and Gregory Lake.\n✔️ Mirissa: Unwind on pristine beaches and enjoy coastal adventures like snorkeling and surfing.\n✔️ Coconut Tree Hill (Mirissa): Capture stunning ocean views from this iconic coconut-lined hillside.\n\n🏡 Authentic Experiences:\n✔️ Tea Factory & Plantation Tour: Learn about Ceylon tea production and enjoy tastings in Nuwara Eliya.\n✔️ Village Tour (Sigiriya): Experience rural life with bullock cart rides, traditional cooking, and lake boat rides.\n✔️ Mangrove Boat Ride: Glide through mangrove forests near Colombo, spotting wildlife.\n\n🌊 Coastal & Marine Activities:\n✔️ Turtle Hatchery: Learn about conservation efforts for endangered sea turtles.\n✔️ Snake Farm (Mirissa): Get up close with Sri Lanka’s diverse snake species.",
+    "price": "$999 PP",
+    "priceIncludes": [
+      "Accommodation in Double/ Twin/ Triple Room sharing basis.",
+      "Welcome drinks included for every hotel check-in.",
+      "Meal Plan HB (Breakfast & Dinner) included.",
+      "Transport by luxury a/c wheelchair accessible carrier throughout the tour including all sightseeing tours and both airport transfers. (Airport Pickup to Airport Departure)",
+      "All tourist site entrance fee. (Subject to below “Price Excludes”).",
+      "Service of Sri Lanka Tourist Board approved English/ Tamil Speaking National Guide and his accommodation.",
+      "2 x 500ml bottled water per person per day during the entire tour.",
+      "Airport assistance for arrival & departures.",
+      "24Hrs x 365 Days operational support during the tour/ Guaranteed highly personalized service.",
+      "All local & other government taxes.",
+      "Handling / Administration and Professional charges."
+    ],
+    "priceExcludes": [
+      "International Flight and Visa Charges for Sri Lanka.",
+      "Visit https://www.eta.gov.lk for online visa application.",
+      "Early Check-In and late check-out charges if any.",
+      "Expenses of personal nature such as Tips / laundry / mini bar charges / liquor / telephone charges.",
+      "Any Water Sports activities.",
+      "Any other services not specified in the “Price Include”.",
+      "Any other personal expenses."
+    ],
+    "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Transfer to Hotel in Habarana ",
+        "description": "Arrival → Transfer to Habarana → Dambulla Cave Temple → Village Tour → Ayurveda Spa."
+      },
+      {
+        "title": "Transfer to Hotel in Kandy",
+        "description": "Minneriya Jeep Safari → Sigiriya Rock Climb → Herbal Garden → Kandy City Tour → Cultural Show."
+      },
+      {
+        "title": "Transfer to Hotel in Nuwara Eliya",
+        "description": "Transfer to Nuwara Eliya → Gem Museum → Tea Plantation → Ramboda Waterfall → Gregory Lake."
+      },
+      {
+        "title": "Transfer to Airport for Departure via Colombo",
+        "description": "White Water Rafting (optional) → Colombo City Tour → Shopping → Departure."
+      }
+    ],
+    "type": "inbound"
+  },
+  {
+    "id": 16,
+    "name": "Round Tour Iran Cultural 9N10D",
+    "destination": "Sri Lanka",
+    "image": "/assets/kandy2.jpg",
+    "duration": "9Nights 10Days",
+    "tourtype": "Group Tour",
+    "groupsize": "10 Members",
+    "guide": "1 Multilingual National Guide ",
+    "people": "15",
+    "rating": 5,
+    "description": "🏛️ Cultural & Spiritual Exploration:\n✔️ Temple of the Tooth Relic (Kandy): Visit Sri Lanka’s holiest Buddhist shrine, a UNESCO World Heritage Site.\n✔️ Sigiriya Rock Fortress: Optional climb to the 5th-century “Lion Rock” for panoramic views and ancient frescoes.\n✔️ Kandy Cultural Show: Witness vibrant Kandyan dance, drumming, and fire performances.\n✔️ Dowa Ancient Rock Temple: Discover a serene Buddhist site with a carved Buddha statue near Ella.\n\n🌿 Nature & Wildlife Encounters:\n✔️ Udawalawe Elephant Transit Home: Observe orphaned elephants being rehabilitated for the wild.\n✔️ Whale Watching (Mirissa): Spot blue whales and dolphins in the Indian Ocean.\n✔️ Peradeniya Botanical Garden: Explore 60 hectares of exotic flora, including orchids and giant palms.\n\n🏞️ Scenic & Authentic Experiences:\n✔️ Nanu Oya to Ella Train Ride: Journey through misty tea plantations and lush hills on one of the world’s most scenic train routes.\n✔️ Tea Factory & Plantation Tour: Learn about Ceylon tea production and enjoy tastings in Nuwara Eliya.\n✔️ Ramboda Waterfall: Admire a 109-meter cascade surrounded by tea-covered mountains.\n\n🌊 Coastal & Leisure Activities:\n✔️ Coconut Tree Hill (Mirissa): Relax at this iconic hillside with panoramic ocean views.\n✔️ Mangrove Boat Ride (Bentota): Glide through tranquil mangrove forests, spotting wildlife.\n✔️ Turtle Hatchery: Learn about conservation efforts for endangered sea turtles.",
+    "price": "$1234 PP",
+    "priceIncludes": [
+      "Accommodation in Double/ Twin/ Triple Room sharing basis.",
+      "Welcome drinks included for every hotel check-in.",
+      "Meal Plan HB (Breakfast & Dinner) included.",
+      "Transport by luxury a/c wheelchair accessible carrier throughout the tour including all sightseeing tours and both airport transfers. (Airport Pickup to Airport Departure)",
+      "All tourist site entrance fee. (Subject to below “Price Excludes”).",
+      "Service of Sri Lanka Tourist Board approved English/ Tamil Speaking National Guide and his accommodation.",
+      "2 x 500ml bottled water per person per day during the entire tour.",
+      "Airport assistance for arrival & departures.",
+      "24Hrs x 365 Days operational support during the tour/ Guaranteed highly personalized service.",
+      "All local & other government taxes.",
+      "Handling / Administration and Professional charges."
+    ],
+    "priceExcludes": [
+      "International Flight and Visa Charges for Sri Lanka.",
+      "Visit https://www.eta.gov.lk for online visa application.",
+      "Early Check-In and late check-out charges if any.",
+      "Expenses of personal nature such as Tips / laundry / mini bar charges / liquor / telephone charges.",
+      "Any Water Sports activities.",
+      "Any other services not specified in the “Price Include”.",
+      "Any other personal expenses."
+    ],
+    "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Transfer to Transit Hotel in Negombo",
+        "description": "Arrival → Transfer to Negombo (coastal relaxation)."
+      },
+      {
+        "title": "Transfer to Hotel in Kandy",
+        "description": "Optional Pinnawala Elephant Orphanage → Temple of the Tooth Relic → Overnight in Kandy."
+      },
+      {
+        "title": "Overnight Stay in Kandy",
+        "description": "Optional Sigiriya Rock Climb → Village Tour → Herbal Garden → Return to Kandy."
+      },
+      {
+        "title": "Overnight Stay in Kandy",
+        "description": "Peradeniya Botanical Garden → Kandy City Tour → Cultural Show → Overnight in Kandy."
+      },
+      {
+        "title": "Transfer to Hotel in Ella via Nuwara Eliya",
+        "description": "Ramboda Waterfall → Tea Plantation → Scenic Train Ride → Overnight in Ella."
+      },
+      {
+        "title": "Overnight stay in Ella",
+        "description": "Ravana Viewpoint → Nine Arch Bridge → Dowa Temple → Overnight in Ella."
+      },
+      {
+        "title": "Transfer to Hotel in Mirissa",
+        "description": "Udawalawe Elephant Transit Home → Coconut Tree Hill → Coastal stay in Mirissa."
+      },
+      {
+        "title": "Overnight stay in Mirissa",
+        "description": "Whale Watching → Snake Farm → Beach relaxation in Mirissa."
+      },
+      {
+        "title": "Transfer to Hotel in Colombo",
+        "description": "Mangrove Boat Ride → Turtle Hatchery → Transfer to Colombo."
+      },
+      {
+        "title": "Transfer to Airport for Departure",
+        "description": "Colombo City Tour → Departure."
       }
     ],
     "type": "inbound"
   },
   {
     "id": 5,
-    "name": "Ramayana Yatra Kataragama",
-    "destination": "Ella",
-    "image": "/assets/dubai.jpg",
+    "name": "Ramayana Yatra Kataragama 6N7D",
+    "destination": "Sri Lanka",
+    "image": "/assets/nallur.webp",
     "duration": "6Nights 7Days",
     "tourtype": "Group Tour",
     "groupsize": "10 Members",
     "guide": "2 Guides",
-    "people": "5",
+    "people": "25",
     "rating": 5,
-    "description": "Embark on a sacred 6-night, 7-day Ramayana Yatra through Sri Lanka, tracing the footsteps of Lord Rama and Sita. Visit the iconic Munneswaram and Manavari Temples, where Lord Rama sought blessings. Explore the mystical Sita Amman Temple in Nuwara Eliya and the sacred Ashok Vatika, believed to be Sita’s place of captivity. Seek divine blessings at Divurumpola, the site of Sita’s Agni Pariksha, before visiting Kataragama, a revered pilgrimage site for Lord Skanda. End your journey with a visit to Ussangoda and Rumassala, linked to Hanuman’s quest. A spiritual odyssey filled with devotion and ancient legends!",
-    "price": 500,
+    "description": "🙏 Sacred Ramayana Sites:\n✔️ Munneshwaram Temple: Where Lord Rama prayed to absolve sins after defeating Ravana.\n✔️ Seetha Amman Temple (Ashok Vatika): Believed to be the garden where Sita was held captive.\n✔️ Kataragama Temple: A revered multi-faith shrine linked to Lord Murugan and the Ramayana.\n✔️ Sellakataragama Temple: Dedicated to Lord Murugan’s consort, Valli.\n\n🕉️ Cultural & Spiritual Experiences:\n✔️ Nallur Kandaswamy Temple: Jaffna’s iconic temple with vibrant festivals.\n✔️ Koneshwaram Temple: Cliffside Shiva temple overlooking Trincomalee’s ocean.\n✔️ Gayathri Peedam: A serene hill-country shrine to Goddess Gayathri.\n✔️ Cultural Program (Kandy): Traditional Kandyan dance and drumming performances.\n\n🏞️ Natural Wonders & Scenic Beauty:\n✔️ Ramboda Waterfall: A 109-meter cascade amid tea plantations.\n✔️ Ravana Falls: Legendary waterfall tied to Ravana’s myth.\n✔️ Madu River Boat Ride: Optional mangrove forest exploration.\n\n🏛️ Historical & Cultural Exploration:\n✔️ Sigiriya Rock Fortress: UNESCO-listed ancient palace with panoramic views.\n✔️ Dambulla Golden Temple: Cave complex with Buddhist murals and statues.\n✔️ Tea Factory Tour: Learn about Ceylon tea in Nuwara Eliya’s misty hills.",
+    "price": "INR 38,000 PP",
     "priceIncludes": [
       "Accommodation in Double/ Twin/ Triple Room sharing basis.",
       "Welcome drinks included for every hotel check-in.",
@@ -303,37 +498,49 @@
     ],
     "itinerary": [
       {
-        "title": "Arrival in Ella",
-        "description": "Arrive at the airport and transfer to your hotel."
+        "title": "Transfer to Hotel in Anuradhapura",
+        "description": "Arrival → Anuradhapura via Munneshwaram & Manavari Temples."
       },
       {
-        "title": "Hiking & Nature",
-        "description": "Trek to Little Adam’s Peak and visit Nine Arches Bridge."
+        "title": "Transfer to Hotel in Jaffna",
+        "description": "Jaffna via Thiru Kithishwaram & Nagapusani Amman Temples."
       },
       {
-        "title": "Waterfall Exploration",
-        "description": "Enjoy scenic waterfalls like Diyaluma and Ravana Falls."
+        "title": "Transfer to Hotel in Sigiriya",
+        "description": "Sigiriya via Nallur Temple, Hot Springs, Koneshwaram Temple."
       },
       {
-        "title": "Departure",
-        "description": "Check out from the hotel and transfer to the airport."
+        "title": "Transfer to Hotel in Kandy",
+        "description": "Kandy with Sigiriya Rock, Dambulla Temple, and Cultural Show."
+      },
+      {
+        "title": "Transfer to Hotel in Nuwara Eliya",
+        "description": "Nuwara Eliya via Hanuman Temple, Ramboda Falls, and Seetha Amman Temple."
+      },
+      {
+        "title": "Transfer to Hotel in Kataragama",
+        "description": "Kataragama with Ravana Falls and Sellakataragama Temple."
+      },
+      {
+        "title": "Transfer to Airport for Departure via Colombo",
+        "description": "Colombo via Madu River, Turtle Hatchery, and City Tour → Departure."
       }
     ],
     "type": "inbound"
   },
   {
     "id": 6,
-    "name": "Ramayana Yatra",
-    "destination": "Nuwara Eliya",
-    "image": "/assets/bangkok.webp",
-    "duration": "3 Days 4 Nights",
+    "name": "Ramayana Yatra Northern 5N6D",
+    "destination": "Sri Lanka",
+    "image": "/assets/trinco.jpg",
+    "duration": "6 Days 5 Nights",
     "tourtype": "Group Tour",
-    "groupsize": "10 Members",
-    "guide": "2 Guides",
-    "people": "5",
+    "groupsize": "25 Members",
+    "guide": "1 Multilingual National Guide",
+    "people": "25",
     "rating": 5,
-    "description": "Embark on a sacred 5-night, 6-day Ramayana Yatra through Sri Lanka, tracing the footsteps of Lord Rama and Sita. Visit the iconic Munneswaram and Manavari Temples, where Lord Rama sought blessings. Explore the mystical Sita Amman Temple in Nuwara Eliya and the sacred Ashok Vatika, believed to be Sita’s place of captivity. Seek divine blessings at Divurumpola, the site of Sita’s Agni Pariksha, before visiting Kataragama, a revered pilgrimage site for Lord Skanda. End your journey with a visit to Ussangoda and Rumassala, linked to Hanuman’s quest. A spiritual odyssey filled with devotion and ancient legends!",
-    "price": 500,
+    "description": "🙏 Sacred Ramayana Sites:\n✔️ Munneshwaram Temple: Where Lord Rama prayed to absolve sins after defeating Ravana.\n✔️ Manavari Temple: Houses the \"Rama Lingam\" installed by Lord Rama during his quest for Sita.\n✔️ Koneshwaram Temple (Trincomalee): Cliffside Shiva temple linked to Ravana’s devotion.\n✔️ Hanuman Temple (Ramboda): Believed to be where Lord Hanuman rested during his search for Sita.\n\n🕉️ Cultural & Spiritual Experiences:\n✔️ Temple of the Tooth Relic (Kandy): Visit Sri Lanka’s holiest Buddhist shrine, a UNESCO site.\n✔️ Cultural Program (Kandy): Kandyan dance, drumming, and fire performances.\n✔️ Panchamuga Anjanayar Temple (Colombo): Dedicated to Lord Hanuman’s five-faced form.\n\n🏞️ Natural & Historical Wonders:\n✔️ Sigiriya Rock Fortress: Climb the UNESCO-listed \"Lion Rock\" for panoramic views.\n✔️ Dambulla Golden Temple: Explore cave temples with Buddhist murals and golden statues.\n✔️ Hot Water Springs (Vavuniya): Relax in therapeutic natural springs.\n\n🏡 Scenic & Authentic Encounters:\n✔️ Tea Factory Tour: Learn about Ceylon tea production in Sri Lanka’s lush hills.\n✔️ Colombo City Tour: Discover the capital’s blend of colonial charm and modernity.",
+    "price": "INR 35,000 PP",
     "priceIncludes": [
       "Accommodation in Double/ Twin/ Triple Room sharing basis.",
       "Welcome drinks included for every hotel check-in.",
@@ -364,37 +571,45 @@
     ],
     "itinerary": [
       {
-        "title": "Arrival in Bangkok",
-        "description": "Arrive at the airport and transfer to your hotel."
+        "title": "Transfer to Hotel in Anuradhapura",
+        "description": "Arrival → Anuradhapura via Munneshwaram & Manavari Temples."
       },
       {
-        "title": "Beach Activities",
-        "description": "Enjoy beach volleyball, snorkeling, and boat rides."
+        "title": "Tranasfer to Hotel in Trincomalee",
+        "description": "Trincomalee via Lakshmi Narayana Temple, Sacred Bodhi Tree, and Hot Springs."
       },
       {
-        "title": "Night Market & Shopping",
-        "description": "Explore famous street markets for food and souvenirs."
+        "title": "Transfer to Hotel in Sigiriya",
+        "description": "Sigiriya with Koneshwaram Temple, Sigiriya Rock, and Dambulla Temple."
       },
       {
-        "title": "Departure",
-        "description": "Check out from the hotel and transfer to the airport."
+        "title": "Transfer to Hotel in Kandy",
+        "description": "Kandy via Herbal Garden, Kadirgamam Temple, and Cultural Show."
+      },
+      {
+        "title": "Transfer to Hotel in Nuwara Eliya",
+        "description": "Nuwara Eliya via Hanuman Temple, Ramboda Falls, and Seetha Amman Temple."
+      },
+      {
+        "title": "Transfer to Airport for Departure via Colombo",
+        "description": "Colombo City Tour → Departure."
       }
     ],
     "type": "inbound"
   },
   {
     "id": 7,
-    "name": "Ramayana Yatra",
+    "name": "Ramayana Yatra Northeast Part 4N5D",
     "destination": "Sri Lanka",
-    "image": "/assets/dubai.jpg",
+    "image": "/assets/Dambulla.jpg",
     "duration": "4Nights 5Days",
     "tourtype": "Group Tour",
     "groupsize": "10 Members",
-    "guide": "2 Guides",
-    "people": "5",
+    "guide": "1 Multilingual National Guide",
+    "people": "25",
     "rating": 5,
-    "description": "Embark on a sacred 4-night, 5-day Ramayana Yatra through Sri Lanka, tracing the footsteps of Lord Rama and Sita. Visit the iconic Munneswaram and Manavari Temples, where Lord Rama sought blessings. Explore the mystical Sita Amman Temple in Nuwara Eliya and the sacred Ashok Vatika, believed to be Sita’s place of captivity. Seek divine blessings at Divurumpola, the site of Sita’s Agni Pariksha, before visiting Kataragama, a revered pilgrimage site for Lord Skanda. End your journey with a visit to Ussangoda and Rumassala, linked to Hanuman’s quest. A spiritual odyssey filled with devotion and ancient legends!",
-    "price": 500,
+    "description": "🙏 Sacred Ramayana Pilgrimage Sites:\n✔️ Munneshwaram Temple: Where Lord Rama prayed to absolve sins after defeating Ravana.\n✔️ Manavari Temple: Houses the sacred \"Rama Lingam\" installed by Lord Rama during his search for Sita.\n✔️ Koneshwaram Temple (Trincomalee): Cliffside Shiva temple linked to Ravana’s devotion.\n✔️ Hanuman Temple (Ramboda): Believed to be where Lord Hanuman rested during his quest to find Sita.\n\n🕉️ Cultural & Spiritual Experiences:\n✔️ Temple of the Tooth Relic (Kandy): Visit Sri Lanka’s holiest Buddhist shrine, a UNESCO site.\n✔️ Kandy Cultural Program: Traditional Kandyan dance, drumming, and fire performances.\n✔️ Panchamuga Anjanayar Temple (Colombo): Dedicated to Lord Hanuman’s five-faced form.\n\n🏞️ Natural & Historical Wonders:\n✔️ Sigiriya Rock Fortress: Climb the UNESCO-listed \"Lion Rock\" for panoramic jungle views.\n✔️ Dambulla Golden Temple: Explore cave temples adorned with Buddhist murals and golden statues.\n✔️ Hot Water Springs (Vavuniya): Relax in therapeutic natural springs surrounded by lush greenery.\n\n🏡 Scenic & Authentic Encounters:\n✔️ Tea Factory Tour: Learn about Ceylon tea production in Sri Lanka’s misty hills.\n✔️ Colombo City Tour: Discover the capital’s colonial charm, bustling markets, and modern landmarks.",
+    "price": "INR 33,000 PP",
     "priceIncludes": [
       "Accommodation in Double/ Twin/ Triple Room sharing basis.",
       "Welcome drinks included for every hotel check-in.",
@@ -425,20 +640,24 @@
     ],
     "itinerary": [
       {
-        "title": "Arrival in Ella",
-        "description": "Arrive at the airport and transfer to your hotel."
+        "title": "Transfer to Hotel in Anuradhapura",
+        "description": "Arrival → Anuradhapura via Munneshwaram & Manavari Temples."
       },
       {
-        "title": "Hiking & Scenic Views",
-        "description": "Visit Ella Rock and enjoy the breathtaking sunrise."
+        "title": "Transfer to Hotel in Trincomalee",
+        "description": "Trincomalee via Lakshmi Narayana Temple, Sacred Bodhi Tree, and Hot Springs."
       },
       {
-        "title": "Tea Plantation Visit",
-        "description": "Explore a tea estate and learn about tea production."
+        "title": "Transfer to Hotel in Sigiriya",
+        "description": "Sigiriya with Koneshwaram Temple, Sigiriya Rock, and Dambulla Temple."
       },
       {
-        "title": "Departure",
-        "description": "Check out from the hotel and transfer to the airport."
+        "title": "Transfer to Hotel in Kandy",
+        "description": "Kandy via Herbal Garden, Temple of the Tooth Relic, and Cultural Show."
+      },
+      {
+        "title": "Transfer to Airport for Departure via Nuwara Eliya",
+        "description": "Colombo with Hanuman Temple, Tea Plantation, and City Tour → Departure."
       }
     ],
     "type": "inbound"
@@ -447,15 +666,16 @@
     "id": 8,
     "name": "Stunning Dubai",
     "destination": "DUBAI",
-    "image": "/assets/dubai.jpg",
+    "image": "/assets/dubai2.png",
+    "images": ["/assets/dubai2.png","/assets/dubai.jpg"],
     "duration": "4Nights 5Days",
-    "tourtype": "Group Tour",
+    "tourtype": "FIT",
     "groupsize": "10 Members",
     "guide": "2 Guides",
-    "people": "5",
+    "people": "Min 2 ",
     "rating": 5,
-    "description": "Embark on a captivating 4-night, 5-day Dubai experience with seamless private transfers from and to Dubai Airport. Enjoy a scenic Dhow Dinner Cruise at Dubai Marina, complete with private return transfers. Discover the city's highlights with a private half-day city tour and visit the world-famous Burj Khalifa to take in panoramic views from the 124th-floor observation deck. Explore Dubai Mall and marvel at the spectacular Musical Fountain Show. Experience the thrill of a desert safari with 4x4 dune bashing, followed by a BBQ dinner, belly dance, Tanoura dance, fire show, camel rides, and henna painting. A perfect blend of sightseeing, adventure, and cultural entertainment awaits!",
-    "price": 500,
+    "description": "🚢 Dubai Marina Dhow Cruise:\n✔️ Experience the magic of Dubai Marina with a traditional Dhow Cruise. Sail through stunning skyline views, enjoy a delicious buffet dinner, and witness live entertainment on a relaxing evening journey. A perfect blend of luxury and Arabian heritage.\n\n🏜️ Dubai Desert Safari with BBQ Dinner:\n✔️ Embark on an unforgettable Dubai Desert Safari, where adventure meets Arabian culture. Enjoy thrilling dune bashing, camel rides, mesmerizing sunsets, and a traditional Bedouin-style camp with BBQ dinner and live entertainment. A must-do experience in Dubai.\n\n🏙️ Half Day City tour in Dubai:\n✔️ Discover Dubai’s iconic landmarks on a Half-Day City Tour. Explore the stunning Burj Al Arab, Dubai Marina, Palm Jumeirah, and the historic Dubai Creek. A perfect blend of modern marvels and cultural heritage in just a few hours.\n\n🗼 Burj Kalifa:\n✔️ Experience stunning 360-degree views of Dubai from the Burj Khalifa Observation Deck. Located on the 124th and 125th floors, this iconic attraction offers breathtaking cityscapes, interactive displays, and a thrilling high-speed elevator ride.\n\n🌸 Miracle Garden:\n✔️ Dubai Miracle Garden, the world’s largest flower garden, showcases over 150 million flowers in stunning designs and vibrant displays. This breathtaking attraction offers a magical experience with unique themed gardens and record-breaking floral structures.\n\n🌟 Dubai Desert Safari with premium Dinner:\n✔️ Experience the thrill of a Dubai Desert Safari with a premium dinner under the stars. Enjoy exhilarating dune bashing, camel rides, and live entertainment, followed by a luxurious BBQ buffet with international and Arabian cuisine at a Bedouin-style camp.\n\n🚀 Museum of the future:\n✔️ The Museum of the Future in Dubai is a groundbreaking attraction showcasing innovative technologies and visionary ideas. Explore immersive exhibits that offer a glimpse into the future of science, sustainability, and human progress in a stunning architectural masterpiece.\n\n🕌 Abu Dhabi City Tour:\n✔️ Discover the rich culture and modern marvels of Abu Dhabi on a guided city tour. Visit iconic landmarks like the majestic Sheikh Zayed Grand Mosque, the luxurious Emirates Palace, and the cultural hub of Saadiyat Island, all while enjoying the city's stunning architecture and scenic views.\n\n🏎️ Ferrari World Abu Dhabi:\n✔️ Ferrari World Abu Dhabi is an adrenaline-pumping theme park featuring thrilling rides, world-class attractions, and the world’s fastest roller coaster. Experience the ultimate combination of speed, luxury, and excitement in this Ferrari-themed adventure park for all ages.\n\n🖼️ Louvre Abu Dhabi:\n✔️ Louvre Abu Dhabi is a stunning museum that blends art, culture, and history from around the world. With its impressive architecture and diverse collections, it offers visitors an unforgettable journey through time, showcasing masterpieces from various civilizations and artistic movements.",
+    "price": "Get a Quote",
     "priceIncludes": [
       "4N Hotel accommodation with BB",
       "Return Transfers",
@@ -503,13 +723,13 @@
     "destination": "Thailand",
     "image": "/assets/bangkok.webp",
     "duration": "6Nights 7Days",
-    "tourtype": "Group Tour",
+    "tourtype": "FIT",
     "groupsize": "10 Members",
     "guide": "2 Guides",
-    "people": "5",
+    "people": "Min 2 ",
     "rating": 5,
-    "description": "Embark on an exciting 6-night adventure with 3 nights in Pattaya and 3 nights in Bangkok! Begin in Pattaya, where you can unwind on its beautiful beaches and visit the vibrant Walking Street, buzzing with nightlife. Explore the stunning Coral Island on a day trip, and don’t miss the famous Sanctuary of Truth and the Pattaya Viewpoint. Afterward, head to Bangkok for a perfect blend of culture and modernity. Visit the awe-inspiring Grand Palace, the majestic Wat Arun, and the Temple of the Emerald Buddha. Shop till you drop at Chatuchak Market and enjoy a Chao Phraya River Cruise. With a mix of relaxation, adventure, and cultural immersion, this tour offers the best of both worlds!    ",
-    "price": 500,
+    "description": "🏝️ Coral Island Tour With Lunch By Speedboat:\n✔️ Embark on a thrilling Coral Island Tour by speedboat and discover the beauty of pristine beaches and vibrant marine life. Enjoy a relaxing day of snorkeling, swimming, and exploring, followed by a delicious lunch on the island for a perfect tropical escape.\n\n🚢 Chao Phraya Princess Dinner Cruise:\n✔️ Savor a delightful evening on the Chao Phraya Princess Dinner Cruise, where you can enjoy a delicious buffet dinner while cruising along the iconic Chao Phraya River. Take in stunning views of Bangkok’s skyline and landmarks, all while enjoying live entertainment and a memorable dining experience.\n\n🎢 Dream World and Snow Town with Lunch:\n✔️ Experience the magic of Dream World and Snow Town with a fun-filled day of adventure! Enjoy thrilling rides, explore Snow Town's icy wonders, and indulge in a delicious lunch, all in one exciting package for the whole family.\n\n🏛️ Bangkok City Tour:\n✔️ Embark on a captivating Bangkok city tour and discover the rich culture, history, and vibrant energy of Thailand's capital. Visit iconic landmarks such as the Grand Palace, Wat Pho, and the Emerald Buddha Temple, and explore bustling markets, vibrant streets, and picturesque river views. This guided tour offers a perfect blend of traditional and modern experiences, making it an unforgettable journey through one of Asia’s most dynamic cities.",
+    "price": "Get a Quote",
     "priceIncludes": [
       "6Nights at above Hotel",
       "Daily Breakfast at Hotel",
@@ -527,10 +747,7 @@
       "Personal expenses"
     ],
      "CancellationPolicy": [
-      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
-      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
-      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
-      "Cancellation above 21 days prior to arrival – No Fees."
+      
     ],
     "itinerary": [
       {
@@ -558,13 +775,13 @@
     "destination": "Malaysia ",
     "image": "/assets/malaysia.jpg",
     "duration": "5Nights 6Days",
-    "tourtype": "Group Tour",
+    "tourtype": "FIT",
     "groupsize": "10 Members",
     "guide": "2 Guides",
-    "people": "5",
+    "people": "Min 2 ",
     "rating": 5,
-    "description": "Experience the magic of Malaysia in a 5-night, 6-day adventure filled with culture, nature, and modern attractions! Start your journey in Kuala Lumpur, where you'll explore iconic landmarks like the Petronas Twin Towers, the bustling Batu Caves, and the vibrant Central Market. Next, head to Genting Highlands, a hill resort offering cool weather, thrilling theme parks, and scenic views. Continue your adventure in Langkawi, where you can unwind on pristine beaches, explore the Langkawi Sky Bridge, and discover the beauty of Langkawi Cable Car. From city thrills to natural wonders, this tour promises a perfect blend of excitement and relaxation. ",
-    "price": 500,
+    "description": "🍫 Malaysia Chocolate Factory Visit:\n✔️ Offers a delightful experience for chocolate lovers! Explore the chocolate-making process, from cocoa beans to delicious treats, with guided tours and interactive demonstrations. Enjoy tasting sessions, learn about Malaysia’s rich chocolate heritage, and shop for premium handmade chocolates. A sweet adventure awaits—perfect for families, tourists, and chocolate enthusiasts!\n\n⛰️ Batu Caves:\n✔️ Explore this iconic limestone cave temple, home to the majestic golden statue of Lord Murugan and a stunning series of caves filled with rich history and cultural significance. Climb the 272 colorful steps to enjoy breathtaking views and discover ancient Hindu shrines.\n\n🎢 Sunway Lagoon:\n✔️ Sunway Lagoon Theme Park is Malaysia’s premier entertainment destination, offering over 90 attractions across six adventure zones, including Water Park, Amusement Park, Wildlife Park, Extreme Park, Scream Park, and Nickelodeon Lost Lagoon. Whether you're looking for thrilling rides, exciting water slides, or up-close animal encounters, Sunway Lagoon promises endless fun for visitors of all ages.\n\n🚠 Malaysia two way cable car rides:\n✔️ Experience breathtaking views with Malaysia’s iconic two-way cable car rides! Soar above lush rainforests, stunning mountains, and scenic landscapes as you travel to and from top attractions like Genting Highlands or Langkawi’s SkyCab. Enjoy a smooth, scenic ride with panoramic views, making it a must-visit adventure for nature lovers and thrill-seekers alike.\n\n🚠 Malaysia two way cable car rides (Langkawi):\n✔️ Experience the beauty of Langkawi from above with the Langkawi SkyCab, a thrilling two-way cable car ride. Soar over lush rainforests and rugged mountain peaks as you ascend to the breathtaking heights of Gunung Machinchang. Enjoy panoramic views of the Andaman Sea, surrounding islands, and even southern Thailand on clear days. A must-visit attraction for nature lovers and adventure seekers!",
+    "price": "Get a Quote",
     "priceIncludes": [
       "5Nights at above Hotel",
       "Malaysia Visa",
@@ -573,7 +790,7 @@
       "Chocolate Factory ",
       "Batu Caves",
       "Sunway Lagoon theme Park",
-      "2- way cable car rides",
+      "Two way cable car rides",
       "Departure"
     ],
     "priceExcludes": [
@@ -584,10 +801,7 @@
       "Personal expenses"
     ],
      "CancellationPolicy": [
-      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
-      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
-      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
-      "Cancellation above 21 days prior to arrival – No Fees."
+      
     ],
     "itinerary": [
       {
@@ -613,15 +827,15 @@
     "id": 11,
     "name": "Malaysia Burst",
     "destination": "Malaysia ",
-    "image": "/assets/malaysia.jpg",
+    "image": "/assets/malaysia2.jpg",
     "duration": "3Nights 4Days",
-    "tourtype": "Group Tour",
+    "tourtype": "FIT",
     "groupsize": "10 Members",
     "guide": "2 Guides",
-    "people": "5",
+    "people": "Min 2 ",
     "rating": 5,
-    "description": "Embark on an unforgettable 3-night, 4-day journey through Malaysia, exploring its iconic sights and natural beauty! Begin in Kuala Lumpur, visiting the towering Petronas Twin Towers, the spiritual Batu Caves, and the lively Central Market. Then, escape to the cool heights of Genting Highlands, where you can enjoy thrilling attractions and scenic mountain views. Finally, unwind on the beautiful beaches of Langkawi, and take a ride on the Langkawi Cable Car to enjoy panoramic views. A perfect blend of city exploration, nature, and relaxation awaits you on this exciting escape!",
-    "price": 500,
+    "description": "🍫 Malaysia Chocolate Factory Visit:\n✔️ Offers a delightful experience for chocolate lovers! Explore the chocolate-making process, from cocoa beans to delicious treats, with guided tours and interactive demonstrations. Enjoy tasting sessions, learn about Malaysia’s rich chocolate heritage, and shop for premium handmade chocolates. A sweet adventure awaits—perfect for families, tourists, and chocolate enthusiasts!\n\n⛰️ Batu Caves:\n✔️ Explore this iconic limestone cave temple, home to the majestic golden statue of Lord Murugan and a stunning series of caves filled with rich history and cultural significance. Climb the 272 colorful steps to enjoy breathtaking views and discover ancient Hindu shrines.\n\n🎢 Sunway Lagoon:\n✔️ Sunway Lagoon Theme Park is Malaysia’s premier entertainment destination, offering over 90 attractions across six adventure zones, including Water Park, Amusement Park, Wildlife Park, Extreme Park, Scream Park, and Nickelodeon Lost Lagoon. Whether you're looking for thrilling rides, exciting water slides, or up-close animal encounters, Sunway Lagoon promises endless fun for visitors of all ages.\n\n🚠 Malaysia two-way cable car rides:\n✔️ Experience breathtaking views with Malaysia’s iconic two-way cable car rides! Soar above lush rainforests, stunning mountains, and scenic landscapes as you travel to and from top attractions like Genting Highlands or Langkawi’s SkyCab. Enjoy a smooth, scenic ride with panoramic views, making it a must-visit adventure for nature lovers and thrill-seekers alike.\n\n🚠 Malaysia two-way cable car rides (Langkawi):\n✔️ Experience the beauty of Langkawi from above with the Langkawi SkyCab, a thrilling two-way cable car ride. Soar over lush rainforests and rugged mountain peaks as you ascend to the breathtaking heights of Gunung Machinchang. Enjoy panoramic views of the Andaman Sea, surrounding islands, and even southern Thailand on clear days. A must-visit attraction for nature lovers and adventure seekers!",
+    "price": "Get a Quote",
     "priceIncludes": [
      "3Nights at above Hotel",
       "Malaysia Visa",
@@ -630,7 +844,7 @@
       "Chocolate Factory ",
       "Batu Caves",
       "Sunway Lagoon theme Park",
-      "2- way cable car rides(Langkawi )",
+      "Two way cable car rides(Langkawi )",
       "Local Guide",
       "Departure"
     ],
@@ -642,10 +856,7 @@
       "Personal expenses"
     ],
      "CancellationPolicy": [
-      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
-      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
-      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
-      "Cancellation above 21 days prior to arrival – No Fees."
+      
     ],
     "itinerary": [
       {
@@ -673,13 +884,13 @@
     "destination": "Singapore",
     "image": "/assets/singapore.jpg",
     "duration": "3Nights 4Days",
-    "tourtype": "Group Tour",
+    "tourtype": "FIT",
     "groupsize": "10 Members",
     "guide": "2 Guides",
-    "people": "5",
+    "people": "Min 2 ",
     "rating": 5,
-    "description": "Discover the best of Singapore in a 3-night, 4-day tour filled with iconic sights and unforgettable experiences! Begin with a visit to the futuristic Gardens by the Bay, exploring the Supertree Grove and the Cloud Forest. Enjoy a scenic Singapore River Cruise and explore the bustling Chinatown and Little India. Don’t miss the famous Marina Bay Sands SkyPark for stunning views of the city. End your trip with a fun-filled visit to Sentosa Island, home to attractions like Universal Studios Singapore, S.E.A. Aquarium, and Sentosa Beaches. A perfect mix of culture, adventure, and relaxation awaits in this vibrant city!",
-    "price": 500,
+    "description": "🏝️ Sentosa Island with Cable car:\n✔️ Embark on an unforgettable adventure to Sentosa Island with a scenic cable car ride offering stunning views of Singapore’s skyline, beaches, and lush landscapes. Once on the island, explore top attractions like Universal Studios Singapore.\n\n🎆 Wings of Time:\n✔️ Wings of Time is a spectacular night show on Sentosa Island that combines mesmerizing visual effects, water displays, laser lights, and captivating music. Set against the backdrop of the open sea, this breathtaking performance tells a heartwarming story of adventure, friendship, and time.\n\n🛥️ Boat Ride:\n✔️ Experience Singapore from a unique perspective with a scenic boat ride along the Singapore River. Glide past iconic landmarks like the Marina Bay Sands, Merlion Park, and Clarke Quay, while soaking in the city's vibrant skyline and rich history. This leisurely boat tour offers a perfect way to explore the heart of Singapore’s waterfront and enjoy its stunning architecture.\n\n🎭 Madame Tussauds Singapore:\n✔️ Step into the world of fame and glamour at Madame Tussauds Singapore! Explore lifelike wax figures of global celebrities, historical icons, and pop culture stars. From movie legends to sports heroes, interact with your favorite personalities and snap unforgettable photos. A fun and immersive experience for visitors of all ages, Madame Tussauds offers a unique chance to get up close with the world’s most famous figures.\n\n🎢 Universal Studios Singapore:\n✔️ Universal Studios Singapore is a thrilling, world-class theme park located on Sentosa Island, offering exciting rides, live shows, and attractions based on your favorite movies and TV shows. From adrenaline-pumping roller coasters to family-friendly experiences, the park features iconic zones like Hollywood, Sci-Fi City, and The Lost World.",
+    "price": "Get a Quote",
     "priceIncludes": [
       "3Nights at above Hotel",
 "SIN City tour",
@@ -699,10 +910,7 @@
       "Personal expenses"
     ],
      "CancellationPolicy": [
-      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
-      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
-      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
-      "Cancellation above 21 days prior to arrival – No Fees."
+      
     ],
     "itinerary": [
       {
@@ -726,17 +934,17 @@
   },
   {
     "id": 13,
-    "name": "Dubai Prestige Escape",
+    "name": "Premier Dubai",
     "destination": "DUBAI",
     "image": "/assets/dubai.jpg",
     "duration": "6Nights 7Days",
-    "tourtype": "Group Tour",
+    "tourtype": "FIT",
     "groupsize": "10 Members",
     "guide": "2 Guides",
-    "people": "5",
+    "people": "Min 2 ",
     "rating": 5,
-    "description": "Embark on a captivating 6-night, 7-day Dubai experience with seamless private transfers and enjoy a luxurious stay at a 4-star or 5-star hotel in Dubai, offering comfort, style, and excellent amenities. Enjoy a scenic Dhow Dinner Cruise at Dubai Marina, This scenic tour offers stunning views of the glittering skyline, with the opportunity to enjoy a delicious buffet dinner while cruising under the stars. Experience the thrill of a desert safari with an exciting dune-bashing adventure. After an adrenaline-filled ride, enjoy a tranquil sunset in the golden desert dunes followed by a traditional Arabian BBQ dinner. Immerse yourself in the innovative world of the Museum of the Future, a state-of-the-art museum that showcases the latest advancements in science, technology, and innovation. Discover the rich culture and modern architecture of Abu Dhabi with a city tour. Visit iconic landmarks such as the Sheikh Zayed Grand Mosque and the Emirates Palace. Additionally, experience the thrill of Ferrari World, an indoor amusement park filled with high-speed rides, including the world’s fastest roller coaster. Explore the Louvre Abu Dhabi, a stunning cultural museum that blends art, history, and architecture.",
-    "price": 500,
+    "description": "🚢 Dubai Marina Dhow Cruise:\n✔️ Experience the magic of Dubai Marina with a traditional Dhow Cruise. Sail through stunning skyline views, enjoy a delicious buffet dinner, and witness live entertainment on a relaxing evening journey. A perfect blend of luxury and Arabian heritage.\n\n🏜️ Dubai Desert Safari with BBQ Dinner:\n✔️ Embark on an unforgettable Dubai Desert Safari, where adventure meets Arabian culture. Enjoy thrilling dune bashing, camel rides, mesmerizing sunsets, and a traditional Bedouin-style camp with BBQ dinner and live entertainment. A must-do experience in Dubai.\n\n🏙️ Half Day City tour in Dubai:\n✔️ Discover Dubai’s iconic landmarks on a Half-Day City Tour. Explore the stunning Burj Al Arab, Dubai Marina, Palm Jumeirah, and the historic Dubai Creek. A perfect blend of modern marvels and cultural heritage in just a few hours.\n\n🗼 Burj Khalifa:\n✔️ Experience stunning 360-degree views of Dubai from the Burj Khalifa Observation Deck. Located on the 124th and 125th floors, this iconic attraction offers breathtaking cityscapes, interactive displays, and a thrilling high-speed elevator ride.\n\n🌸 Miracle Garden:\n✔️ Dubai Miracle Garden, the world’s largest flower garden, showcases over 150 million flowers in stunning designs and vibrant displays. This breathtaking attraction offers a magical experience with unique themed gardens and record-breaking floral structures.\n\n🌟 Dubai Desert Safari with Premium Dinner:\n✔️ Experience the thrill of a Dubai Desert Safari with a premium dinner under the stars. Enjoy exhilarating dune bashing, camel rides, and live entertainment, followed by a luxurious BBQ buffet with international and Arabian cuisine at a Bedouin-style camp.\n\n🚀 Museum of the Future:\n✔️ The Museum of the Future in Dubai is a groundbreaking attraction showcasing innovative technologies and visionary ideas. Explore immersive exhibits that offer a glimpse into the future of science, sustainability, and human progress in a stunning architectural masterpiece.\n\n🕌 Abu Dhabi City Tour:\n✔️ Discover the rich culture and modern marvels of Abu Dhabi on a guided city tour. Visit iconic landmarks like the majestic Sheikh Zayed Grand Mosque, the luxurious Emirates Palace, and the cultural hub of Saadiyat Island, all while enjoying the city's stunning architecture and scenic views.\n\n🏎️ Ferrari World Abu Dhabi:\n✔️ Ferrari World Abu Dhabi is an adrenaline-pumping theme park featuring thrilling rides, world-class attractions, and the world’s fastest roller coaster. Experience the ultimate combination of speed, luxury, and excitement in this Ferrari-themed adventure park for all ages.\n\n🖼️ Louvre Abu Dhabi:\n✔️ Louvre Abu Dhabi is a stunning museum that blends art, culture, and history from around the world. With its impressive architecture and diverse collections, it offers visitors an unforgettable journey through time, showcasing masterpieces from various civilizations and artistic movements.",
+    "price": "Get a Quote",
     "priceIncludes": [
       "6Nights Hotel accommodation with BB",
       "Return Transfers",
@@ -755,10 +963,61 @@
       "Personal expenses"
     ],
     "CancellationPolicy": [
-      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
-      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
-      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
-      "Cancellation above 21 days prior to arrival – No Fees."
+      
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Ella",
+        "description": "Arrive at the airport and transfer to your hotel."
+      },
+      {
+        "title": "Waterfall Exploration",
+        "description": "Visit Ravana Falls and Diyaluma Falls."
+      },
+      {
+        "title": "Scenic Train Ride",
+        "description": "Experience the famous train journey from Ella to Nuwara Eliya."
+      },
+      {
+        "title": "Departure",
+        "description": "Check out from the hotel and transfer to the airport."
+      }
+    ],
+    "type": "outbound"
+  },
+  
+  {
+    "id": 14,
+    "name": "Bangkok with shopping",
+    "destination": "Thailand",
+    "image": "/assets/BANGKOK2.webp",
+    "duration": "4Nights 5Days",
+    "tourtype": "FIT",
+    "groupsize": "10 Members",
+    "guide": "2 Guides",
+    "people": "Min 2 ",
+    "rating": 5,
+    "description": "🏝️ Coral Island Tour With Lunch By Speedboat:\n✔️ Embark on a thrilling Coral Island Tour by speedboat and discover the beauty of pristine beaches and vibrant marine life. Enjoy a relaxing day of snorkeling, swimming, and exploring, followed by a delicious lunch on the island for a perfect tropical escape.\n\n🚢 Chao Phraya Princess Dinner Cruise:\n✔️ Savor a delightful evening on the Chao Phraya Princess Dinner Cruise, where you can enjoy a delicious buffet dinner while cruising along the iconic Chao Phraya River. Take in stunning views of Bangkok’s skyline and landmarks, all while enjoying live entertainment and a memorable dining experience.\n\n🎢 Dream World and Snow Town with Lunch:\n✔️ Experience the magic of Dream World and Snow Town with a fun-filled day of adventure! Enjoy thrilling rides, explore Snow Town's icy wonders, and indulge in a delicious lunch, all in one exciting package for the whole family.\n\n🏛️ Bangkok City Tour:\n✔️ Embark on a captivating Bangkok city tour and discover the rich culture, history, and vibrant energy of Thailand's capital. Visit iconic landmarks such as the Grand Palace, Wat Pho, and the Emerald Buddha Temple, and explore bustling markets, vibrant streets, and picturesque river views. This guided tour offers a perfect blend of traditional and modern experiences, making it an unforgettable journey through one of Asia’s most dynamic cities.",
+    "price":"Get a Quote",
+    "priceIncludes": [
+      "6Nights Hotel accommodation with BB",
+      "Return Transfers",
+      "UAE visit visa",
+      "Marina Dhow Cruse Dinner",
+      "Desert Safari with premium Dinner",
+      "Museum of the Future",
+      "Abu Dhabi city tour",
+      "Ferrari World",
+      "Louvre Abu Dhabi"
+    ],
+    "priceExcludes": [
+      "Meals and Services which are not mentioned above",
+      "All activities/services not mentioned in the itinerary",
+      "Air Tickets",
+      "Personal expenses"
+    ],
+    "CancellationPolicy": [
+      
     ],
     "itinerary": [
       {

@@ -46,7 +46,7 @@ export default function PopularInboundPackages() {
             {/* Details Section */}
             <div className="p-4">
               <div className="flex justify-between items-center">
-                <h3 className="text-lg font-bold">{pkg.name}</h3>
+                <h3 className="text-md font-bold">{pkg.name}</h3>
                 {/* Star Ratings */}
                 <div className="flex items-center">
                   {Array(pkg.rating)
@@ -70,7 +70,7 @@ export default function PopularInboundPackages() {
                 </button>
                 <div className="flex flex-col items-end">
                   <p className="text-gray-600 text-sm">Starting From</p>
-                  <span className="text-red-500 font-bold">${pkg.price}</span>
+                  <span className="text-red-500 font-bold">{pkg.price} </span>
                 </div>
               </div>
             </div>

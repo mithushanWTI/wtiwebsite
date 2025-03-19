@@ -13,7 +13,7 @@ const InboundHeader = ({ onSearch }) => {
       <h1 className="text-3xl md:text-6xl font-LIGHT font-montez mt-44 z-20">Travel SriLanka</h1>
       <h1 className="text-center text-5xl md:text-8xl font-bold mb-24 z-20">INBOUND PACKAGES</h1>
       <div className="mt-4 z-20">
-        <SearchBar onSearch={onSearch} />
+        {/* <SearchBar onSearch={onSearch} /> */}
       </div>
     </div>
   );

@@ -3,27 +3,30 @@ import { useEffect, useState } from "react";
 import packagesData from '../data/Packages.json'; // Import JSON directly
 import Header from "./Header";
 import Footer from '../components/Footer';
-import SubscribeSection from '../components/Subscription'
+import SubscribeSection from '../components/Subscription';
 import { MapPin } from "lucide-react";
 import { MdSchedule } from "react-icons/md";
 import { IoFootstepsSharp } from "react-icons/io5";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { BsPersonWalking } from "react-icons/bs";
-const overlayImage = '../assets/tour1.png';
 import ContactForm from "./Contactform";
 import PopularInboundPackages from "./PopularInboundPackages";
 import PackagesList from "./PackagesList";
+import React from 'react';
+
+
+// Import Swiper
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination,Autoplay } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 const PackageDetails = () => {
-
   const [query, setQuery] = useState('');
-  
-    const handleSearch = (searchQuery) => {
-      setQuery(searchQuery);
-    };
-
-
-
+  const handleSearch = (searchQuery) => {
+    setQuery(searchQuery);
+  };
 
   const { id } = useParams();
   const [packageData, setPackageData] = useState(null);
@@ -32,88 +35,117 @@ const PackageDetails = () => {
   useEffect(() => {
     const selectedPackage = packagesData.find(pkg => pkg.id.toString() === id);
     setPackageData(selectedPackage);
-  }, [id]);
-
-  useEffect(() => {
-    const selectedPackage = packagesData.find(pkg => pkg.id.toString() === id);
-    setPackageData(selectedPackage);
     window.scrollTo(0, 0); // Scroll to top when package changes
   }, [id]);
   
-
   if (!packageData) return <p className="text-center text-gray-600">Package not found!</p>;
 
   return (
     <>
       <Header />
-      <div className="max-w-6xl mx-auto px-4 py-6 pb-25 " >
-        
+      <div className="max-w-6xl mx-auto px-4 py-6 pb-25">
         {/* Title & Location */}
         <div className="flex justify-between">
           <h1 className="text-2xl md:text-3xl font-bold text-blue-950">{packageData.name}</h1>
           {/* Star Ratings */}
           <div className="flex items-center gap-1">
-            {Array(packageData.rating)
-              .fill()
-              .map((_, i) => (
-                <span key={i} className="text-red-500 text-3xl">★</span>
-              ))}
+            {Array(packageData.rating).fill().map((_, i) => (
+              <span key={i} className="text-red-500 text-3xl">★</span>
+            ))}
           </div>
         </div>
         <p className="text-start text-gray-500 flex items-center">
           <MapPin size={14} className="text-red-500 mr-1" /> {packageData.destination}
         </p>
 
-        {/* Image */}
-<div className="mt-6 overflow-hidden rounded-lg shadow-lg">
-  <img
-    src={`${packageData.image}`} 
-    alt={packageData.name}
-    className="w-full h-126 object-cover rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-105"
-  />
+       {/* Image Slider */}
+<div className="mt-6 overflow-hidden rounded-lg shadow-lg relative">
+  <Swiper
+    modules={[Navigation, Pagination, Autoplay]}
+    spaceBetween={10}
+    slidesPerView={1}
+    navigation
+    autoplay={{
+      delay: 2000,
+      disableOnInteraction: false,
+    }}
+    loop={true}
+    className="w-full h-126 rounded-lg"
+  >
+    {packageData.images.map((img, index) => (
+      <SwiperSlide key={index}>
+        <img
+          src={img}
+          alt={`Slide ${index + 1}`}
+          className="w-full h-126 object-cover rounded-lg"
+        />
+      </SwiperSlide>
+    ))}
+  </Swiper>
+
+  {/* Custom Navigation Colors */}
+  <style>
+    {`
+      .swiper-button-next, .swiper-button-prev {
+        color: white !important; 
+       
+      }
+      .swiper-button-next:hover, .swiper-button-prev:hover {
+        color: darkred !important; 
+      }
+    `}
+  </style>
 </div>
 
 
         {/* Info Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6 bg-gray-100 p-4 rounded-lg shadow-md">
-  <div className="flex items-center">
-    <MdSchedule className="text-red-500 w-10 h-10 md:w-12 md:h-12 mr-2" /> 
-    <div className="text-start">
-      <h4 className="text-lg font-semibold text-red-500">Duration</h4>
-      <p className="text-blue-950">{packageData.duration}</p>
-    </div>
-  </div>
+          <div className="flex items-center">
+            <MdSchedule className="text-red-500 w-10 h-10 md:w-12 md:h-12 mr-2" />
+            <div className="text-start">
+              <h4 className="text-lg font-semibold text-red-500">Duration</h4>
+              <p className="text-blue-950">{packageData.duration}</p>
+            </div>
+          </div>
 
-  <div className="flex items-center">
-    <IoFootstepsSharp className="text-red-500 w-10 h-10 md:w-12 md:h-12 mr-2" /> 
-    <div className="text-start">
-      <h4 className="text-lg font-semibold text-red-500">Tour Type</h4>
-      <p className="text-blue-950">{packageData.tourtype}</p>
-    </div>
-  </div>
+          <div className="flex items-center">
+            <IoFootstepsSharp className="text-red-500 w-10 h-10 md:w-12 md:h-12 mr-2" />
+            <div className="text-start">
+              <h4 className="text-lg font-semibold text-red-500">Tour Type</h4>
+              <p className="text-blue-950">{packageData.tourtype}</p>
+            </div>
+          </div>
 
-  <div className="flex items-center">
-    <FaPeopleGroup className="text-red-500 w-10 h-10 md:w-12 md:h-12 mr-2" /> 
-    <div className="text-start">
-      <h4 className="text-lg font-semibold text-red-500">Group Size</h4>
-      <p className="text-blue-950">{packageData.people}Members</p>
-    </div>
-  </div>
+          <div className="flex items-center">
+            <FaPeopleGroup className="text-red-500 w-10 h-10 md:w-12 md:h-12 mr-2" />
+            <div className="text-start">
+              <h4 className="text-lg font-semibold text-red-500">Group Size</h4>
+              <p className="text-blue-950">{packageData.people} Members</p>
+            </div>
+          </div>
 
+          {packageData.type === "inbound" && (
   <div className="flex items-center">
-    <BsPersonWalking className="text-red-500 w-10 h-10 md:w-12 md:h-12 mr-2" /> 
+    <BsPersonWalking className="text-red-500 w-10 h-10 md:w-12 md:h-12 mr-2" />
     <div className="text-start">
       <h4 className="text-lg font-semibold text-red-500">Guide</h4>
       <p className="text-blue-950">{packageData.guide}</p>
     </div>
   </div>
-</div>
+)}
+        </div>
 
-
-        {/* Description */}
-        <div className="mt-10">
+ {/* Description */}
+ <div className="mt-10">
           <h3 className="text-xl font-semibold text-blue-950">Description</h3>
-          <p className="text-gray-700 leading-relaxed text-justify">{packageData.description}</p>
+          <p className="text-gray-700 leading-relaxed text-justify">
+  {packageData.description.split('\n').map((line, index) => (
+    <React.Fragment key={index}>
+      {line}
+      <br />
+    </React.Fragment>
+  ))}
+</p>
         </div>
 
         {/* Price Includes / Excludes */}
@@ -177,13 +209,15 @@ const PackageDetails = () => {
   </div>
 </div>
 
+
       </div>
+      
 
-
-      <ContactForm/>
-     <PackagesList searchQuery={query} type={packageData.type} limit={4} />
-      <SubscribeSection/>
-      <Footer/>
+      
+      <ContactForm />
+      <PackagesList searchQuery={query} type={packageData.type} limit={4} />
+      <SubscribeSection />
+      <Footer />
     </>
   );
 };

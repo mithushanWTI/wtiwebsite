@@ -8,13 +8,23 @@ const ContactForm = () => {
     city: "",
     email: "",
     phone: "",
-    whatsapp: "",
+    
     destination: "",
     travelDate: "",
     people: "",
-    vacationType: "",
     packageType: "Inbound",
   });
+
+  const destinations = [
+    "SriLanka",
+    "Dubai",
+    "Singapore",
+    "Thailand",
+    "Bangkok",
+    "Seychelles",
+    "Malaysia",
+    "azerbaijan",
+  ]; 
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -24,8 +34,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     try {
-      // Send the form data to your backend (assuming it's running on localhost:5000)
-      const response = await fetch("http://localhost:5001/send-email", { // Replace with your backend endpoint
+      const response = await fetch("http://localhost:5001/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -42,11 +51,10 @@ const ContactForm = () => {
           city: "",
           email: "",
           phone: "",
-          whatsapp: "",
+          
           destination: "",
           travelDate: "",
           people: "",
-          vacationType: "",
           packageType: "Inbound",
         });
       } else {
@@ -79,14 +87,21 @@ const ContactForm = () => {
             className="w-full max-w-sm mx-auto border border-gray-400 rounded-md p-2"
             onChange={handleChange}
           />
-          <input
-            type="text"
+          
+          {/* Destination Dropdown */}
+          <select
             name="destination"
-            placeholder="Travel Destination *"
             required
             className="w-full max-w-sm mx-auto border border-gray-400 rounded-md p-2"
             onChange={handleChange}
-          />
+            value={formData.destination}
+          >
+            <option value="" disabled>Select Travel Destination *</option>
+            {destinations.map((dest, index) => (
+              <option key={index} value={dest}>{dest}</option>
+            ))}
+          </select>
+
           <input
             type="text"
             name="city"
@@ -138,33 +153,16 @@ const ContactForm = () => {
               onChange={handleChange}
             />
           </div>
-          <div className="relative w-full max-w-sm mx-auto">
-            <span className="absolute left-3 top-3 text-green-500 "><BsWhatsapp/></span>
-            <input
-              type="tel"
-              name="whatsapp"
-              placeholder="WhatsApp"
-              className="w-full border border-gray-400 rounded-md p-2 pl-10"
-              onChange={handleChange}
-            />
-          </div>
-          <input
-            type="text"
-            name="vacationType"
-            placeholder="Vacation Type *"
-            required
-            className="w-full max-w-sm mx-auto border border-gray-400 rounded-md p-2"
-            onChange={handleChange}
-          />
+         
+          
           <select
             name="packageType"
             className="w-full max-w-sm mx-auto border border-gray-400 rounded-md p-2 mr-2"
             required
             onChange={handleChange}
+            value={formData.packageType}
           >
-            <option value="" disabled selected>
-              Select Package Type
-            </option>
+            <option value="" disabled>Select Package Type</option>
             <option value="Inbound">Inbound</option>
             <option value="Outbound">Outbound</option>
           </select>

@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Montez&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
 @import "tailwindcss";
 
+
+
 @keyframes zoomInOut {
   0%, 100% {
     transform: scale(1);

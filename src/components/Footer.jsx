@@ -55,12 +55,13 @@ const Footer = () => {
           {/* Tour Type */}
           <div className="flex flex-col items-center text-center md:text-left md:items-start">
             <h4 className="font-bold mb-2">Destinations</h4>
-            <ul className="space-y-2 text-m">
+            <ul className="space-y-1 text-m">
               <li><a href="/inbound" className='text-white hover:text-red-600'>Sri Lanka</a></li>
               <li><a href="/outbound" className='text-white hover:text-red-600'>Dubai</a></li>
               <li><a href="/outbound" className='text-white hover:text-red-600'>Malaysia</a></li>
               <li><a href="/outbound" className='text-white hover:text-red-600'>Singapore</a></li>
               <li><a href="/outbound" className='text-white hover:text-red-600'>Thailand</a></li>
+              <li><a href="/outbound" className='text-white hover:text-red-600'>Seychelles</a></li>
             </ul>
           </div>
 
@@ -69,7 +70,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-2">CONTACT US</h4>
             <ul className="space-y-2 text-sm">
               <p className="text-sm">📞 +94777377956</p>
-              <p className="text-sm">✉ info@worldtravelisland.com</p>
+              <p className="text-sm">✉ hello@worldtravelisland.com</p>
               <p className="text-sm">📍 03 1/1, Thimbirigasyaya Road,<br/> Colombo, Sri Lanka</p>
             </ul>
           </div>
