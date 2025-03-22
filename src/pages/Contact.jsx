@@ -78,7 +78,7 @@ const ContactPage = () => {
         className="mb-[px] mt-[-15px] w-30"
       />
       <h3 className="text-lg font-bold text-red-500">AVAILABLE HOURS</h3>
-      <p className="text-gray-600 mt-2">WeekDays –– 08:00 – 17:00<br />Saturday -- 08:00 – 13:00</p>
+      <p className="text-gray-600 mt-2">WeekDays –– 08:30 – 17:00<br />Saturday -- 08:30 – 13:00</p>
     </div>
 
   </div>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const dubai = '/assets/dubai.jpg';
 const srilanka = '/assets/sigiriya.webp';
 const seychelles = '/assets/seychelles.jpg';
@@ -7,13 +9,13 @@ const dubai2 = '/assets/dubai2.png';
 
 export default function TopDestinations() {
     const destinations = [
-        { name: "DUBAI", image: dubai2, places: "5 Places" },
-        { name: "SRILANKA", image: srilanka, places: "5 Places" },
-        { name: "THAILAND", image: bangkok, places: "5 Places" },
-        { name: "SEYCHELLES", image: seychelles, places: "5 Places" },
-        { name: "BANGKOK", image: thailand, places: "5 Places" },
-        { name: "DUBAI", image: dubai, places: "5 Places" },
-    ];
+        { name: "DUBAI", image: dubai2, places: "5 Places", link: "/outbound" },
+        { name: "SRILANKA", image: srilanka, places: "5 Places", link: "/inbound" },
+        { name: "THAILAND", image: bangkok, places: "5 Places", link: "/outbound" },
+        { name: "SEYCHELLES", image: seychelles, places: "5 Places", link: "/outbound" },
+        { name: "BANGKOK", image: thailand, places: "5 Places", link: "/outbound" },
+        { name: "DUBAI", image: dubai, places: "5 Places", link: "/outbound" },
+      ];
 
     return (
         <section className="py-12 px-4 md:px-20">
@@ -30,6 +32,9 @@ export default function TopDestinations() {
             {/* Grid Layout */}
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
                 {destinations.map((destination, index) => (
+                      <Link to={destination.link} key={index}className={`relative group h-60 w-full transition duration-300 rounded-lg
+                        ${index % 3 === 0 ? "xl:col-span-2 xl:row-span-1" : "xl:col-span-1"}
+                    `}>
                     <div
                         key={index}
                         className={`relative group h-60 w-full transition duration-300 rounded-lg
@@ -54,7 +59,9 @@ export default function TopDestinations() {
                             </p>
                         </div>
                     </div>
+                    </Link>
                 ))}
+                
             </div>
         </section>
     );

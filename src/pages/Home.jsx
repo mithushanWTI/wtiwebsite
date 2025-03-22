@@ -17,7 +17,9 @@ const Home = () => {
       <HeroSection/>
       <TopDestinations/>
       <PopularInboundPackages/>
+      <img src="/assets/path.png" alt="path" />
       <PopularOutboundPackages/>
+      <img src="/assets/path.png" alt="path" />
       <TravelServices/>
       <FAQSection/>
       <WhyWTI/>

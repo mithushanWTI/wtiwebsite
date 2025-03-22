@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Corporate from "./pages/Corporate";
 import AboutUs from "./pages/AboutUs";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/corporate" element={<Corporate/>} />
         <Route path="/services" element={<Services/>} />
       </Routes>
+      <WhatsAppButton/>
     </Router>
   );
 };
