@@ -5,10 +5,15 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const toggleServicesDropdown = () => {
+    setIsServicesDropdownOpen(!isServicesDropdownOpen);
   };
 
   return (
@@ -34,8 +39,31 @@ const Header = () => {
         {/* Navigation Links for Desktop & Tablet */}
         <nav className="hidden lg:flex space-x-6 font-medium">
           <a href="/" className="hover:text-red-500">HOME</a>
-          <a href="/services" className="hover:text-red-500">OUR SERVICES</a>
+          
+          {/* Our Services Dropdown */}
+          <div className="relative">
+            <button
+              className="flex items-center space-x-1 hover:text-red-500"
+              onClick={toggleServicesDropdown}
+            >
+              <span>OUR SERVICES</span>
+              <FaChevronDown />
+            </button>
 
+            {isServicesDropdownOpen && (
+              <div
+                className="absolute left-0 mt-2 w-45 bg-white shadow-md rounded-md"
+                onMouseLeave={() => setIsServicesDropdownOpen(false)}
+              >
+                <a href="/AirTickets" className="block px-3 py-2 hover:bg-red-400" onClick={toggleServicesDropdown}>AIR TICKETS</a>
+                <a href="/VisaServices" className="block px-3 py-2 hover:bg-red-400" onClick={toggleServicesDropdown}>VISA SERVICES</a>
+                <a href="/inbound" className="block px-3 py-2 hover:bg-red-400" onClick={toggleServicesDropdown}>EXPERIENCE SRILANKA</a>
+                <a href="/outbound" className="block px-3 py-2 hover:bg-red-400" onClick={toggleServicesDropdown}>GLOBAL TOUR HOLIDAYS</a>
+                <a href="/micetours" className="block px-3 py-2 hover:bg-red-400" onClick={toggleServicesDropdown}>MICE TOURS</a>
+              </div>
+            )}
+          </div>
+          
           {/* Holiday Tours Dropdown */}
           <div className="relative">
             <button
@@ -57,9 +85,8 @@ const Header = () => {
             )}
           </div>
 
-          
           <a href="/corporate" className="hover:text-red-500">CORPORATE</a>
-          <a href="/blog" className="hover:text-red-500">BLOG</a>
+          <a href="/blog" className="hover:text-red-500">BLOG & MEDIA</a>
           <a href="/contactus" className="hover:text-red-500">CONTACT US</a>
         </nav>
 

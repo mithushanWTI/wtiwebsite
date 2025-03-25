@@ -1,6 +1,9 @@
 import React from 'react'
 import Header from '../components/Header'
 import heroImage from '/assets/thailand.jpg';
+import BlogCard from '../components/BlogCard';
+import Footer from '../components/Footer';
+import SubscribeSection from '../components/Subscription';
 
 
 const Blog = () => {
@@ -24,6 +27,12 @@ const Blog = () => {
   </div>
 </section>
 
+<section>
+  <BlogCard/>
+</section>
+
+<SubscribeSection/>
+<Footer/>
     </div>
   )
 }
