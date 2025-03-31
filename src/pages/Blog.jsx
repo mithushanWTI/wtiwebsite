@@ -22,8 +22,7 @@ const Blog = () => {
 
   {/* Content */}
   <div className="relative p-6 text-center rounded-lg">
-    <h2 className="text-2xl md:text-3xl font-light font-montez">Your Journey Starts Here</h2>
-    <h1 className="text-4xl md:text-8xl font-bold mt-2">BLOG</h1>
+    <h1 className="text-4xl md:text-8xl font-bold mt-2">BLOG & MEDIA</h1>
   </div>
 </section>
 

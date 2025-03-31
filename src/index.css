@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Montez&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
 @import "tailwindcss";
 
@@ -14,10 +15,14 @@
 }
 
 .zoom-animation {
-  animation: zoomInOut 6s ease-in-out infinite;
+  animation: zoomInOut 10s ease-in-out infinite;
 }
 
   
   .font-montez {
     font-family: 'Montez', cursive;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
   }

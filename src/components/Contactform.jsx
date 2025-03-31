@@ -8,23 +8,24 @@ const ContactForm = () => {
     city: "",
     email: "",
     phone: "",
-    
+    whatsapp: "", // Added whatsapp field
     destination: "",
     travelDate: "",
     people: "",
     packageType: "Inbound",
+    comments: "", // Added comments field
   });
 
   const destinations = [
-    "SriLanka",
+    "Sri Lanka",
     "Dubai",
     "Singapore",
     "Thailand",
     "Bangkok",
     "Seychelles",
     "Malaysia",
-    "azerbaijan",
-  ]; 
+    "Azerbaijan",
+  ];
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -51,11 +52,12 @@ const ContactForm = () => {
           city: "",
           email: "",
           phone: "",
-          
+          whatsapp: "",
           destination: "",
           travelDate: "",
           people: "",
           packageType: "Inbound",
+          comments: "",
         });
       } else {
         alert("Failed to send form. Please try again.");
@@ -87,7 +89,7 @@ const ContactForm = () => {
             className="w-full max-w-sm mx-auto border border-gray-400 rounded-md p-2"
             onChange={handleChange}
           />
-          
+
           {/* Destination Dropdown */}
           <select
             name="destination"
@@ -153,19 +155,41 @@ const ContactForm = () => {
               onChange={handleChange}
             />
           </div>
-         
-          
+          <div className="relative w-full max-w-sm mx-auto">
+            <span className="absolute left-3 top-2">📞</span>
+            <input
+              type="tel"
+              name="whatsapp"
+              placeholder="WhatsApp Number"
+              required
+              className="w-full border border-gray-400 rounded-md p-2 pl-10"
+              onChange={handleChange}
+            />
+          </div>
+
           <select
             name="packageType"
             className="w-full max-w-sm mx-auto border border-gray-400 rounded-md p-2 mr-2"
             required
             onChange={handleChange}
             value={formData.packageType}
+            
           >
-            <option value="" disabled>Select Package Type</option>
-            <option value="Inbound">Inbound</option>
+            <option value="" disabled>Select Service Type</option>
+            <option onMouseOver={(e) => (e.target.style.backgroundColor = 'red')}
+    onMouseOut={(e) => (e.target.style.backgroundColor = 'white')}
+    style={{ transition: 'background-color 0.3s ease' }} value="Inbound">Inbound</option>
             <option value="Outbound">Outbound</option>
+            <option value="Air Tickets">Air Tickets</option>
+            <option value="Visa Services">Visa Services</option>
+            <option value="MIce Tours">Mice Tours</option>
           </select>
+          <textarea
+            name="comments"
+            placeholder="Any Comments"
+            className="w-full mx-auto border border-gray-400 rounded-md p-2"
+            onChange={handleChange}
+          />
         </div>
         <button
           type="submit"

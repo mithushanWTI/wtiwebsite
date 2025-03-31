@@ -112,7 +112,7 @@ const PackagesList = ({ searchQuery, type, limit }) => {
 
               <div className="flex justify-between items-center">
 
-                <h3 className="text-md font-bold">{pkg.name}</h3>
+                <h3 className="text-md font-bold text-[14px]">{pkg.name}</h3>
 
                 {/* Star Ratings */}
 
@@ -158,7 +158,7 @@ const PackagesList = ({ searchQuery, type, limit }) => {
 
                 <button className="bg-red-500 text-white text-sm px-4 py-2 rounded-lg font-semibold hover:bg-red-600 transition">
 
-                  BOOK NOW →
+                  BOOK NOW
 
                 </button>
 
@@ -166,7 +166,7 @@ const PackagesList = ({ searchQuery, type, limit }) => {
 
                   <p className="text-gray-600 text-sm">Starting From</p>
 
-                  <span className="text-red-500 font-bold">{pkg.price} </span>
+                  <span className="text-red-500 font-bold text-sm">{pkg.price} </span>
 
                 </div>
 

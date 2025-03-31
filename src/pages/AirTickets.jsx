@@ -19,13 +19,16 @@ const AirTickets = () => {
       ];
 
       const airlines = [
-        "/assets/WTI-LogoWEBBB.webp",
-        "/assets/WTI-LogoWEBBB.webp",
-        "/assets/WTI-LogoWEBBB.webp",
-        "/assets/WTI-LogoWEBBB.webp",
-        "/assets/WTI-LogoWEBBB.webp",
-        "/assets/WTI-LogoWEBBB.webp",
-        "/assets/WTI-LogoWEBBB.webp",
+        "/assets/airlines/fits.jfif",
+        "/assets/airlines/emirates.png",
+        "/assets/airlines/logo.png",
+        "/assets/airlines/logolot.png",
+        "/assets/airlines/uk.jpeg",
+        "/assets/airlines/ca.png",
+        "/assets/airlines/qatar.png",
+        "/assets/airlines/slair.png",
+      
+        
        
       ];
     
@@ -136,10 +139,10 @@ const AirTickets = () => {
 {/* AIRLINES */}
     <section className="py-12 bg-white">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">Airlines We Work With</h2>
+        <h2 className="text-3xl font-bold text-gray-800 mb-6"><span className="text-red-500">Airlines</span> We Work With</h2>
         <p className='text-justify md:text-center'>We are partnered with the world’s leading airlines and with our technology you can book 275
         Airlines with WTI.</p>
-        <h3 className="text-xl font-bold text-left text-gray-800 mb-6 mt-8">Key Airlines our Customers Booking this month</h3>
+        <h3 className="text-xl font-bold text-gray-800 mb-6 mt-8">Key Airlines our Customers Booking this month</h3>
         <Slider {...settings} className="overflow-hidden ">
           {airlines.map((logo, index) => (
             <div key={index} className="px-4 mt-4">
@@ -151,19 +154,12 @@ const AirTickets = () => {
     </section>
 
 
-    <section className="py-12 bg-gray-100">
+    <section className="py-12 bg-black text-white">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">Top Destinations</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-          {destinations.map((dest, index) => (
-            <div key={index} className="relative">
-              <img src={dest.image} alt={dest.city} className="rounded-lg shadow-md h-40 w-full object-cover" />
-              <div className="absolute bottom-0 bg-black bg-opacity-50 text-white text-lg font-bold w-full p-2">
-                {dest.city}
-              </div>
-            </div>
-          ))}
-        </div>
+        <h2 className="text-3xl font-bold  mb-6"><span className="text-red-500">Destinations</span> We Cover..!</h2>
+        <p className='text-xl'>WTI provides flight booking services for over 9000 destinations..<br/> including:
+🌍 Dubai, Chennai, London, Delhi, Paris, New York, Singapore, Ohio, Sydney, Male, Cairo,
+Riyard, Colombo, and more.</p>
       </div>
     </section>
 

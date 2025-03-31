@@ -21,32 +21,29 @@ export default function WhyWTI() {
 
 const features = [
   {
-    title: "Security Assurance",
-    description:
-      "Demonstrates commitment to user data security through encryption and secure payment practices.",
+    "title": "Comprehensive Travel Solutions",
+    "description": "We provide air tickets for 275+ airlines, visa services, holiday packages, MICE travel support, Destination wedding tours, Charter flight services and corporate travel, all under one roof."
   },
   {
-    title: "Customer Support",
-    description:
-      "Dedicated support to assist you with any travel inquiries and ensure smooth booking experiences.",
+    "title": "Tech-Driven Innovation",
+    "description": "WTI is at the forefront of travel technology, offering seamless booking experiences through digital solutions."
   },
   {
-    title: "Transparent Policies",
-    description: "Clear and concise policies to maintain trust and reliability for all our users.",
+    "title": "Strong Global Network",
+    "description": "We work with top airlines, hotels, and travel partners worldwide, securing the best deals for our customers."
   },
   {
-    title: "Reputable Affiliations",
-    description:
-      "Partnered with top-tier service providers to ensure quality and credibility in travel experiences.",
+    "title": "Exceptional Customer Service",
+    "description": "Our dedicated team provides 24/7 support, ensuring a hassle-free travel experience."
   },
   {
-    title: "Flexible Cancellations",
-    description: "Easy modification and cancellation policies for a hassle-free booking experience.",
+    "title": "Exclusive Offers & Competitive Pricing",
+    "description": "We offer special promotions, discounted fares, and customized travel solutions."
   },
   {
-    title: "Best Price Guarantee",
-    description: "Ensuring you get the best deals and value for your money on all bookings.",
-  },
+    "title": "Proven Industry Expertise",
+    "description": "With 5+ years of experience in the travel industry, we are a trusted name in travel management."
+  }
 ];
 
 function FeatureCard({ title, description }) {
@@ -60,9 +57,9 @@ function FeatureCard({ title, description }) {
       </div>
       
       <p className="text-gray-600 text-sm mt-2">{description}</p>
-      <a href="#" className="text-red-500 text-sm font-semibold mt-3 inline-block">
+      {/* <a href="#" className="text-red-500 text-sm font-semibold mt-3 inline-block">
         Learn More &rarr;
-      </a>
+      </a> */}
     </div>
   );
 }

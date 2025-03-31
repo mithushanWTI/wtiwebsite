@@ -9,6 +9,8 @@ import FAQSection from '../components/FAQ'
 import WhyWTI from '../components/WhyWTI'
 import SubscribeSection from '../components/Subscription'
 import Footer from '../components/Footer'
+import PopularPrimePackages from '../components/PopularPrimePackages'
+import PopularComboPackages from '../components/PopularComboPackages'
 
 const Home = () => {
   return (
@@ -20,7 +22,10 @@ const Home = () => {
       <img src="/assets/path.png" alt="path" />
       <PopularOutboundPackages/>
       <img src="/assets/path.png" alt="path" />
-      <TravelServices/>
+      <PopularPrimePackages/>
+      <img src="/assets/path.png" alt="path" />
+      <PopularComboPackages/>
+      {/* <TravelServices/> */}
       <FAQSection/>
       <WhyWTI/>
       <SubscribeSection/>

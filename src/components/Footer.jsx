@@ -25,7 +25,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/worldtravelisland/" className="p-2 border border-gray-300 rounded-full text-gray-300 hover:text-blue-500 hover:border-blue-500">
               <FaFacebookF size={20} />
             </a>
-            <a href="https://www.instagram.com/world_travel_island/" className="p-2 border border-gray-300 rounded-full text-gray-300 hover:text-pink-500 hover:border-pink-500">
+            <a href="https://www.instagram.com/wti_srilanka/" className="p-2 border border-gray-300 rounded-full text-gray-300 hover:text-pink-500 hover:border-pink-500">
               <FaInstagram size={20} />
             </a>
             <a href="https://www.linkedin.com/company/world-travel-island/" className="p-2 border border-gray-300 rounded-full text-gray-300 hover:text-blue-700 hover:border-blue-700">
@@ -62,6 +62,7 @@ const Footer = () => {
               <li><a href="/outbound" className='text-white hover:text-red-600'>Singapore</a></li>
               <li><a href="/outbound" className='text-white hover:text-red-600'>Thailand</a></li>
               <li><a href="/outbound" className='text-white hover:text-red-600'>Seychelles</a></li>
+              <li><a href="/outbound" className='text-white hover:text-red-600'>Azerbaijan</a></li>
             </ul>
           </div>
 
@@ -71,15 +72,15 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <p className="text-sm">📞 +94777377956</p>
               <p className="text-sm">✉ hello@worldtravelisland.com</p>
-              <p className="text-sm">📍 03 1/1, Thimbirigasyaya Road,<br /> Colombo, Sri Lanka</p>
+              <p className="text-sm">📍 321-4/1, 4th Floor Galle road,<br />Colombo 03</p>
             </ul>
           </div>
 
           {/* logos */}
           <div className='flex justify-center md:flex-col'>
-            <img src={logo} alt="World Travel Island" className="w-16 h-16" />
-            <img src={logo} alt="World Travel Island" className="w-16 h-16" />
-            <img src={logo} alt="World Travel Island" className="w-16 h-16" />
+            <img src='/assets/iata.png' alt="World Travel Island" className="w-20 h-16" />
+            <img src='/assets/civil.png' alt="World Travel Island" className="w-20 h-16" />
+           
           </div>
         </div>
       </div>

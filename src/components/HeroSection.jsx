@@ -53,7 +53,7 @@ const HeroSection = () => {
       slidesPerView={1}
       loop={true}
       autoplay={{
-        delay: 4000, // Slide duration (4s)
+        delay: 7000, // Slide duration (4s)
         disableOnInteraction: false,
       }}
       pagination={{

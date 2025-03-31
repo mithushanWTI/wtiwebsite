@@ -670,10 +670,14 @@
     ],
     "type": "inbound"
   },
+
+
+
+  
   {
     "id": 8,
     "name": "Stunning Dubai",
-    "destination": "DUBAI",
+    "destination": "Dubai",
     "image": "/assets/dubai2.png",
     "images": ["/assets/dubai2.png","/assets/dubai.jpg"],
     "duration": "4Nights 5Days",
@@ -682,52 +686,61 @@
     "guide": "2 Guides",
     "people": "Min 2 ",
     "rating": 5,
-    "description": "🚢 Dubai Marina Dhow Cruise:\n✔️ Experience the magic of Dubai Marina with a traditional Dhow Cruise. Sail through stunning skyline views, enjoy a delicious buffet dinner, and witness live entertainment on a relaxing evening journey. A perfect blend of luxury and Arabian heritage.\n\n🏜️ Dubai Desert Safari with BBQ Dinner:\n✔️ Embark on an unforgettable Dubai Desert Safari, where adventure meets Arabian culture. Enjoy thrilling dune bashing, camel rides, mesmerizing sunsets, and a traditional Bedouin-style camp with BBQ dinner and live entertainment. A must-do experience in Dubai.\n\n🏙️ Half Day City tour in Dubai:\n✔️ Discover Dubai’s iconic landmarks on a Half-Day City Tour. Explore the stunning Burj Al Arab, Dubai Marina, Palm Jumeirah, and the historic Dubai Creek. A perfect blend of modern marvels and cultural heritage in just a few hours.\n\n🗼 Burj Kalifa:\n✔️ Experience stunning 360-degree views of Dubai from the Burj Khalifa Observation Deck. Located on the 124th and 125th floors, this iconic attraction offers breathtaking cityscapes, interactive displays, and a thrilling high-speed elevator ride.\n\n🌸 Miracle Garden:\n✔️ Dubai Miracle Garden, the world’s largest flower garden, showcases over 150 million flowers in stunning designs and vibrant displays. This breathtaking attraction offers a magical experience with unique themed gardens and record-breaking floral structures.\n\n🌟 Dubai Desert Safari with premium Dinner:\n✔️ Experience the thrill of a Dubai Desert Safari with a premium dinner under the stars. Enjoy exhilarating dune bashing, camel rides, and live entertainment, followed by a luxurious BBQ buffet with international and Arabian cuisine at a Bedouin-style camp.\n\n🚀 Museum of the future:\n✔️ The Museum of the Future in Dubai is a groundbreaking attraction showcasing innovative technologies and visionary ideas. Explore immersive exhibits that offer a glimpse into the future of science, sustainability, and human progress in a stunning architectural masterpiece.\n\n🕌 Abu Dhabi City Tour:\n✔️ Discover the rich culture and modern marvels of Abu Dhabi on a guided city tour. Visit iconic landmarks like the majestic Sheikh Zayed Grand Mosque, the luxurious Emirates Palace, and the cultural hub of Saadiyat Island, all while enjoying the city's stunning architecture and scenic views.\n\n🏎️ Ferrari World Abu Dhabi:\n✔️ Ferrari World Abu Dhabi is an adrenaline-pumping theme park featuring thrilling rides, world-class attractions, and the world’s fastest roller coaster. Experience the ultimate combination of speed, luxury, and excitement in this Ferrari-themed adventure park for all ages.\n\n🖼️ Louvre Abu Dhabi:\n✔️ Louvre Abu Dhabi is a stunning museum that blends art, culture, and history from around the world. With its impressive architecture and diverse collections, it offers visitors an unforgettable journey through time, showcasing masterpieces from various civilizations and artistic movements.",
+    "description": "Experience the vibrant charm of Dubai with a 4-night, 5-day tour, featuring luxurious 4-star hotel accommodation and return transfers, offering an unforgettable getaway.\n\n🚢 Dubai Marina Dhow Cruise:\n✔️ Experience the magic of Dubai Marina with a traditional Dhow Cruise. Sail through stunning skyline views, enjoy a delicious buffet dinner, and witness live entertainment on a relaxing evening journey. A perfect blend of luxury and Arabian heritage.\n\n🏜️ Dubai Desert Safari with BBQ Dinner:\n✔️ Embark on an unforgettable Dubai Desert Safari, where adventure meets Arabian culture. Enjoy thrilling dune bashing, camel rides, mesmerizing sunsets, and a traditional Bedouin-style camp with BBQ dinner and live entertainment. A must-do experience in Dubai.\n\n🏙️ Half Day City tour in Dubai:\n✔️ Discover Dubai’s iconic landmarks on a Half-Day City Tour. Explore the stunning Burj Al Arab, Dubai Marina, Palm Jumeirah, and the historic Dubai Creek. A perfect blend of modern marvels and cultural heritage in just a few hours.\n\n🗼 Burj Kalifa:\n✔️ Experience stunning 360-degree views of Dubai from the Burj Khalifa Observation Deck. Located on the 124th and 125th floors, this iconic attraction offers breathtaking cityscapes, interactive displays, and a thrilling high-speed elevator ride.\n\n🌸 Miracle Garden:\n✔️ Dubai Miracle Garden, the world’s largest flower garden, showcases over 150 million flowers in stunning designs and vibrant displays. This breathtaking attraction offers a magical experience with unique themed gardens and record-breaking floral structures.\n\n",
     "price": "$520 PP",
     "priceIncludes": [
-      "4N Hotel accommodation with BB",
-      "Return Transfers",
+      "4 Nights Hotel accomodation in 3* hotel with BB",
+      "Airport return transfers",
       "UAE visit visa",
-      "Marina Dhow Cruise Dinner",
-      "Dersert Safari with BBQ Dinner",
-      "Half day City tour + Burj Kalifa Visit 124th Floor (Non prime hrs)",
-      "Miracle Garden"
+      "Half Day City Tour + Burj Kalifa Visit 124th Floor (Non-prime hrs.)",
+      "Miracle Garden + Evening Marina Dhow Cruise with Dinner",
+      "Dessert Safari with BBQ Dinner"
     ],
     "priceExcludes": [
-      "Meals and Services which are not mentioned above",
-      "Tourism Dirham Fees",
-      "All activities/services not mentioned in the itinerary",
-      "Personal expenses"
+      "Any expenses of a personal nature, tips and porterage",
+      "Any other services not specified in the “Price Include”.",
+      "Air Tickets charges",
+      "Cost of beverage throughout the tour",
+      "Travel Insurance"
     ],
      "CancellationPolicy": [
-      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
-      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
-      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
-      "Cancellation above 21 days prior to arrival – No Fees."
+      "The rates we have provided align with the current exchange rate (as of the confirmation date) set by the Central Bank of Sri Lanka. The payment will be calculated based on the exchange rate applicable on the date of payment.",
+      "Kindly be notified that any additional costs, such as date change penalties, non-refundable ticket costs, accommodation expenses, transportation costs, or any losses due to meeting cancellations incurred for any of the above reasons, will be borne by the client.",
+      "All airline and hotel date changes, cancellations, and other modifications will be subject to the respective airline and hotel policies.",
+      "Please note that the quoted air ticket prices are subject to change without prior notice. Prices can only be guaranteed upon confirmed purchase, subject to seat availability at the time of booking.",
+      "Hotels :Early check-in and late check-out are subject to availability.",
+      "There may be surcharges and supplements applicable during any season of the year, with prior notification and subject to demand.",
+      "Visa:The visa cost is non-refundable.",
+      "Tour CostCancellations made more than 45 days in advance are subject to a 25% charge will apply",
+      "Cancellations made between 45 and 30 days before the tour date, a 50% charge will apply"
     ],
     "itinerary": [
       {
-        "title": "Arrival in Ella",
-        "description": "Arrive at the airport and transfer to your hotel."
+        "title": "Arrival in Dubai & Marina Dhow Cruise",
+        "description": "Arrival at Dubai Airport, transfer to hotel, and evening Marina Dhow Cruise with Dinner."
       },
       {
-        "title": "Hiking & Caving",
-        "description": "Explore Ravana Cave and hike to Ella Rock."
+        "title": "Dubai City Tour & Burj Khalifa",
+        "description": "Half Day Dubai City Tour, late drop to Dubai Mall, Burj Khalifa (124th Floor, Non-prime hrs.), and Fountain Show."
       },
       {
-        "title": "Adventure Activities",
-        "description": "Try ziplining, abseiling, and jungle trekking."
+        "title": "Miracle Garden & Marina Dhow Cruise",
+        "description": "Visit Miracle Garden in the morning and enjoy another Marina Dhow Cruise with Dinner in the evening."
+      },
+      {
+        "title": "Desert Safari with BBQ Dinner",
+        "description": "Afternoon Desert Safari with BBQ Dinner."
       },
       {
         "title": "Departure",
-        "description": "Check out from the hotel and transfer to the airport."
+        "description": "Enjoy breakfast at the hotel, then transfer to the airport for your return flight."
       }
     ],
     "type": "outbound"
   },
   {
     "id": 9,
-    "name": "Pattya & Bangkok",
+    "name": "Pattaya & Bangkok",
     "destination": "Thailand",
     "image": "/assets/bangkok.webp",
     "images": ["/assets/bangkok.webp","/assets/bangkok.webp"],
@@ -737,11 +750,11 @@
     "guide": "2 Guides",
     "people": "Min 2 ",
     "rating": 5,
-    "description": "🏝️ Coral Island Tour With Lunch By Speedboat:\n✔️ Embark on a thrilling Coral Island Tour by speedboat and discover the beauty of pristine beaches and vibrant marine life. Enjoy a relaxing day of snorkeling, swimming, and exploring, followed by a delicious lunch on the island for a perfect tropical escape.\n\n🚢 Chao Phraya Princess Dinner Cruise:\n✔️ Savor a delightful evening on the Chao Phraya Princess Dinner Cruise, where you can enjoy a delicious buffet dinner while cruising along the iconic Chao Phraya River. Take in stunning views of Bangkok’s skyline and landmarks, all while enjoying live entertainment and a memorable dining experience.\n\n🎢 Dream World and Snow Town with Lunch:\n✔️ Experience the magic of Dream World and Snow Town with a fun-filled day of adventure! Enjoy thrilling rides, explore Snow Town's icy wonders, and indulge in a delicious lunch, all in one exciting package for the whole family.\n\n🏛️ Bangkok City Tour:\n✔️ Embark on a captivating Bangkok city tour and discover the rich culture, history, and vibrant energy of Thailand's capital. Visit iconic landmarks such as the Grand Palace, Wat Pho, and the Emerald Buddha Temple, and explore bustling markets, vibrant streets, and picturesque river views. This guided tour offers a perfect blend of traditional and modern experiences, making it an unforgettable journey through one of Asia’s most dynamic cities.",
+    "description": "3 nights in Pattaya and 3 nights in Bangkok! Begin in Pattaya, where you can unwind on its beautiful beaches and visit the vibrant Walking Street, buzzing with nightlife.\n\n🏝️ Coral Island Tour With Lunch By Speedboat:\n✔️ Embark on a thrilling Coral Island Tour by speedboat and discover the beauty of pristine beaches and vibrant marine life. Enjoy a relaxing day of snorkeling, swimming, and exploring, followed by a delicious lunch on the island for a perfect tropical escape.\n\n🚢 Chao Phraya Princess Dinner Cruise:\n✔️ Savor a delightful evening on the Chao Phraya Princess Dinner Cruise, where you can enjoy a delicious buffet dinner while cruising along the iconic Chao Phraya River. Take in stunning views of Bangkok’s skyline and landmarks, all while enjoying live entertainment and a memorable dining experience.\n\n🎢 Dream World and Snow Town with Lunch:\n✔️ Experience the magic of Dream World and Snow Town with a fun-filled day of adventure! Enjoy thrilling rides, explore Snow Town's icy wonders, and indulge in a delicious lunch, all in one exciting package for the whole family.\n\n",
     "price": "$380 PP",
     "priceIncludes": [
-      "6Nights at above Hotel",
-      "Daily Breakfast at Hotel",
+      "3N 3* Hotel accommodation with BB Bangkok",
+      "3N 3* Hotel accommodation with BB in Pattaya",
       "Arrival & Departure transfers",
       "Coral Island Tour With Lunch By Speedboat",
       "Chao Phraya Princess Dinner Cruise",
@@ -750,30 +763,47 @@
       "Departure"
     ],
     "priceExcludes": [
-      "Meals and Services which are not mentioned above",
-      "All activities/services not mentioned in the itinerary",
-      "Air Tickets",
-      "Personal expenses"
+      "Any expenses of a personal nature, tips and porterage",
+      "Any other services not specified in the “Price Include”.",
+      "Air Tickets charges",
+      "Cost of beverage throughout the tour",
+      "Travel Insurance"
     ],
      "CancellationPolicy": [
-      
+      "The rates we have provided align with the current exchange rate (as of the confirmation date) set by the Central Bank of Sri Lanka. The payment will be calculated based on the exchange rate applicable on the date of payment.",
+      "Kindly be notified that any additional costs, such as date change penalties, non-refundable ticket costs, accommodation expenses, transportation costs, or any losses due to meeting cancellations incurred for any of the above reasons, will be borne by the client.",
+      "All airline and hotel date changes, cancellations, and other modifications will be subject to the respective airline and hotel policies.",
+      "Please note that the quoted air ticket prices are subject to change without prior notice. Prices can only be guaranteed upon confirmed purchase, subject to seat availability at the time of booking.",
+      "Hotels :Early check-in and late check-out are subject to availability.",
+      "There may be surcharges and supplements applicable during any season of the year, with prior notification and subject to demand.",
+      "Visa:The visa cost is non-refundable.",
+      "Tour CostCancellations made more than 45 days in advance are subject to a 25% charge will apply",
+      "Cancellations made between 45 and 30 days before the tour date, a 50% charge will apply"
     ],
     "itinerary": [
       {
-        "title": "Arrival in Ella",
-        "description": "Arrive at the airport and transfer to your hotel."
+        "title": "Arrival in Bangkok & Transfer to Pattaya",
+        "description": "Arrival at Bangkok Airport and transfer to Pattaya hotel Overnight stay at Pattaya hotel"
       },
       {
-        "title": "Nature Walk & Bird Watching",
-        "description": "Explore hidden nature trails and spot exotic birds."
+        "title": "Coral Island Tour",
+        "description": "Coral Island Tour with Lunch by Speedboat Pick up from hotel experience the tour and return to Pattaya hotel Overnight stay in Pattaya"
       },
       {
-        "title": "Camping & Bonfire",
-        "description": "Enjoy an overnight camping experience in the mountains."
+        "title": "Transfer to Bangkok & Chao Phraya Dinner Cruise",
+        "description": "Morning breakfast check out from Pattaya hotel transfer to Bangkok and enjoy the Chao Phraya Dinner Cruise Overnight stay in Bangkok"
+      },
+      {
+        "title": "Dreamworld & Snow Town",
+        "description": "Morning breakfast and experience Dreamworld & Snow Town Overnight stay at Bangkok hotel"
+      },
+      {
+        "title": "Bangkok Temple Tour",
+        "description": "Morning breakfast and experience the Marble Golden Buddha & Mini reclining Buddha Temple Overnight stay at Bangkok hotel"
       },
       {
         "title": "Departure",
-        "description": "Check out from the hotel and transfer to the airport."
+        "description": "Enjoy breakfast at the hotel transfer to the airport for your return flight"
       }
     ],
     "type": "outbound"
@@ -790,74 +820,84 @@
     "guide": "2 Guides",
     "people": "Min 2 ",
     "rating": 5,
-    "description": "🍫 Malaysia Chocolate Factory Visit:\n✔️ Offers a delightful experience for chocolate lovers! Explore the chocolate-making process, from cocoa beans to delicious treats, with guided tours and interactive demonstrations. Enjoy tasting sessions, learn about Malaysia’s rich chocolate heritage, and shop for premium handmade chocolates. A sweet adventure awaits—perfect for families, tourists, and chocolate enthusiasts!\n\n⛰️ Batu Caves:\n✔️ Explore this iconic limestone cave temple, home to the majestic golden statue of Lord Murugan and a stunning series of caves filled with rich history and cultural significance. Climb the 272 colorful steps to enjoy breathtaking views and discover ancient Hindu shrines.\n\n🎢 Sunway Lagoon:\n✔️ Sunway Lagoon Theme Park is Malaysia’s premier entertainment destination, offering over 90 attractions across six adventure zones, including Water Park, Amusement Park, Wildlife Park, Extreme Park, Scream Park, and Nickelodeon Lost Lagoon. Whether you're looking for thrilling rides, exciting water slides, or up-close animal encounters, Sunway Lagoon promises endless fun for visitors of all ages.\n\n🚠 Malaysia two way cable car rides:\n✔️ Experience breathtaking views with Malaysia’s iconic two-way cable car rides! Soar above lush rainforests, stunning mountains, and scenic landscapes as you travel to and from top attractions like Genting Highlands or Langkawi’s SkyCab. Enjoy a smooth, scenic ride with panoramic views, making it a must-visit adventure for nature lovers and thrill-seekers alike.\n\n🚠 Malaysia two way cable car rides (Langkawi):\n✔️ Experience the beauty of Langkawi from above with the Langkawi SkyCab, a thrilling two-way cable car ride. Soar over lush rainforests and rugged mountain peaks as you ascend to the breathtaking heights of Gunung Machinchang. Enjoy panoramic views of the Andaman Sea, surrounding islands, and even southern Thailand on clear days. A must-visit attraction for nature lovers and adventure seekers!",
+    "description": "Experience the magic of Malaysia in a 5-night, 6-days adventure filled with culture, nature, and modern attractions! 5Nights at above Hotel\n\n🍫 Malaysia Chocolate Factory Visit:\n✔️ Offers a delightful experience for chocolate lovers! Explore the chocolate-making process, from cocoa beans to delicious treats, with guided tours and interactive demonstrations. Enjoy tasting sessions, learn about Malaysia’s rich chocolate heritage, and shop for premium handmade chocolates. A sweet adventure awaits—perfect for families, tourists, and chocolate enthusiasts!\n\n⛰️ Batu Caves:\n✔️ Explore this iconic limestone cave temple, home to the majestic golden statue of Lord Murugan and a stunning series of caves filled with rich history and cultural significance. Climb the 272 colorful steps to enjoy breathtaking views and discover ancient Hindu shrines.\n\n🎢 Sunway Lagoon:\n✔️ Sunway Lagoon Theme Park is Malaysia’s premier entertainment destination, offering over 90 attractions across six adventure zones, including Water Park, Amusement Park, Wildlife Park, Extreme Park, Scream Park, and Nickelodeon Lost Lagoon. Whether you're looking for thrilling rides, exciting water slides, or up-close animal encounters, Sunway Lagoon promises endless fun for visitors of all ages.\n\n🚠 Malaysia two way cable car rides:\n✔️ Experience breathtaking views with Malaysia’s iconic two-way cable car rides! Soar above lush rainforests, stunning mountains, and scenic landscapes as you travel to and from top attractions like Genting Highlands or Langkawi’s SkyCab. Enjoy a smooth, scenic ride with panoramic views, making it a must-visit adventure for nature lovers and thrill-seekers alike.\n\n",
     "price": "$290 PP",
     "priceIncludes": [
-      "5Nights at above Hotel",
-      "Malaysia Visa",
-      "Daily Breakfast at Hotel",
-      "Arrival & Departure transfers",
-      "Chocolate Factory ",
-      "Batu Caves",
-      "Sunway Lagoon theme Park",
-      "Two way cable car rides",
-      "Departure"
+      "5 Nights Hotel accommodation in 3* or 4* hotel with BB",
+  "Malaysia Visa",
+  "Airport return transfers",
+  "Chocolate Factory Visit",
+  "Batu Caves",
+  "Sunway Lagoon theme Park",
+  "Genting Island with Two way cable Car"
     ],
     "priceExcludes": [
-      "Meals and Services which are not mentioned above",
-      "All activities/services not mentioned in the itinerary",
-      "Air Tickets",
-      "Lunch and Dinner",
-      "Personal expenses"
+      "Any expenses of a personal nature, tips and porterage",
+      "Any other services not specified in the “Price Include”.",
+      "Air Tickets charges",
+      "Cost of beverage throughout the tour",
+      "Travel Insurance"
     ],
      "CancellationPolicy": [
-      
+      "The rates we have provided align with the current exchange rate (as of the confirmation date) set by the Central Bank of Sri Lanka. The payment will be calculated based on the exchange rate applicable on the date of payment.",
+      "Kindly be notified that any additional costs, such as date change penalties, non-refundable ticket costs, accommodation expenses, transportation costs, or any losses due to meeting cancellations incurred for any of the above reasons, will be borne by the client.",
+      "All airline and hotel date changes, cancellations, and other modifications will be subject to the respective airline and hotel policies.",
+      "Please note that the quoted air ticket prices are subject to change without prior notice. Prices can only be guaranteed upon confirmed purchase, subject to seat availability at the time of booking.",
+      "Hotels :Early check-in and late check-out are subject to availability.",
+      "There may be surcharges and supplements applicable during any season of the year, with prior notification and subject to demand.",
+      "Visa:The visa cost is non-refundable.",
+      "Tour CostCancellations made more than 45 days in advance are subject to a 25% charge will apply",
+      "Cancellations made between 45 and 30 days before the tour date, a 50% charge will apply"
     ],
     "itinerary": [
       {
-        "title": "Arrival in Jaffna",
-        "description": "Arrive at the airport and transfer to your hotel."
+        "title": "Arrival & Kuala Lumpur Exploration",
+        "description": "Arrive in Malaysia and transfer to your hotel. Visit the famous Batu Caves. Explore a Chocolate Factory. Return to the hotel and relax."
       },
       {
-        "title": "Cultural & Heritage Tour",
-        "description": "Visit Nallur Temple and explore Jaffna Fort."
+        "title": "Batu Caves & City Highlights",
+        "description": "Visit the iconic Batu Caves, a must-see Hindu temple inside limestone caves."
       },
       {
-        "title": "Island Tour",
-        "description": "Take a boat ride to Nagadeepa and Delft Islands."
+        "title": "Sunway Lagoon Theme Park Adventure",
+        "description": "Spend the day at Sunway Lagoon Theme Park, enjoying thrilling rides and water attractions."
+      },
+      {
+        "title": "Cable Car & Island Exploration",
+        "description": "Cable car rides with stunning aerial views."
+      },
+      {
+        "title": "Leisure & Shopping",
+        "description": "Free day for shopping at Bukit Bintang, Pavilion Mall, or Central Market."
       },
       {
         "title": "Departure",
-        "description": "Check out from the hotel and transfer to the airport."
+        "description": "Enjoy breakfast at the hotel. Transfer to the airport for your return flight."
       }
     ],
     "type": "outbound"
   },
   {
     "id": 11,
-    "name": "Malaysia Burst",
+    "name": "Extreme Malaysia",
     "destination": "Malaysia ",
-    "image": "/assets/malaysia2.jpg",
-    "images": ["/assets/malaysia2.jpg","/assets/malaysia2.jpg"],
-    "duration": "3Nights 4Days",
+    "image": "/assets/batucave.jpg",
+    "images": ["/assets/batucave.jpg","/assets/malaysia.jpg"],
+    "duration": "4Nights 5Days",
     "tourtype": "FIT",
     "groupsize": "10 Members",
     "guide": "2 Guides",
     "people": "Min 2 ",
     "rating": 5,
-    "description": "🍫 Malaysia Chocolate Factory Visit:\n✔️ Offers a delightful experience for chocolate lovers! Explore the chocolate-making process, from cocoa beans to delicious treats, with guided tours and interactive demonstrations. Enjoy tasting sessions, learn about Malaysia’s rich chocolate heritage, and shop for premium handmade chocolates. A sweet adventure awaits—perfect for families, tourists, and chocolate enthusiasts!\n\n⛰️ Batu Caves:\n✔️ Explore this iconic limestone cave temple, home to the majestic golden statue of Lord Murugan and a stunning series of caves filled with rich history and cultural significance. Climb the 272 colorful steps to enjoy breathtaking views and discover ancient Hindu shrines.\n\n🎢 Sunway Lagoon:\n✔️ Sunway Lagoon Theme Park is Malaysia’s premier entertainment destination, offering over 90 attractions across six adventure zones, including Water Park, Amusement Park, Wildlife Park, Extreme Park, Scream Park, and Nickelodeon Lost Lagoon. Whether you're looking for thrilling rides, exciting water slides, or up-close animal encounters, Sunway Lagoon promises endless fun for visitors of all ages.\n\n🚠 Malaysia two-way cable car rides:\n✔️ Experience breathtaking views with Malaysia’s iconic two-way cable car rides! Soar above lush rainforests, stunning mountains, and scenic landscapes as you travel to and from top attractions like Genting Highlands or Langkawi’s SkyCab. Enjoy a smooth, scenic ride with panoramic views, making it a must-visit adventure for nature lovers and thrill-seekers alike.\n\n🚠 Malaysia two-way cable car rides (Langkawi):\n✔️ Experience the beauty of Langkawi from above with the Langkawi SkyCab, a thrilling two-way cable car ride. Soar over lush rainforests and rugged mountain peaks as you ascend to the breathtaking heights of Gunung Machinchang. Enjoy panoramic views of the Andaman Sea, surrounding islands, and even southern Thailand on clear days. A must-visit attraction for nature lovers and adventure seekers!",
-    "price": "$365 PP",
+    "description": "Experience the magic of Malaysia in a 4-night, 5-days adventure filled with culture, nature, and modern attractions!\n\n⛰️ Batu Caves:\n✔️ Explore this iconic limestone cave temple, home to the majestic golden statue of Lord Murugan and a stunning series of caves filled with rich history and cultural significance. Climb the 272 colorful steps to enjoy breathtaking views and discover ancient Hindu shrines.\n\n🎢 Sunway Lagoon:\n✔️ Sunway Lagoon Theme Park is Malaysia’s premier entertainment destination, offering over 90 attractions across six adventure zones, including Water Park, Amusement Park, Wildlife Park, Extreme Park, Scream Park, and Nickelodeon Lost Lagoon. Whether you're looking for thrilling rides, exciting water slides, or up-close animal encounters, Sunway Lagoon promises endless fun for visitors of all ages.\n\n",
+    "price": "$288 PP",
     "priceIncludes": [
-     "3Nights at above Hotel",
-      "Malaysia Visa",
-      "Daily Breakfast at Hotel",
-      "Arrival & Departure transfers",
-      "Chocolate Factory ",
-      "Batu Caves",
-      "Sunway Lagoon theme Park",
-      "Two way cable car rides(Langkawi )",
-      "Local Guide",
-      "Departure"
+      "4 Nights Hotel accommodation in 3* or 4* hotel with BB",
+  "Malaysia Visa",
+  "Airport return transfers",
+  "Genting tour with 2-way cable car rides + Batu caves",
+  "Sunway lagoon theme park",
+  "Skytropolis theme Park"
     ],
     "priceExcludes": [
       "Meals and Services which are not mentioned above",
@@ -867,24 +907,36 @@
       "Personal expenses"
     ],
      "CancellationPolicy": [
-      
+      "The rates we have provided align with the current exchange rate (as of the confirmation date) set by the Central Bank of Sri Lanka. The payment will be calculated based on the exchange rate applicable on the date of payment.",
+      "Kindly be notified that any additional costs, such as date change penalties, non-refundable ticket costs, accommodation expenses, transportation costs, or any losses due to meeting cancellations incurred for any of the above reasons, will be borne by the client.",
+      "All airline and hotel date changes, cancellations, and other modifications will be subject to the respective airline and hotel policies.",
+      "Please note that the quoted air ticket prices are subject to change without prior notice. Prices can only be guaranteed upon confirmed purchase, subject to seat availability at the time of booking.",
+      "Hotels :Early check-in and late check-out are subject to availability.",
+      "There may be surcharges and supplements applicable during any season of the year, with prior notification and subject to demand.",
+      "Visa:The visa cost is non-refundable.",
+      "Tour CostCancellations made more than 45 days in advance are subject to a 25% charge will apply",
+      "Cancellations made between 45 and 30 days before the tour date, a 50% charge will apply"
     ],
     "itinerary": [
       {
-        "title": "Arrival in Kandy",
-        "description": "Arrive at the airport and transfer to your hotel."
+        "title": "Arrival & Check-in",
+        "description": "Arrive at your destination and transfer to the hotel. Check-in and rest after your journey."
       },
       {
-        "title": "Temple & City Tour",
-        "description": "Visit the Temple of the Tooth and explore Kandy City."
+        "title": "Genting Highlands + Batu Caves",
+        "description": "Visit Batu Caves – explore the Hindu temple and limestone caves. Head to Genting Highlands via cable car (Skyway)."
       },
       {
-        "title": "Nature & Wildlife",
-        "description": "Visit Peradeniya Botanical Gardens and Udawattakele Forest Reserve."
+        "title": "Sunway Lagoon Theme Park",
+        "description": "Spend the full day at Sunway Lagoon, enjoying water slides, amusement rides, wildlife park, and adventure zones."
+      },
+      {
+        "title": "Skytropolis Indoor Theme Park",
+        "description": "Head to Skytropolis Theme Park in Genting for fun-filled rides and arcade games. Explore other attractions in Resorts World Genting (Ripley’s, SkyAvenue, or Snow World)."
       },
       {
         "title": "Departure",
-        "description": "Check out from the hotel and transfer to the airport."
+        "description": "Enjoy breakfast at the hotel. Transfer to the airport for your return flight."
       }
     ],
     "type": "outbound"
@@ -901,18 +953,15 @@
     "guide": "2 Guides",
     "people": "Min 2 ",
     "rating": 5,
-    "description": "🏝️ Sentosa Island with Cable car:\n✔️ Embark on an unforgettable adventure to Sentosa Island with a scenic cable car ride offering stunning views of Singapore’s skyline, beaches, and lush landscapes. Once on the island, explore top attractions like Universal Studios Singapore.\n\n🎆 Wings of Time:\n✔️ Wings of Time is a spectacular night show on Sentosa Island that combines mesmerizing visual effects, water displays, laser lights, and captivating music. Set against the backdrop of the open sea, this breathtaking performance tells a heartwarming story of adventure, friendship, and time.\n\n🛥️ Boat Ride:\n✔️ Experience Singapore from a unique perspective with a scenic boat ride along the Singapore River. Glide past iconic landmarks like the Marina Bay Sands, Merlion Park, and Clarke Quay, while soaking in the city's vibrant skyline and rich history. This leisurely boat tour offers a perfect way to explore the heart of Singapore’s waterfront and enjoy its stunning architecture.\n\n🎭 Madame Tussauds Singapore:\n✔️ Step into the world of fame and glamour at Madame Tussauds Singapore! Explore lifelike wax figures of global celebrities, historical icons, and pop culture stars. From movie legends to sports heroes, interact with your favorite personalities and snap unforgettable photos. A fun and immersive experience for visitors of all ages, Madame Tussauds offers a unique chance to get up close with the world’s most famous figures.\n\n🎢 Universal Studios Singapore:\n✔️ Universal Studios Singapore is a thrilling, world-class theme park located on Sentosa Island, offering exciting rides, live shows, and attractions based on your favorite movies and TV shows. From adrenaline-pumping roller coasters to family-friendly experiences, the park features iconic zones like Hollywood, Sci-Fi City, and The Lost World.",
+    "description": "Discover the best of Singapore in a 3-night, 4-day tour filled with iconic sights and unforgettable experiences!\n\n🏝️ Sentosa Island with Cable car:\n✔️ Embark on an unforgettable adventure to Sentosa Island with a scenic cable car ride offering stunning views of Singapore’s skyline, beaches, and lush landscapes. Once on the island, explore top attractions like Universal Studios Singapore.\n\n🎆 Wings of Time:\n✔️ Wings of Time is a spectacular night show on Sentosa Island that combines mesmerizing visual effects, water displays, laser lights, and captivating music. Set against the backdrop of the open sea, this breathtaking performance tells a heartwarming story of adventure, friendship, and time.\n\n🛥️ Boat Ride:\n✔️ Experience Singapore from a unique perspective with a scenic boat ride along the Singapore River. Glide past iconic landmarks like the Marina Bay Sands, Merlion Park, and Clarke Quay, while soaking in the city's vibrant skyline and rich history. This leisurely boat tour offers a perfect way to explore the heart of Singapore’s waterfront and enjoy its stunning architecture.\n\n🎭 Madame Tussauds Singapore:\n✔️ Step into the world of fame and glamour at Madame Tussauds Singapore! Explore lifelike wax figures of global celebrities, historical icons, and pop culture stars. From movie legends to sports heroes, interact with your favorite personalities and snap unforgettable photos. A fun and immersive experience for visitors of all ages, Madame Tussauds offers a unique chance to get up close with the world’s most famous figures.\n\n🎢 Universal Studios Singapore:\n✔️ Universal Studios Singapore is a thrilling, world-class theme park located on Sentosa Island, offering exciting rides, live shows, and attractions based on your favorite movies and TV shows. From adrenaline-pumping roller coasters to family-friendly experiences, the park features iconic zones like Hollywood, Sci-Fi City, and The Lost World.",
     "price": "$506 PP",
     "priceIncludes": [
-      "3Nights at above Hotel",
-"SIN City tour",
-"Sentosa with Cable car",
-"Wings of Tim", 
-"Boat Ride",
-"Madame Tussauds",
-"Universal Studios Singapore Entrance",
-"Arrival & Departure transfers",
-"Departure"
+      "3 Nights Hotel accommodation in 3* or 4* hotel with BB",
+      "Malaysia Visa",
+      "Airport return transfers",
+      "Sentosa with Cable car",
+      "Madame Tussauds",
+      "Universal Studios Singapore Entrance"
     ],
     "priceExcludes": [
       "Meals and Services which are not mentioned above",
@@ -922,24 +971,32 @@
       "Personal expenses"
     ],
      "CancellationPolicy": [
-      
+      "The rates we have provided align with the current exchange rate (as of the confirmation date) set by the Central Bank of Sri Lanka. The payment will be calculated based on the exchange rate applicable on the date of payment.",
+      "Kindly be notified that any additional costs, such as date change penalties, non-refundable ticket costs, accommodation expenses, transportation costs, or any losses due to meeting cancellations incurred for any of the above reasons, will be borne by the client.",
+      "All airline and hotel date changes, cancellations, and other modifications will be subject to the respective airline and hotel policies.",
+      "Please note that the quoted air ticket prices are subject to change without prior notice. Prices can only be guaranteed upon confirmed purchase, subject to seat availability at the time of booking.",
+      "Hotels :Early check-in and late check-out are subject to availability.",
+      "There may be surcharges and supplements applicable during any season of the year, with prior notification and subject to demand.",
+      "Visa:The visa cost is non-refundable.",
+      "Tour CostCancellations made more than 45 days in advance are subject to a 25% charge will apply",
+      "Cancellations made between 45 and 30 days before the tour date, a 50% charge will apply"
     ],
     "itinerary": [
       {
-        "title": "Arrival in Ella",
-        "description": "Arrive at the airport and transfer to your hotel."
+        "title": "Arrival & City Tour",
+        "description": "Arrive in Singapore and enjoy a half-day city tour, including Gardens By The Bay (Cloud Forest + Super Trees)."
       },
       {
-        "title": "Waterfall Exploration",
-        "description": "Visit Ravana Falls and Diyaluma Falls."
+        "title": "Sentosa Island",
+        "description": "Full day at Sentosa Island, including Cable Car, Madame Tussauds 4 In 1, Sky Helix, Wings of Time, and a relaxing Boat Ride."
       },
       {
-        "title": "Scenic Train Ride",
-        "description": "Experience the famous train journey from Ella to Nuwara Eliya."
+        "title": "Universal Studios",
+        "description": "Full day at Universal Studios Singapore."
       },
       {
         "title": "Departure",
-        "description": "Check out from the hotel and transfer to the airport."
+        "description": "Enjoy breakfast at the hotel, then transfer to the airport for your return flight."
       }
     ],
     "type": "outbound"
@@ -947,58 +1004,73 @@
   {
     "id": 13,
     "name": "Premier Dubai",
-    "destination": "DUBAI",
-    "image": "/assets/dubai.jpg",
-    "images": ["/assets/dubai.jpg","/assets/dubai.jpg"],
+    "destination": "Dubai",
+    "image": "/assets/dubai3.jpg",
+    "images": ["/assets/dubai3.jpg","/assets/dubai.jpg"],
     "duration": "6Nights 7Days",
     "tourtype": "FIT",
     "groupsize": "10 Members",
     "guide": "2 Guides",
     "people": "Min 2 ",
     "rating": 5,
-    "description": "🚢 Dubai Marina Dhow Cruise:\n✔️ Experience the magic of Dubai Marina with a traditional Dhow Cruise. Sail through stunning skyline views, enjoy a delicious buffet dinner, and witness live entertainment on a relaxing evening journey. A perfect blend of luxury and Arabian heritage.\n\n🏜️ Dubai Desert Safari with BBQ Dinner:\n✔️ Embark on an unforgettable Dubai Desert Safari, where adventure meets Arabian culture. Enjoy thrilling dune bashing, camel rides, mesmerizing sunsets, and a traditional Bedouin-style camp with BBQ dinner and live entertainment. A must-do experience in Dubai.\n\n🏙️ Half Day City tour in Dubai:\n✔️ Discover Dubai’s iconic landmarks on a Half-Day City Tour. Explore the stunning Burj Al Arab, Dubai Marina, Palm Jumeirah, and the historic Dubai Creek. A perfect blend of modern marvels and cultural heritage in just a few hours.\n\n🗼 Burj Khalifa:\n✔️ Experience stunning 360-degree views of Dubai from the Burj Khalifa Observation Deck. Located on the 124th and 125th floors, this iconic attraction offers breathtaking cityscapes, interactive displays, and a thrilling high-speed elevator ride.\n\n🌸 Miracle Garden:\n✔️ Dubai Miracle Garden, the world’s largest flower garden, showcases over 150 million flowers in stunning designs and vibrant displays. This breathtaking attraction offers a magical experience with unique themed gardens and record-breaking floral structures.\n\n🌟 Dubai Desert Safari with Premium Dinner:\n✔️ Experience the thrill of a Dubai Desert Safari with a premium dinner under the stars. Enjoy exhilarating dune bashing, camel rides, and live entertainment, followed by a luxurious BBQ buffet with international and Arabian cuisine at a Bedouin-style camp.\n\n🚀 Museum of the Future:\n✔️ The Museum of the Future in Dubai is a groundbreaking attraction showcasing innovative technologies and visionary ideas. Explore immersive exhibits that offer a glimpse into the future of science, sustainability, and human progress in a stunning architectural masterpiece.\n\n🕌 Abu Dhabi City Tour:\n✔️ Discover the rich culture and modern marvels of Abu Dhabi on a guided city tour. Visit iconic landmarks like the majestic Sheikh Zayed Grand Mosque, the luxurious Emirates Palace, and the cultural hub of Saadiyat Island, all while enjoying the city's stunning architecture and scenic views.\n\n🏎️ Ferrari World Abu Dhabi:\n✔️ Ferrari World Abu Dhabi is an adrenaline-pumping theme park featuring thrilling rides, world-class attractions, and the world’s fastest roller coaster. Experience the ultimate combination of speed, luxury, and excitement in this Ferrari-themed adventure park for all ages.\n\n🖼️ Louvre Abu Dhabi:\n✔️ Louvre Abu Dhabi is a stunning museum that blends art, culture, and history from around the world. With its impressive architecture and diverse collections, it offers visitors an unforgettable journey through time, showcasing masterpieces from various civilizations and artistic movements.",
+    "description": "Embark on a captivating 6-night, 7-day Dubai experience with seamless private transfers and enjoy a luxurious stay at a 4-star or 5-star hotel in Dubai, offering comfort, style, and excellent amenities.This package ensures a perfect blend of adventure, culture, and luxury, making your Dubai vacation truly unforgettable!\n\n🚢 Dubai Marina Dhow Cruise:\n✔️ Experience the magic of Dubai Marina with a traditional Dhow Cruise. Sail through stunning skyline views, enjoy a delicious buffet dinner, and witness live entertainment on a relaxing evening journey. A perfect blend of luxury and Arabian heritage.\n\n🏜️ Dubai Desert Safari with BBQ Dinner:\n✔️ Embark on an unforgettable Dubai Desert Safari, where adventure meets Arabian culture. Enjoy thrilling dune bashing, camel rides, mesmerizing sunsets, and a traditional Bedouin-style camp with BBQ dinner and live entertainment. A must-do experience in Dubai.\n\n🗼 Burj Khalifa:\n✔️ Experience stunning 360-degree views of Dubai from the Burj Khalifa Observation Deck. Located on the 124th and 125th floors, this iconic attraction offers breathtaking cityscapes, interactive displays, and a thrilling high-speed elevator ride.\n\n",
     "price": "Get a Quote",
     "priceIncludes": [
-      "6Nights Hotel accommodation with BB",
-      "Return Transfers",
+      "6 Nights Hotel accomodation in 4* or 5* hotel with BB",
+      "Airport return transfers",
       "UAE visit visa",
-      "Marina Dhow Cruse Dinner",
-      "Desert Safari with premium Dinner",
-      "Museum of the Future",
-      "Abu Dhabi city tour",
-      "Ferrari World",
-      "Louvre Abu Dhabi"
+      " Museum of the Future & Desert Safari",
+      "Abu Dhabi City Tour & Louvre Abu Dhabi",
+      "Dessert Safari with Premmier Dinner",
+      "Ferrari World & More Abu Dhabi Sightseeing"
+     
     ],
     "priceExcludes": [
-      "Meals and Services which are not mentioned above",
-      "All activities/services not mentioned in the itinerary",
-      "Air Tickets",
-      "Personal expenses"
+      "Any expenses of a personal nature, tips and porterage",
+      "Any other services not specified in the “Price Include”.",
+      "Air Tickets charges",
+      "Cost of beverage throughout the tour",
+      "Travel Insurance"
     ],
     "CancellationPolicy": [
-      
+      "The rates we have provided align with the current exchange rate (as of the confirmation date) set by the Central Bank of Sri Lanka. The payment will be calculated based on the exchange rate applicable on the date of payment.",
+      "Kindly be notified that any additional costs, such as date change penalties, non-refundable ticket costs, accommodation expenses, transportation costs, or any losses due to meeting cancellations incurred for any of the above reasons, will be borne by the client.",
+      "All airline and hotel date changes, cancellations, and other modifications will be subject to the respective airline and hotel policies.",
+      "Please note that the quoted air ticket prices are subject to change without prior notice. Prices can only be guaranteed upon confirmed purchase, subject to seat availability at the time of booking.",
+      "Hotels :Early check-in and late check-out are subject to availability.",
+      "There may be surcharges and supplements applicable during any season of the year, with prior notification and subject to demand.",
+      "Visa:The visa cost is non-refundable.",
+      "Tour CostCancellations made more than 45 days in advance are subject to a 25% charge will apply",
+      "Cancellations made between 45 and 30 days before the tour date, a 50% charge will apply"
     ],
     "itinerary": [
       {
-        "title": "Arrival in Ella",
-        "description": "Arrive at the airport and transfer to your hotel."
+        "title": "Arrival & Marina Dhow Cruise Dinner",
+        "description": "Arrive in Dubai, transfer to hotel, and check-in. Evening: Marina Dhow Cruise Dinner with scenic views and entertainment."
       },
       {
-        "title": "Waterfall Exploration",
-        "description": "Visit Ravana Falls and Diyaluma Falls."
+        "title": "Museum of the Future & Desert Safari",
+        "description": "Visit the Museum of the Future. Evening, Desert Safari with dune bashing, camel ride, entertainment, and premium dinner."
       },
       {
-        "title": "Scenic Train Ride",
-        "description": "Experience the famous train journey from Ella to Nuwara Eliya."
+        "title": "Abu Dhabi City Tour & Louvre Abu Dhabi",
+        "description": "Full-day tour of Abu Dhabi, visiting key landmarks. Overnight stay at Abu Dhabi Hotel."
+      },
+      {
+        "title": "Ferrari World & More Abu Dhabi Sightseeing",
+        "description": "Spend the day at Ferrari World enjoying thrilling rides and return to Dubai in the evening."
+      },
+      {
+        "title": "Free Day / Optional Activities",
+        "description": "Visit local attractions or enjoy a leisurely day/ customize activity."
       },
       {
         "title": "Departure",
-        "description": "Check out from the hotel and transfer to the airport."
+        "description": "Enjoy breakfast at the hotel. Transfer to the airport for your return flight."
       }
     ],
     "type": "outbound"
   },
-  
   {
     "id": 14,
     "name": "Bangkok with shopping",
@@ -1011,47 +1083,512 @@
     "guide": "2 Guides",
     "people": "Min 2 ",
     "rating": 5,
-    "description": "🏝️ Coral Island Tour With Lunch By Speedboat:\n✔️ Embark on a thrilling Coral Island Tour by speedboat and discover the beauty of pristine beaches and vibrant marine life. Enjoy a relaxing day of snorkeling, swimming, and exploring, followed by a delicious lunch on the island for a perfect tropical escape.\n\n🚢 Chao Phraya Princess Dinner Cruise:\n✔️ Savor a delightful evening on the Chao Phraya Princess Dinner Cruise, where you can enjoy a delicious buffet dinner while cruising along the iconic Chao Phraya River. Take in stunning views of Bangkok’s skyline and landmarks, all while enjoying live entertainment and a memorable dining experience.\n\n🎢 Dream World and Snow Town with Lunch:\n✔️ Experience the magic of Dream World and Snow Town with a fun-filled day of adventure! Enjoy thrilling rides, explore Snow Town's icy wonders, and indulge in a delicious lunch, all in one exciting package for the whole family.\n\n🏛️ Bangkok City Tour:\n✔️ Embark on a captivating Bangkok city tour and discover the rich culture, history, and vibrant energy of Thailand's capital. Visit iconic landmarks such as the Grand Palace, Wat Pho, and the Emerald Buddha Temple, and explore bustling markets, vibrant streets, and picturesque river views. This guided tour offers a perfect blend of traditional and modern experiences, making it an unforgettable journey through one of Asia’s most dynamic cities.",
+    "description": "This package is designed for shopping enthusiasts who want to explore the best shopping destinations in Bangkok4 Nights in Bangkok 3* or 4* Hotel accomodation with BB\n\n🏝️ Coral Island Tour With Lunch By Speedboat:\n✔️ Embark on a thrilling Coral Island Tour by speedboat and discover the beauty of pristine beaches and vibrant marine life. Enjoy a relaxing day of snorkeling, swimming, and exploring, followed by a delicious lunch on the island for a perfect tropical escape.\n\n🚢 Chao Phraya Princess Dinner Cruise:\n✔️ Savor a delightful evening on the Chao Phraya Princess Dinner Cruise, where you can enjoy a delicious buffet dinner while cruising along the iconic Chao Phraya River. Take in stunning views of Bangkok’s skyline and landmarks, all while enjoying live entertainment and a memorable dining experience.\n\n🎢 Dream World and Snow Town with Lunch:\n✔️ Experience the magic of Dream World and Snow Town with a fun-filled day of adventure! Enjoy thrilling rides, explore Snow Town's icy wonders, and indulge in a delicious lunch, all in one exciting package for the whole family.\n\n🏛️ Bangkok City Tour:\n✔️ Embark on a captivating Bangkok city tour and discover the rich culture, history, and vibrant energy of Thailand's capital. Visit iconic landmarks such as the Grand Palace, Wat Pho, and the Emerald Buddha Temple, and explore bustling markets, vibrant streets, and picturesque river views. This guided tour offers a perfect blend of traditional and modern experiences, making it an unforgettable journey through one of Asia’s most dynamic cities.",
     "price":"$275 PP",
     "priceIncludes": [
-      "6Nights Hotel accommodation with BB",
-      "Return Transfers",
-      "UAE visit visa",
-      "Marina Dhow Cruse Dinner",
-      "Desert Safari with premium Dinner",
-      "Museum of the Future",
-      "Abu Dhabi city tour",
-      "Ferrari World",
-      "Louvre Abu Dhabi"
+      "4 Nights Hotel accommodation in 3* or 4* hotel with BB",
+  "Airport return transfers",
+  "Bangkok city Tour",
+  "Chao Phraya Princess Dinner Cruise",
+  "2 shopping dates with transfers (Transfers may occur additional chg)"
+
     ],
     "priceExcludes": [
-      "Meals and Services which are not mentioned above",
-      "All activities/services not mentioned in the itinerary",
-      "Air Tickets",
-      "Personal expenses"
+      "Any expenses of a personal nature, tips and porterage",
+      "Any other services not specified in the “Price Include”.",
+      "Air Tickets charges",
+      "Cost of beverage throughout the tour",
+      "Travel Insurance"
     ],
     "CancellationPolicy": [
-      
+      "The rates we have provided align with the current exchange rate (as of the confirmation date) set by the Central Bank of Sri Lanka. The payment will be calculated based on the exchange rate applicable on the date of payment.",
+      "Kindly be notified that any additional costs, such as date change penalties, non-refundable ticket costs, accommodation expenses, transportation costs, or any losses due to meeting cancellations incurred for any of the above reasons, will be borne by the client.",
+      "All airline and hotel date changes, cancellations, and other modifications will be subject to the respective airline and hotel policies.",
+      "Please note that the quoted air ticket prices are subject to change without prior notice. Prices can only be guaranteed upon confirmed purchase, subject to seat availability at the time of booking.",
+      "Hotels :Early check-in and late check-out are subject to availability.",
+      "There may be surcharges and supplements applicable during any season of the year, with prior notification and subject to demand.",
+      "Visa:The visa cost is non-refundable.",
+      "Tour CostCancellations made more than 45 days in advance are subject to a 25% charge will apply",
+      "Cancellations made between 45 and 30 days before the tour date, a 50% charge will apply"
     ],
     "itinerary": [
       {
-        "title": "Arrival in Ella",
-        "description": "Arrive at the airport and transfer to your hotel."
+        "title": "Arrival at Bangkok Airport",
+        "description": "Arrive in Bangkok and transfer to your hotel."
       },
       {
-        "title": "Waterfall Exploration",
-        "description": "Visit Ravana Falls and Diyaluma Falls."
+        "title": "Bangkok City Tour & Dinner Cruise",
+        "description": "Visit major attractions: Grand Palace, Wat Arun, Wat Pho. Enjoy a scenic Chao Phraya Princess Dinner Cruise in the evening."
       },
       {
-        "title": "Scenic Train Ride",
-        "description": "Experience the famous train journey from Ella to Nuwara Eliya."
+        "title": "Dream World & Snow Town",
+        "description": "Full-day adventure at Dream World & Snow Town with lunch. Return to hotel and relax."
+      },
+      {
+        "title": "Shopping Day",
+        "description": "Visit popular malls like MBK, Siam Paragon, or Platinum Fashion Mall. Free time for leisure activities."
+      },
+      {
+        "title": "More Shopping & Leisure",
+        "description": "Explore Chatuchak Market or IconSiam."
       },
       {
         "title": "Departure",
-        "description": "Check out from the hotel and transfer to the airport."
+        "description": "Enjoy breakfast at the hotel. Transfer to the airport for your return flight."
       }
     ],
     "type": "outbound"
+  },
+  {
+    "id": 17,
+    "name": "Wonders Of Vietnam",
+    "destination": "Vietnam",
+    "image": "/assets/vietnam2.jpg",
+    "images": ["/assets/vietnam.jpg","/assets/vietnam2.jpg"],
+    "duration": "6Nights 7Days",
+    "tourtype": "Group",
+    "groupsize": "10 Members",
+    "guide": "2 Guides",
+    "people": "Min 4 ",
+    "rating": 5,
+    "description": "Embark on a captivating 7-day journey through Vietnam, where history, culture, and natural beauty collide.\n\n🏞️ Ha Long Bay:\n   ✔️ A UNESCO World Heritage Site, known for its emerald waters and limestone islands. Explore caves, kayak through lagoons, and see floating villages. Perfect for adventure and nature lovers! 🚣‍♂️🐠\n\n🛵 Hanoi:\n   ✔️ Vietnam's vibrant capital, blending history and charm. Wander the Old Quarter, admire temples, and savor street food. From Hoan Kiem Lake to Ho Chi Minh Mausoleum, experience unique culture and energy! 🇻🇳🏛️\n\n⛰️ Da Nang - Marble Mountain:\n   ✔️ A natural and spiritual landmark with limestone hills. Explore caves, Buddhist temples, and panoramic views. Perfect for history and scenery enthusiasts! 🌄🙏\n\n🚠 Ba Na Hills:\n   ✔️ A mountain retreat with stunning landscapes, a French-style village, and the iconic Golden Bridge held by giant hands. Enjoy views, cool air, and thrilling attractions! 🏰🎢\n\n🛶 Mekong Delta Tour:\n   ✔️ Experience southern Vietnam's vibrant heart with winding rivers, floating markets, traditional villages, and exotic fruits. A perfect adventure for culture and nature seekers! 🇻🇳🌿\n\n🏙️ Ho Chi Minh City Tour:\n   ✔️ Discover Vietnam’s dynamic city with landmarks like Notre-Dame Cathedral, War Remnants Museum, and Ben Thanh Market. Explore bustling streets, rich culture, and delicious cuisine! 🇻🇳🛍️",
+    "price":"Get a Quote",
+    "priceIncludes": [
+      "5 Nights Hotel accommodation in 3* or 4* hotel with BB",
+  "Airport return transfers",
+  "Domestic Flight Charges",
+  "Ha Noi - Ha Long Bay",
+  "Da Nang - Marble Mountain - Hoi An",
+  "Da Nang - Ba Na Hills - Golden Bridge - Flight to Ho Chi Minh city",
+  "Ho Chi Minh city - Mekong Delta Tour",
+  "Ho Chi Minh city - City tour - Departure"
+    ],
+    "priceExcludes": [
+      "Any expenses of a personal nature, tips and porterage",
+      "Any other services not specified in the “Price Include”.",
+      "Air Tickets charges",
+      "Cost of beverage throughout the tour",
+      "Travel Insurance"
+    ],
+    "CancellationPolicy": [
+      "The rates we have provided align with the current exchange rate (as of the confirmation date) set by the Central Bank of Sri Lanka. The payment will be calculated based on the exchange rate applicable on the date of payment.",
+      "Kindly be notified that any additional costs, such as date change penalties, non-refundable ticket costs, accommodation expenses, transportation costs, or any losses due to meeting cancellations incurred for any of the above reasons, will be borne by the client.",
+      "All airline and hotel date changes, cancellations, and other modifications will be subject to the respective airline and hotel policies.",
+      "Please note that the quoted air ticket prices are subject to change without prior notice. Prices can only be guaranteed upon confirmed purchase, subject to seat availability at the time of booking.",
+      "Hotels :Early check-in and late check-out are subject to availability.",
+      "There may be surcharges and supplements applicable during any season of the year, with prior notification and subject to demand.",
+      "Visa:The visa cost is non-refundable.",
+      "Tour CostCancellations made more than 45 days in advance are subject to a 25% charge will apply",
+      "Cancellations made between 45 and 30 days before the tour date, a 50% charge will apply"
+    ],
+    "itinerary": [
+      {
+        "title": "Ha Noi – Arrival",
+        "description": "Arrive in Vietnam, transfer to hotel. Check in time 1400 pm. Overnight at hotel in Ha Noi."
+      },
+      {
+        "title": "Ha Noi - Ha Long Bay",
+        "description": "After breakfast, board Ha Long Bay Cruise. Enjoy a scenic cruise, lunch, explore Titov Island with kayaking. Join a sunset party and Vietnamese cooking class. Overnight on the cruise."
+      },
+      {
+        "title": "Ha Long Bay - Ha Noi - Departure",
+        "description": "Tai Chi session, light breakfast. Explore Sung Sot Cave. Buffet brunch. Arrive at Tuan Chau Marina. Transfer to Noi Bai Airport for flight to Da Nang."
+      },
+      {
+        "title": "Da Nang - Marble Mountain - Hoi An",
+        "description": "Visit Marble Mountains, pagodas, caves, Non-Nuoc Stone Carving Village. Walking tour of Hoi An Ancient Town: markets, houses, Japanese Covered Bridge, art galleries. Overnight in Da Nang."
+      },
+      {
+        "title": "Da Nang - Ba Na Hills - Golden Bridge - Flight to Ho Chi Minh City",
+        "description": "Cable car to Ba Na Hills, Golden Bridge, French Village, Linh Chua Linh Tu Temple, Carnival Performance, Slide of Tube Car, Fantasy Park. Transfer to Da Nang Airport for flight to Ho Chi Minh City."
+      },
+      {
+        "title": "Ho Chi Minh City - Mekong Delta Tour",
+        "description": "Depart to My Tho, visit Vinh Trang Pagoda, Mekong River boat trip, coconut tree canals, Ben Tre village, tropical fruits, honey tea, music, coconut candy making. Return to Ho Chi Minh City."
+      },
+      {
+        "title": "Ho Chi Minh City - City Tour - Departure",
+        "description": "Visit Reunification Palace, War Remnants Museum, Notre Dame Cathedral, Old Post Office. Shopping at Ben Thanh Market. Transfer to Tan Son Nhat Airport for flight home."
+      }
+    ],
+    "type": "outbound"
+  },
+
+
+
+  {
+    "id": 18,
+    "name": "Health Screening and Leisure 6N7D - Seychelles Nationality",
+    "destination": "Sri Lanka",
+    "image": "/assets/ramboda2.jpg",
+    "images": ["/assets/ramboda2.jpg","/assets/kandy3.jpg","/assets/tea2.jpg"],
+    "duration": "6Nights 7Days",
+    "tourtype": "FIT / Group",
+    "groupsize": "2 Pax=<",
+    "guide": "1 Multilingual National Guide",
+    "people": "2",
+    "rating": 5,
+    "description": "🏥 Comprehensive Health & Wellness Retreat:\n✔️ Tailored Health Screenings (Asiri Central Hospital): Choose from specialized packages like Whole Body, Diabetic, Senior Citizen, and Cancer Detection.\n✔️ Advanced Diagnostics: Includes blood tests, ECG, ultrasound, mammograms, cancer markers, dental checks, and psychological assessments.\n✔️ Doctor Consultations: Post-screening reviews with specialists to discuss results and wellness plans.\n\n🐘 Cultural & Wildlife Adventures:\n✔️ Pinnawala Elephant Orphanage: Observe rescued elephants bathing and interacting in their natural habitat.\n✔️ Dambulla Golden Temple: Explore UNESCO-listed cave temples with ancient Buddhist murals and statues.\n✔️ Kandy Cultural Show: Enjoy traditional Kandyan dance, drumming, and fire performances.\n\n🏞️ Scenic & Relaxing Escapes:\n✔️ Nuwara Eliya: Visit \"Little England\" with tea plantations, Gregory Lake, and colonial charm.\n✔️ Ramboda Waterfall: Admire a 109-meter cascade surrounded by misty hills.\n✔️ Colombo City Tour: Discover Sri Lanka’s capital, blending colonial architecture, markets, and modern landmarks.\n\n🌿 Wellness & Authentic Cultural Immersion:\n✔️ Ayurveda Spa: Rejuvenate with herbal massages and detox therapies.\n✔️ Village Tour: Experience rural Sri Lanka via bullock cart rides, catamaran boat trips, and traditional lunches.\n✔️ Tea Factory Tour: Learn about Ceylon tea production and enjoy tastings in Nuwara Eliya.",
+    "price": "USD 1545 PP",
+    "priceIncludes": [
+      "Accommodation in Double/ Twin/ Triple Room sharing basis.",
+      "Welcome drinks included for every hotel check-in.",
+      "Meal Plan HB (Breakfast & Dinner) included.",
+      "Transport by luxury a/c wheelchair accessible carrier throughout the tour including all sightseeing tours and both airport transfers. (Airport Pickup to Airport Departure)",
+      "All tourist site entrance fee. (Subject to below “Price Excludes”).",
+      "Service of Sri Lanka Tourist Board approved English/ Tamil Speaking National Guide and his accommodation.",
+      "2 x 500ml bottled water per person per day during the entire tour.",
+      "Airport assistance for arrival & departures.",
+      "24Hrs x 365 Days operational support during the tour/ Guaranteed highly personalized service.",
+      "All local & other government taxes.",
+      "Handling / Administration and Professional charges."
+    ],
+    "priceExcludes": [
+      "International Flight and Visa Charges for Sri Lanka. (Can be arranged upon request)",
+  "Seychelles passport holders do not need a visa; for other nationalities refer to www.ETA.gov.lk.",
+  "Early Check-in and late check-out charges if any.",
+  "Expenses of personal nature such as Tips / laundry / mini bar charges / liquor / telephone charges.",
+  "Any other services not specified in the “Price Includes”.",
+  "Any other personal expenses."
+    ],
+     "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Transfer to Hotel in Colombo",
+        "description": "Arrival → Colombo → Health Screening → Leisure Shopping → Overnight in Colombo."
+      },
+      {
+        "title": "Transfer to Hotel in Habarana",
+        "description": "Transfer to Habarana → Pinnawala Elephant Orphanage → Dambulla Cave Temple → Overnight in Habarana."
+      },
+      {
+        "title": "Overnight stay in Habarana",
+        "description": "Jeep Safari in Hurulu Eco Park → Village Tour → Ayurveda Spa → Overnight in Habarana."
+      },
+      {
+        "title": "Transfer to Hotel in Kandy",
+        "description": "Transfer to Kandy → Herbal Garden → City Tour → Cultural Show → Overnight in Kandy."
+      },
+      {
+        "title": "Transfer to Hotel in Nuwara Eliya",
+        "description": "Transfer to Nuwara Eliya → Gem Museum → Tea Plantation → Ramboda Waterfall → Overnight in Nuwara Eliya."
+      },
+      {
+        "title": "Transfer to Hotel in Colombo",
+        "description": "Return to Colombo → Medical Results Review → City Tour → Overnight in Colombo."
+      },
+      {
+        "title": "Transfer to Airport for Departure",
+        "description": "Free Time → Last-Minute Shopping → Departure."
+      }
+    ],
+    "type": "inbound"
+  },
+  {
+    "id": 19,
+    "name": "Round Tour Cultural 3N4D - Seychelles Nationality",
+    "destination": "Sri Lanka",
+    "image": "/assets/kandy3.jpg",
+    "images": ["/assets/kandy3.jpg","/assets/tea2.jpg"],
+    "duration": "3Nights 4Days",
+    "tourtype": "FIT / Group",
+    "groupsize": "2 Pax=<",
+    "guide": "1 Multilingual National Guide",
+    "people": "2",
+    "rating": 5,
+    "description": "🏛️ Cultural & Historical Gems:\n✔️ Dambulla Golden Temple: Explore UNESCO-listed cave temples adorned with Buddhist murals and statues.\n✔️ Sigiriya Rock Fortress: Climb the 5th-century \"Lion Rock\" for panoramic jungle views.\n✔️ Temple of the Tooth Relic (Kandy): Visit Sri Lanka’s holiest Buddhist shrine.\n✔️ Kandy Cultural Show: Witness Kandyan dance, drumming, and firewalking performances.\n\n🐾 Wildlife & Nature Adventures:\n✔️ Minneriya Jeep Safari: Spot elephants, deer, and birds in Minneriya National Park.\n✔️ Ramboda Waterfall: Admire a 109-meter cascade amid misty tea plantations.\n✔️ Gregory Lake (Nuwara Eliya): Relax by this serene colonial-era lake.\n\n🌿 Authentic Experiences:\n✔️ Ayurveda Spa (Habarana): Rejuvenate with traditional herbal therapies.\n✔️ Village Tour: Ride bullock carts, sail on catamarans, and enjoy a traditional Sri Lankan lunch.\n✔️ Tea Factory Tour: Learn about Ceylon tea production and savor fresh brews.\n\n🛍️ Shopping & Leisure:\n✔️ Gem Museum (Nuwara Eliya): Discover Sri Lanka’s \"Jewel Box of the Indian Ocean.\"\n✔️ Colombo City Tour: Explore markets, temples, and colonial landmarks.\n✔️ Optional White Water Rafting: Thrilling rapids on the Kelani River.",
+    "price": "USD 1249 PP",
+    "priceIncludes": [
+      "International Flight Charges for Sri Lanka.",
+  "Accommodation in Double/ Twin/ Triple Room sharing basis.",
+  "Welcome drinks included for every hotel check-in.",
+  "Meal Plan HB (Breakfast & Dinner) included.",
+  "Transport by luxury a/c wheelchair accessible carrier throughout the tour including all sightseeing tours and both airport transfers. (Airport Pickup to Airport Departure)",
+  "All tourist site entrance fee. (Subject to below “Price Excludes”).",
+  "Service of Sri Lanka Tourist Board approved English/ Tamil Speaking National Guide and his accommodation.",
+  "2 x 500ml bottled water per person per day during the entire tour.",
+  "Airport assistance for arrival & departures.",
+  "24Hrs x 365 Days operational support during the tour/ Guaranteed highly personalized service.",
+  "All local & other government taxes.",
+  "Handling / Administration and Professional charges."
+    ],
+    "priceExcludes": [
+      "International Flight and Visa Charges for Sri Lanka. (Can be arranged upon request)",
+  "Seychelles passport holders do not need a visa; for other nationalities refer to www.ETA.gov.lk.",
+  "Early Check-in and late check-out charges if any.",
+  "Expenses of personal nature such as Tips / laundry / mini bar charges / liquor / telephone charges.",
+  "Any other services not specified in the “Price Includes”.",
+  "Any other personal expenses."
+    ],
+     "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Transfer to Hotel in Habarana",
+        "description": "Arrival → Habarana → Dambulla Cave Temple → Village Tour → Ayurveda Spa → Overnight in Habarana."
+      },
+      {
+        "title": "Transfer to Hotel in Kandy",
+        "description": "Minneriya Jeep Safari → Sigiriya Rock Climb → Herbal Garden → Kandy Cultural Show → Overnight in Kandy."
+      },
+      {
+        "title": "Transfer to Hotel in Nuwara Eliya",
+        "description": "Transfer to Nuwara Eliya → Gem Museum → Tea Plantation → Ramboda Waterfall → Gregory Lake → Overnight in Nuwara Eliya."
+      },
+      {
+        "title": "Transfer to Airport Via Colombo",
+        "description": "Colombo City Tour → Optional Rafting → Shopping → Departure."
+      }
+    ],
+    "type": "inbound"
+  },
+  {
+    "id": 20,
+    "name": "Round Tour Cultural 13N14D - Azerbaijan Nationality",
+    "destination": "Sri Lanka",
+    "image": "/assets/pera.jpg",
+    "images": ["/assets/pera.jpg","/assets/Dambulla.jpg","/assets/kandy3.jpg","/assets/tea2.jpg"],
+    "duration": "13Nights 14Days ",
+    "tourtype": "FIT / Group",
+    "groupsize": "2 Pax=<",
+    "guide": "1 Multilingual National Guide",
+    "people": "2",
+    "rating": 5,
+    "description": "🏖️ Coastal Beginnings & Cultural Immersion:\n✔️ Negombo: Explore fish markets, Dutch Fort, and colonial churches.\n✔️ Optional Pinnawala Elephant Orphanage visit.\n✔️ Dambulla Cave Temple (UNESCO site) exploration.\n✔️ Village tour with bullock cart & traditional lunch.\n✔️ Relaxing Ayurveda spa session.\n\n🐘 Wildlife Encounters & Ancient Wonders:\n✔️ Minneriya Jeep Safari (Elephant Gathering).\n✔️ Sigiriya Rock Fortress climb.\n✔️ Optional Pidurangala Rock sunrise hike.\n✔️ Visit Ritigala Ruins.\n\n🌿 Spice Gardens & Sacred Kandy:\n✔️ Herbal & Spice Garden tour.\n✔️ Kandy City Tour: Temple of the Tooth Relic, Kandy Market.\n\n🌺 Botanical Beauty & Cultural Shows:\n✔️ Royal Botanical Garden (Peradeniya) visit.\n✔️ Gem Museum & Kandyan dance cultural show.\n\n🚂 Scenic Highlands & Tea Country:\n✔️ Scenic train ride (Nanu Oya to Ella).\n✔️ Ramboda Waterfall viewpoint.\n✔️ Tea plantation tour & factory visit.\n✔️ Gregory Lake stroll.\n\n⛰️ Ella's Natural Wonders & Cuisine:\n✔️ Little Adam’s Peak hike.\n✔️ Nine Arch Bridge visit.\n✔️ Cooking class in Ella.\n\n🏞️ Ella's Free Time & Waterfalls:\n✔️ Free time in Ella Town.\n✔️ Ravana Falls viewpoint.\n\n🏹 Indigenous Culture & Elephant Sanctuary:\n✔️ Visit Vedda Indigenous Tribe (Mahiyanganaya).\n✔️ Udawalawe Elephant Transit Home visit.\n\n🌅 Southern Sunsets & Beach Relaxation:\n✔️ Coconut Tree Hill sunset photography.\n✔️ Beach leisure in Mirissa.\n\n🐋 Marine Wildlife & Coastal Activities:\n✔️ Whale Watching excursion (packed breakfast).\n✔️ Surfing/snorkeling at Mirissa Beach.\n\n🏰 Galle's History & Mangrove Rivers:\n✔️ Galle Fort City Walk (UNESCO site).\n✔️ Madu River mangrove boat ride.\n\n🐢 Turtle Conservation & Colombo's Culture:\n✔️ Turtle Hatchery visit.\n✔️ Colombo City Tour: Gangaramaya Temple, Galle Face Green.\n\n🛍️ Colombo Shopping & Departure:\n✔️ Free time for shopping in Colombo.\n✔️ Airport transfer.",
+    "price": "USD 1995 PP",
+    "priceIncludes": [
+      "Accommodation in Double/ Twin/ Triple Room sharing basis.",
+  "Welcome drinks included for every hotel check-in.",
+  "Meal Plan HB (Breakfast & Dinner) included. Lunch can be arranged with request.",
+  "Transport by luxury a/c wheelchair accessible carrier throughout the tour including all sightseeing tours and both airport transfers. (Airport Pickup to Airport Departure)",
+  "Service of Sri Lanka Tourist Board approved English/ Tamil Speaking National Guide and his accommodation.",
+  "2 x 500ml bottled water per person per day during the entire tour.",
+  "Airport assistance for arrival & departures.",
+  "24Hrs x 365 Days operational support during the tour/ Guaranteed highly personalized service.",
+  "All local & other government taxes.",
+  "Handling / Administration and Professional charges."
+    ],
+    "priceExcludes": [
+     "International Flight and Visa Charges for Sri Lanka.",
+  "Visit https://www.eta.gov.lk for online visa application.",
+  "Early Check-In and late check-out charges if any.",
+  "All tourist site entrance fee.",
+  "Dinner at Mirissa, Ella Stay.",
+  "Expenses of personal nature such as Tips / laundry / mini bar charges / liquor / telephone charges.",
+  "Any Water Sports activities.",
+  "Any other services not specified in the “Price Include”.",
+  "Any other personal expenses."
+    ],
+     "CancellationPolicy": [
+      "Cancellation Within 07 days prior to arrival – 100% of the Value of the booking.",
+      "Cancellation Within 14 days prior to arrival – 50% of the Value of the booking.",
+      "Cancellation Within 14 to 21 days prior to arrival – 25% of the Value of the booking.",
+      "Cancellation above 21 days prior to arrival – No Fees."
+    ],
+    "itinerary": [
+      {
+        "title": "Transfer to Hotel in Negombo",
+        "description": "Arrival → Negombo (30 mins)."
+      },
+      {
+        "title": "Transfer to Hotel in Habarana",
+        "description": "Negombo → Habarana (6–7 hrs)."
+      },
+      {
+        "title": "Overnight Stay in Habarana",
+        "description": "Habarana Exploration."
+      },
+      {
+        "title": "Transfer to Hotel in Kandy",
+        "description": "Habarana → Kandy (7–8 hrs)."
+      },
+      {
+        "title": "Overnight Stay in Kandy",
+        "description": "Kandy Exploration."
+      },
+      {
+        "title": "Transfer to Hotel in Nuwara Eliya",
+        "description": "Kandy → Nuwara Eliya (8–9 hrs)."
+      },
+      {
+        "title": "Transfer to Hotel in Ella",
+        "description": "Nuwara Eliya → Ella (7–8 hrs)."
+      },
+      {
+        "title": "Overnight Stay in Ella",
+        "description": "Ella Leisure."
+      },
+      {
+        "title": "Transfer to Hotel in Udawalawe",
+        "description": "Ella → Udawalawe (7–8 hrs)."
+      },
+      {
+        "title": "Transfer to Hotel in Mirissa",
+        "description": "Udawalawe → Mirissa (7–8 hrs)."
+      },
+      {
+        "title": "Overnight Stay at Mirissa",
+        "description": "Mirissa Exploration."
+      },
+      {
+        "title": "Transfer to Hotel in Bentota",
+        "description": "Mirissa → Bentota (7–8 hrs)."
+      },
+      {
+        "title": "Transfer to Hotel in Colombo",
+        "description": "Bentota → Colombo (7–8 hrs)."
+      },
+      {
+        "title": "Transfer to Airport for Departure",
+        "description": "Departure."
+      }
+    ],
+    "type": "inbound"
+  },
+
+
+
+  {
+    "id": 21,
+    "name": "Seychelles Serenity",
+    "destination": "Seychelles",
+    "image": "/assets/seychelles.jpg",
+    "images": ["/assets/seychelles.jpg","/assets/seychelles2.jpg","/assets/seychelles3.jpg","/assets/seychelles4.jpg"],
+    "duration": "3Nights or 6Nights ",
+    "tourtype": "FIT / Group",
+    "groupsize": "2 Pax=<",
+    "guide": "0",
+    "people": "2",
+    "rating": 5,
+    "description": "🏝️ Discover the breathtaking beauty of Seychelles with an island tour that takes you through its stunning landscapes, pristine beaches, and vibrant marine life. Explore lush nature reserves, charming Creole culture, and crystal-clear waters for an unforgettable tropical escape.\n ✈️ Return Airport Transfers.\n 🛂 Electronic Travel Authorization.\n 🏨 Accommodation (Double Sharing) with Half Board. \n ⛵ Optional Tours - 🐟 St. Anne Marine Park Excursion | 🗺️ Full-Day Island Tour | 🌴 Praslin & La Digue.",
+    "price": "Get a Quote",
+    "priceIncludes": [
+      "Return Airport Transfers",
+  "Electronic Travel Authorization",
+  "3 / 6 Nights Hotel accommodation in 3* or 4* hotel with HB",
+  "Optional Tours - St. Anne Marine Park Excursion | Full-Day Island Tour | Praslin La & Digue"
+    ],
+    "priceExcludes": [
+     "Any expenses of a personal nature, tips and porterage",
+  "Any other services not specified in the “Price Include”.",
+  "Cost of beverage throughout the tour",
+  "Travel Insurance"
+    ],
+     "CancellationPolicy": [
+      "The rates we have provided align with the current exchange rate (as of the confirmation date) set by the Central Bank of Sri Lanka. The payment will be calculated based on the exchange rate applicable on the date of payment.",
+      "Kindly be notified that any additional costs, such as date change penalties, non-refundable ticket costs, accommodation expenses, transportation costs, or any losses due to meeting cancellations incurred for any of the above reasons, will be borne by the client.",
+      "All airline and hotel date changes, cancellations, and other modifications will be subject to the respective airline and hotel policies.",
+      "Please note that the quoted air ticket prices are subject to change without prior notice. Prices can only be guaranteed upon confirmed purchase, subject to seat availability at the time of booking.",
+      "Hotels :Early check-in and late check-out are subject to availability.",
+      "There may be surcharges and supplements applicable during any season of the year, with prior notification and subject to demand.",
+      "Visa:The visa cost is non-refundable.",
+      "Tour CostCancellations made more than 45 days in advance are subject to a 25% charge will apply",
+      "Cancellations made between 45 and 30 days before the tour date, a 50% charge will apply"
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Seychelles & Hotel Transfer",
+        "description": "Meet & greet at the airport and transfer to hotel. Enjoy a delicious half-board meal."
+      },
+      {
+        "title": "Optional St. Anne Marine Park Excursion",
+        "description": "Boat trip to St. Anne Marine Park, Snorkeling & fish feeding, Beach picnic & island hopping."
+      },
+      {
+        "title": "Optional Full-Day Island Tour",
+        "description": "Explore Mahe’s scenic coastline & local markets, Visit Victoria, Seychelles’ capital city."
+      },
+      {
+        "title": "Optional Praslin & La Digue Excursion",
+        "description": "Visit Vallée de Mai, a UNESCO site in Praslin."
+      },
+      {
+        "title": "Departure from Seychelles",
+        "description": "Enjoy breakfast at the hotel, Transfer to the airport for your return flight."
+      }
+    ],
+    "type": "prime"
+  },
+  {
+    "id": 22,
+    "name": "Malaysia Singapore Combo",
+    "destination": "Malaysia + singapore",
+    "image": "/assets/malaysia.jpg",
+    "images": ["/assets/malaysia.jpg","/assets/singapore.jpg"],
+    "duration": "6 Nights & 7days",
+    "tourtype": "FIT / Group",
+    "groupsize": "2 Pax=<",
+    "guide": "0",
+    "people": "2",
+    "rating": 5,
+    "description": "🏙️ Experience the best of Singapore and Malaysia in 7 days and 6 nights! 🌏 Explore iconic attractions, vibrant cityscapes, and cultural landmarks, from Singapore and Malaysia.\n 🌆 Half day city tour + garden by the bay (flower dome + cloud forest).\n 🏝️ Sentosa Island.\n 🚌 Malaysia – Singapore by coach.\n ⛰️ Genting Highlands and batu caves.\n 🎢 Sunway Lagoon.\n ✈️ Departure.",
+    "price": "690 USD PP",
+    "priceIncludes": [
+      "3 Nights in Singapore and 3 Nights in Malaysia in 3* Hotel",
+  "Airport return transfers",
+  "Half day city tour + garden by the bay (flower dome + cloud forest)",
+  "Malaysia – Singapore by coach",
+  "Genting Highlands and batu caves",
+  "Sunway Lagoon",
+  "Departure"
+    ],
+    "priceExcludes": [
+     "Any expenses of a personal nature, tips and porterage",
+  "Any other services not specified in the “Price Include”.",
+  "Cost of beverage throughout the tour",
+  "Travel Insurance"
+    ],
+     "CancellationPolicy": [
+      "The rates we have provided align with the current exchange rate (as of the confirmation date) set by the Central Bank of Sri Lanka. The payment will be calculated based on the exchange rate applicable on the date of payment.",
+      "Kindly be notified that any additional costs, such as date change penalties, non-refundable ticket costs, accommodation expenses, transportation costs, or any losses due to meeting cancellations incurred for any of the above reasons, will be borne by the client.",
+      "All airline and hotel date changes, cancellations, and other modifications will be subject to the respective airline and hotel policies.",
+      "Please note that the quoted air ticket prices are subject to change without prior notice. Prices can only be guaranteed upon confirmed purchase, subject to seat availability at the time of booking.",
+      "Hotels :Early check-in and late check-out are subject to availability.",
+      "There may be surcharges and supplements applicable during any season of the year, with prior notification and subject to demand.",
+      "Visa:The visa cost is non-refundable.",
+      "Tour CostCancellations made more than 45 days in advance are subject to a 25% charge will apply",
+      "Cancellations made between 45 and 30 days before the tour date, a 50% charge will apply"
+    ],
+    "itinerary": [
+      {
+        "title": "Arrival in Singapore",
+        "description": "Arrive at your destination and transfer to the hotel, Check-in and rest after your journey."
+      },
+      {
+        "title": "Half Day City Tour & Gardens by the Bay",
+        "description": "Half-day city tour (Merlion Park, Chinatown, Little India), Visit Flower Dome & Cloud Forest at Gardens by the Bay."
+      },
+      {
+        "title": "Sentosa Island Adventure",
+        "description": "Explore Sentosa (Universal Studios, SEA Aquarium, or Skyline Luge), Singapore Cable Car, Skyhelix, Wings of Time."
+      },
+      {
+        "title": "Transfer to Malaysia (Kuala Lumpur)",
+        "description": "Scenic journey to Kuala Lumpur (5-6 hrs journey), Check-in & leisure time."
+      },
+      {
+        "title": "Genting Highlands & Batu Caves",
+        "description": "Visit Batu Caves, Enjoy Genting Highlands (cable car ride, casino, shopping)."
+      },
+      {
+        "title": "Sunway Lagoon Theme Park",
+        "description": "Full day at Sunway Lagoon (water park, amusement rides)."
+      },
+      {
+        "title": "Departure",
+        "description": "Enjoy breakfast at the hotel, Transfer to the airport for your return flight."
+      }
+    ],
+    "type": "combo"
   }
   
 ]

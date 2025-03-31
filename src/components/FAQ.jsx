@@ -6,26 +6,30 @@ const faq3 = '/assets/faq3.jpg'
 
 const faqs = [
   {
-    question: "How do I make a reservation on your website",
-    answer:
-      "Provide a step-by-step guide on how users can browse and book travel services on your platform. Include information on searching for destinations, selecting dates, choosing accommodations, and completing the booking process.",
+    "question": "How can I book a flight with WTI?",
+    "answer": "Visit our AIR TICKETS page and fill the inquiry form, our customer service executive will reach out shortly. Alternatively, visit our office, or contact our support team via phone."
   },
   {
-    question: "What documents do I need for my trip, and how do I obtain them?",
-    answer: "Information about travel documents, visas, and requirements."
+    "question": "What documents are required for visa applications?",
+    "answer": "Documents vary by country but generally include a passport, photos, bank statements, and a travel itinerary. Please check the VISA SERVICES page for specific requirements."
   },
   {
-    question: "In the event that I need to modify or cancel my reservation, what are the policies in place?",
-    answer: "Explain the cancellation and modification policies."
+    "question": "Do you offer group travel packages?",
+    "answer": "Yes! We provide customized Inbound and Outbound holiday tour solutions for individuals, couples, friends, families & corporate groups. Please check our Holiday tour pages."
   },
   {
-    question: "Can you specify the types of credit/debit cards, digital wallets, or other online payment methods accepted?",
-    answer: "List the accepted payment methods."
+    "question": "How do I make a booking with WTI?",
+    "answer": "You can book by calling, WhatsApp messaging, or emailing our team. Once you confirm, we’ll send you a payment link or bank details for processing."
   },
   {
-    question: "What are the working hours, and what can I expect in terms of response times?",
-    answer: "Provide customer service availability details."
-  }
+    "question": "What payment methods do you accept?",
+    "answer": "We accept bank transfers, credit/debit cards, and online payments. Payment options vary depending on location and service."
+  },
+  {
+    "question": "How can my company become a WTI corporate client?",
+    "answer": "Simply contact our corporate travel desk (please check our corporate page) to discuss your company’s travel needs, and we’ll provide a customized travel solution with special corporate rates."
+  },
+  
 ];
 
 export default function FAQSection() {
