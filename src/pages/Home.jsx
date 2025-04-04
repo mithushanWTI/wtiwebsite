@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import HeroSection from '../components/HeroSection'
 import TopDestinations from '../components/TopDestinations'
+import TopDestinations2 from '../components/TopDestinations2'
 import PopularInboundPackages from '../components/PopularInboundPackages'
 import PopularOutboundPackages from '../components/PopularOutboundPackages'
 import TravelServices from '../components/TravelServices'
@@ -17,7 +18,8 @@ const Home = () => {
     <div>
       <Header/>
       <HeroSection/>
-      <TopDestinations/>
+      {/* <TopDestinations/> */}
+      <TopDestinations2/>
       <PopularInboundPackages/>
       <img src="/assets/path.png" alt="path" />
       <PopularOutboundPackages/>

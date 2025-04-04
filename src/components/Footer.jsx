@@ -68,7 +68,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div className="flex flex-col items-center text-center md:text-left md:items-start">
-            <h4 className="font-semibold mb-2">CONTACT US</h4>
+            <h4 className="font-semibold mb-2">Contact Us</h4>
             <ul className="space-y-2 text-sm">
               <p className="text-sm">📞 +94777377956</p>
               <p className="text-sm">✉ hello@worldtravelisland.com</p>

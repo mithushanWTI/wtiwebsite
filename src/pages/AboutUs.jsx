@@ -4,7 +4,7 @@ const heroImage = '/assets/thailand.jpg';
 const overlay = '/assets/vector.png';
 const about1 = '/assets/about-img-1.jpg';
 const about2 = '/assets/about-image-2.jpg';
-import TravelServices from '../components/TravelServices';
+
 import WhyWTI from '../components/WhyWTI';
 import SubscribeSection from '../components/Subscription';
 import Footer from '../components/Footer';
@@ -91,7 +91,7 @@ const AboutUs = () => {
 </section>
 
 
-    <TravelServices/>
+
     <WhyWTI/>
     <ContactForm/>
     <SubscribeSection/>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 const overlayImage = '/assets/wtiworld.png';
 import { BsWhatsapp } from "react-icons/bs";
+import axios from "axios";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -8,11 +9,11 @@ const ContactForm = () => {
     city: "",
     email: "",
     phone: "",
-    whatsapp: "", // Added whatsapp field
+    whatsapp: "", 
     destination: "",
     travelDate: "",
     people: "",
-    packageType: "Inbound",
+    serviceType: "Inbound",
     comments: "", // Added comments field
   });
 
@@ -33,19 +34,15 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     try {
-      const response = await fetch("http://localhost:5001/send-email", {
-        method: "POST",
+      const response = await axios.post("http://api.wti.lk/send-email", formData, {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
       });
-
-      const result = await response.json();
-
-      if (result.success) {
+  
+      if (response.data.success) {
         alert("Form submitted successfully!");
         setFormData({
           name: "",
@@ -56,7 +53,7 @@ const ContactForm = () => {
           destination: "",
           travelDate: "",
           people: "",
-          packageType: "Inbound",
+          serviceType: "Inbound",
           comments: "",
         });
       } else {
@@ -156,7 +153,7 @@ const ContactForm = () => {
             />
           </div>
           <div className="relative w-full max-w-sm mx-auto">
-            <span className="absolute left-3 top-2">📞</span>
+            <span className="absolute left-3 top-3 text-green-600"><BsWhatsapp/></span>
             <input
               type="tel"
               name="whatsapp"
@@ -168,11 +165,11 @@ const ContactForm = () => {
           </div>
 
           <select
-            name="packageType"
+            name="serviceType"
             className="w-full max-w-sm mx-auto border border-gray-400 rounded-md p-2 mr-2"
             required
             onChange={handleChange}
-            value={formData.packageType}
+            value={formData.serviceType}
             
           >
             <option value="" disabled>Select Service Type</option>
@@ -180,9 +177,10 @@ const ContactForm = () => {
     onMouseOut={(e) => (e.target.style.backgroundColor = 'white')}
     style={{ transition: 'background-color 0.3s ease' }} value="Inbound">Inbound</option>
             <option value="Outbound">Outbound</option>
-            <option value="Air Tickets">Air Tickets</option>
-            <option value="Visa Services">Visa Services</option>
-            <option value="MIce Tours">Mice Tours</option>
+            <option value="AirTickets">Air Tickets</option>
+            <option value="VisaServices">Visa Services</option>
+            <option value="MiceTours">Mice Tours</option>
+            <option value="CorporateTravel">Corporate Travel</option>
           </select>
           <textarea
             name="comments"
