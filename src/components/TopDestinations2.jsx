@@ -56,7 +56,7 @@ const PopularDestinations2 = () => {
 
   return (
     <div className="py-20 px-8 md:px-24">
-      <h2 className="text-3xl font-bold text-center md:text-left">Explore <span className="text-red-500">Top</span> Destination</h2>
+      <h1 className="text-3xl font-bold text-center md:text-left">Explore <span className="text-red-500">Top</span> Destination</h1>
       <p className="text-gray-500 text-center md:text-left mb-6 italic">
       "Explore Top Destinations Handpicked For You!"
       </p>

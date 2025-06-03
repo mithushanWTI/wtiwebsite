@@ -16,11 +16,29 @@ import AirTickets from "./pages/AirTickets";
 import Article1 from "./pages/Article1";
 import Article2 from "./pages/Article2";
 import Article3 from "./pages/Article3";
+import Career from "./components/Career";
+
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import { initGA, logPageView } from "./ga";
+import Ancillary from "./pages/Ancillary";
 
 
 const App = () => {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    initGA();
+  }, []);
+
+  useEffect(() => {
+    logPageView(location.pathname + location.search);
+  }, [location]);
+
+
   return (
-    <Router>
+    <>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/inbound" element={<Inbound/>} />
@@ -38,9 +56,12 @@ const App = () => {
         <Route path="/VisaServices" element={<VisaServices/>} />
       
         <Route path="/micetours" element={<MiceTour/>} />
+        <Route path="/career" element={<Career/>} />
+        <Route path="/ancillary" element={<Ancillary/>} />
+
       </Routes>
       <WhatsAppButton/>
-    </Router>
+    </>
   );
 };
 

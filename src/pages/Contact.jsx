@@ -42,7 +42,8 @@ const ContactPage = () => {
         className="mb-[px] mt-[-15px] w-30"
       />
       <h3 className="text-lg font-bold text-red-500">OUR LOCATION</h3>
-      <p className="text-gray-600 mt-2">128 1/1, Thimbirigasyaya Road, Colombo, Sri Lanka</p>
+      <p className="text-gray-600 mt-2">321-4/1, 4th Floor Galle road,
+      Colombo 03</p>
     </div>
 
     {/* Call Us */}
@@ -90,11 +91,12 @@ const ContactPage = () => {
       <section className="w-full">
         <iframe
           className="w-full h-[400px]"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.295836218557!2d79.86004251537142!3d6.89189279501645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2592a52194f6b%3A0x6e118bfb61f639a1!2sThimbirigasyaya%20Rd%2C%20Colombo%2C%20Sri%20Lanka!5e0!3m2!1sen!2s!4v1646820516169"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d358.07054879493774!2d79.85128491797533!3d6.906634593727629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2595d7a9deb73%3A0x400983f2d3e7ee9!2sLakshman&#39;s%20Building!5e0!3m2!1sen!2slk!4v1746697767669!5m2!1sen!2slk"
           allowFullScreen=""
           loading="lazy"
         ></iframe>
-      </section>
+
+        </section>
 
       <ContactForm/>
       <SubscribeSection/>

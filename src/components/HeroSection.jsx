@@ -76,11 +76,15 @@ const HeroSection = () => {
             {/* Black Overlay */}
             <div className="absolute inset-0 bg-black opacity-30"></div>
           </div>
+          
 
           {/* Slide Content */}
           <div className="relative pb-40 z-10 flex flex-col justify-center items-center text-center text-white p-6 h-full">
+           
             <h1 className="text-5xl md:text-8xl font-bold">{slide.title}</h1>
             <p className="text-xl pt-5 mt-3 max-w-2xl">{slide.description}</p>
+            
+
             <Link to={slide.link}>
             <button className="mt-5 px-6 py-3 bg-red-500 border-1 border-red-500 text-white rounded-lg hover:bg-black/30 hover:text-red-500 transition cursor-pointer">
               {slide.buttonText}

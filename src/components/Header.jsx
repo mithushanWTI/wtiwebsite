@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { FaPhone, FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const logo = "/assets/WTI-LogoWEBBB.webp";
 
@@ -10,6 +10,11 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
 
+  const dropdownRef = useRef(null);
+  const servicesDropdownRef = useRef(null);
+
+  const location = useLocation(); // For detecting route changes
+
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
@@ -17,6 +22,45 @@ const Header = () => {
   const toggleServicesDropdown = () => {
     setIsServicesDropdownOpen(!isServicesDropdownOpen);
   };
+
+  const closeAllDropdowns = () => {
+    setIsDropdownOpen(false);
+    setIsServicesDropdownOpen(false);
+  };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target)
+      ) {
+        setIsDropdownOpen(false);
+      }
+      if (
+        servicesDropdownRef.current &&
+        !servicesDropdownRef.current.contains(event.target)
+      ) {
+        setIsServicesDropdownOpen(false);
+      }
+    };
+
+    const handleScroll = () => {
+      closeAllDropdowns();
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  // Close dropdowns on route change
+  useEffect(() => {
+    closeAllDropdowns();
+  }, [location]);
 
   return (
     <header className="bg-white shadow-md w-full top-0 z-50 sticky">
@@ -28,7 +72,7 @@ const Header = () => {
           </Link>
         </div>
 
-        {/* Mobile Menu Button (Visible until 1280px) */}
+        {/* Mobile Menu Button */}
         <div className="xl:hidden">
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -38,12 +82,11 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Desktop Navigation (Visible above 1280px) */}
+        {/* Desktop Navigation */}
         <nav className="hidden xl:flex space-x-6 font-medium">
-          <a href="/" className="hover:text-red-500">HOME</a>
+          <Link to="/" className="hover:text-red-500">HOME</Link>
 
-          {/* Our Services Dropdown */}
-          <div className="relative">
+          <div className="relative" ref={servicesDropdownRef}>
             <button
               className="flex items-center space-x-1 hover:text-red-500"
               onClick={toggleServicesDropdown}
@@ -57,17 +100,17 @@ const Header = () => {
                 className="absolute left-0 mt-2 w-45 bg-white shadow-md rounded-md"
                 onMouseLeave={() => setIsServicesDropdownOpen(false)}
               >
-                <a href="/AirTickets" className="block px-3 py-2 hover:bg-red-400">AIR TICKETS</a>
-                <a href="/VisaServices" className="block px-3 py-2 hover:bg-red-400">VISA SERVICES</a>
-                <a href="/inbound" className="block px-3 py-2 hover:bg-red-400">EXPERIENCE SRILANKA</a>
-                <a href="/outbound" className="block px-3 py-2 hover:bg-red-400">GLOBAL TOUR HOLIDAYS</a>
-                <a href="/micetours" className="block px-3 py-2 hover:bg-red-400">MICE TOURS</a>
+                <Link to="/AirTickets" className="block px-3 py-2 hover:bg-red-400">AIR TICKETS</Link>
+                <Link to="/VisaServices" className="block px-3 py-2 hover:bg-red-400">VISA SERVICES</Link>
+                <Link to="/inbound" className="block px-3 py-2 hover:bg-red-400">EXPERIENCE SRILANKA</Link>
+                <Link to="/outbound" className="block px-3 py-2 hover:bg-red-400">GLOBAL TOUR HOLIDAYS</Link>
+                <Link to="/micetours" className="block px-3 py-2 hover:bg-red-400">MICE TOURS</Link>
+                       <Link to="/ancillary" className="block px-4 py-2 hover:bg-red-400">ANCILLARIES</Link>
               </div>
             )}
           </div>
 
-          {/* Holiday Tours Dropdown */}
-          <div className="relative">
+          <div className="relative" ref={dropdownRef}>
             <button
               className="flex items-center space-x-1 hover:text-red-500"
               onClick={toggleDropdown}
@@ -81,30 +124,32 @@ const Header = () => {
                 className="absolute left-0 mt-2 w-48 bg-white shadow-md rounded-md"
                 onMouseLeave={() => setIsDropdownOpen(false)}
               >
-                <a href="/inbound" className="block px-3 py-2 hover:bg-red-400">Inbound Packages</a>
-                <a href="/outbound" className="block px-3 py-2 hover:bg-gray-200">Outbound Packages</a>
+                <Link to="/inbound" className="block px-3 py-2 hover:bg-red-400">Inbound Packages</Link>
+                <Link to="/outbound" className="block px-3 py-2 hover:bg-gray-200">Outbound Packages</Link>
               </div>
             )}
           </div>
 
-          <a href="/corporate" className="hover:text-red-500">CORPORATE</a>
-          <a href="/blog" className="hover:text-red-500">BLOG & MEDIA</a>
-          <a href="/contactus" className="hover:text-red-500">CONTACT US</a>
+          <Link to="/corporate" className="hover:text-red-500">CORPORATE</Link>
+          <Link to="/blog" className="hover:text-red-500">BLOG & MEDIA</Link>
+          <Link to="/contactus" className="hover:text-red-500">CONTACT US</Link>
         </nav>
 
-        {/* Phone Button (Visible on tablets and larger) */}
-        <a href="tel:+94777377956" className="hidden md:flex bg-red-500 text-white px-4 py-2 rounded-lg flex items-center hover:text-red-500 hover:bg-white border border-transparent hover:border-red-500">
+        {/* Phone Button */}
+        <a
+          href="tel:+94777377956"
+          className="hidden md:flex bg-red-500 text-white px-4 py-2 rounded-lg flex items-center hover:text-red-500 hover:bg-white border border-transparent hover:border-red-500"
+        >
           <FaPhone className="mr-2" />
           +94 777377956
         </a>
       </div>
 
-      {/* Mobile & Tablet Navigation Menu */}
+      {/* Mobile Navigation */}
       {isMobileMenuOpen && (
         <div className="xl:hidden bg-white shadow-md pl-10 p-4 absolute left-0 right-0 top-full">
-          <a href="/" className="block px-4 py-2 hover:bg-gray-200">HOME</a>
+          <Link to="/" className="block px-4 py-2 hover:bg-gray-200">HOME</Link>
 
-          {/* OUR SERVICES Dropdown */}
           <div>
             <button
               onClick={() => setIsServicesOpen(!isServicesOpen)}
@@ -115,20 +160,21 @@ const Header = () => {
             </button>
             {isServicesOpen && (
               <div className="pl-4">
-                <a href="/AirTickets" className="block px-4 py-2 hover:bg-gray-200">AIR TICKETS</a>
-                <a href="/VisaServices" className="block px-4 py-2 hover:bg-gray-200">VISA SERVICES</a>
-                <a href="/inbound" className="block px-4 py-2 hover:bg-gray-200">EXPERIENCE SRILANKA</a>
-                <a href="/outbound" className="block px-4 py-2 hover:bg-gray-200">GLOBAL TOUR HOLIDAYS</a>
-                <a href="/micetours" className="block px-4 py-2 hover:bg-gray-200">MICE TOURS</a>
+                <Link to="/AirTickets" className="block px-4 py-2 hover:bg-gray-200">AIR TICKETS</Link>
+                <Link to="/VisaServices" className="block px-4 py-2 hover:bg-gray-200">VISA SERVICES</Link>
+                <Link to="/inbound" className="block px-4 py-2 hover:bg-gray-200">EXPERIENCE SRILANKA</Link>
+                <Link to="/outbound" className="block px-4 py-2 hover:bg-gray-200">GLOBAL TOUR HOLIDAYS</Link>
+                <Link to="/micetours" className="block px-4 py-2 hover:bg-gray-200">MICE TOURS</Link>
+                <Link to="/ancillary" className="block px-4 py-2 hover:bg-gray-200">ANCILLARIES</Link>
               </div>
             )}
           </div>
 
-          <a href="/inbound" className="block px-4 py-2 hover:bg-gray-200">INBOUND PACKAGES</a>
-          <a href="/outbound" className="block px-4 py-2 hover:bg-gray-200">OUTBOUND PACKAGES</a>
-          <a href="/corporate" className="block px-4 py-2 hover:bg-gray-200">CORPORATE</a>
-          <a href="/blog" className="block px-4 py-2 hover:bg-gray-200">BLOG</a>
-          <a href="/contactus" className="block px-4 py-2 hover:bg-gray-200">CONTACT US</a>
+          <Link to="/inbound" className="block px-4 py-2 hover:bg-gray-200">INBOUND PACKAGES</Link>
+          <Link to="/outbound" className="block px-4 py-2 hover:bg-gray-200">OUTBOUND PACKAGES</Link>
+          <Link to="/corporate" className="block px-4 py-2 hover:bg-gray-200">CORPORATE</Link>
+          <Link to="/blog" className="block px-4 py-2 hover:bg-gray-200">BLOG</Link>
+          <Link to="/contactus" className="block px-4 py-2 hover:bg-gray-200">CONTACT US</Link>
 
           <div className="mt-4 border-t pt-4">
             <div className="flex items-center space-x-2">
