@@ -26,7 +26,7 @@ const Article3 = () => {
 </section>
 
   {/* Article Content */}
-  <section className="p-6 max-w-7xl mx-auto">
+  <section className="p-6 max-w-5xl mx-auto">
         {/* Ella */}
         <div className="mb-8">
           <h2 className="text-xl font-semibold mb-4">1. Ella – The Misty Mountain Escape</h2>

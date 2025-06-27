@@ -96,12 +96,16 @@ const Career = () => {
 
       {/* Intro Section */}
       <section className="py-16 bg-gray-100 px-4 lg:px-24">
-        <div className="flex flex-col md:flex-row gap-10">
-          <div className="flex-1 flex flex-col justify-start">
+        <div className="flex flex-col lg:flex-row gap-10">
+          <div className="flex-1 flex flex-col justify-start  md:items-center lg:items-start">
             <h2 className="text-3xl font-semibold mb-4">Your Journey Starts <span className="text-red-500">Here</span></h2>
             <p className="text-gray-600 mb-4">At WTI, we believe a career is more than just a job...</p>
             <p className="text-gray-600 mb-6">Whether you're beginning your career or seeking the next big opportunity...</p>
             <button className="bg-red-500 text-white px-6 py-2 rounded-full hover:bg-red-600 transition duration-300 w-fit">Learn More</button>
+            <div className=" flex flex-col sm:flex-row gap-4 pt-10">
+              <img src="/assets/corporate2.jpg" alt="" className="w-full md:w-80 lg:w-60 rounded-md object-cover transition-transform duration-300 hover:scale-105"/>
+              <img src="/assets/collegue.jpg" alt="" className=" w-full md:w-80 rounded-md object-cover transition-transform duration-300 "/>
+            </div>
           </div>
           <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-6">
             {benefits.map((item, idx) => (

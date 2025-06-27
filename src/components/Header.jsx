@@ -105,7 +105,7 @@ const Header = () => {
                 <Link to="/inbound" className="block px-3 py-2 hover:bg-red-400">EXPERIENCE SRILANKA</Link>
                 <Link to="/outbound" className="block px-3 py-2 hover:bg-red-400">GLOBAL TOUR HOLIDAYS</Link>
                 <Link to="/micetours" className="block px-3 py-2 hover:bg-red-400">MICE TOURS</Link>
-                       <Link to="/ancillary" className="block px-4 py-2 hover:bg-red-400">ANCILLARIES</Link>
+                       {/* <Link to="/ancillary" className="block px-4 py-2 hover:bg-red-400">ANCILLARIES</Link> */}
               </div>
             )}
           </div>
@@ -165,7 +165,7 @@ const Header = () => {
                 <Link to="/inbound" className="block px-4 py-2 hover:bg-gray-200">EXPERIENCE SRILANKA</Link>
                 <Link to="/outbound" className="block px-4 py-2 hover:bg-gray-200">GLOBAL TOUR HOLIDAYS</Link>
                 <Link to="/micetours" className="block px-4 py-2 hover:bg-gray-200">MICE TOURS</Link>
-                <Link to="/ancillary" className="block px-4 py-2 hover:bg-gray-200">ANCILLARIES</Link>
+                {/* <Link to="/ancillary" className="block px-4 py-2 hover:bg-gray-200">ANCILLARIES</Link> */}
               </div>
             )}
           </div>

@@ -4,6 +4,7 @@ import heroImage from '/assets/thailand.jpg';
 import BlogCard from '../components/BlogCard';
 import Footer from '../components/Footer';
 import SubscribeSection from '../components/Subscription';
+import TestimonialSection from '../components/TestimonialSection';
 
 
 const Blog = () => {
@@ -26,7 +27,9 @@ const Blog = () => {
   </div>
 </section>
 
+ <TestimonialSection />
 <section>
+ 
   <BlogCard/>
 </section>
 

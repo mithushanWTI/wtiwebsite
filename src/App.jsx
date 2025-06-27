@@ -22,6 +22,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { initGA, logPageView } from "./ga";
 import Ancillary from "./pages/Ancillary";
+import Article4 from "./pages/Article4";
 
 
 const App = () => {
@@ -45,9 +46,10 @@ const App = () => {
         <Route path="/outbound" element={<Outbound/>} />
         <Route path="/package/:id" element={<PackageDetails />} />
         <Route path="/blog" element={<Blog/>} />
-        <Route path="/blog/Article1" element={<Article1/>} />
-        <Route path="/blog/Article2" element={<Article2/>} />
-        <Route path="/blog/Article3" element={<Article3/>} />
+        <Route path="/blog/MustVisitDestinations" element={<Article1/>} />
+        <Route path="/blog/ShoppingDestinations" element={<Article2/>} />
+        <Route path="/blog/RomanticPlaces" element={<Article3/>} />
+        <Route path="/blog/HiddenBeaches" element={<Article4/>} />
         <Route path="/contactus" element={<Contact/>} />
         <Route path="/aboutus" element={<AboutUs/>} />
         <Route path="/corporate" element={<Corporate/>} />

@@ -26,7 +26,7 @@ const Article2 = () => {
 </section>
 
    {/* Article Content */}
-   <section className="p-6 max-w-7xl mx-auto">
+   <section className="p-6 max-w-5xl mx-auto">
         <p className="text-lg mb-6">
           The UAE is a shopper’s paradise, offering everything from luxury brands to street markets. Whether you're looking for designer labels, electronics, or souvenirs, here are the best shopping destinations in the UAE.
         </p>
